@@ -1,15 +1,23 @@
-.il-photo__img{
-  max-height: 16.3vw;
-  max-width: 16.3vw;
-  padding: 0vw;
-}
-.instagram-lite{
-  margin-left: 40vw;
-  max-width: 50vw;
-  min-width: 50vw;
-  max-height: 50vw;
-  min-height: 50vw;
-}
-a{
-  padding: 0;
-}
+#containerInstagram {
+  height: 500px;
+  width: 500px;
+  display: block;
+  margin-left: 500px;
+  margin-top: -500px; }
+
+.il-photo__img {
+  max-width: 150px;
+  max-height: 150px;
+  min-width: 150px;
+  min-height: 150px;
+  height: 150px;
+  width: 150px;
+  padding: 1.66667px; }
+
+.containerForm {
+  height: 500px;
+  width: 500px;
+  display: block;
+  margin: auto; }
+
+/*# sourceMappingURL=myPhoto.css.map */

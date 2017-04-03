@@ -1,0 +1,26 @@
+$containerInstaHeight:500px;
+$pageLeft:40vw;
+$imgSize: $containerInstaHeight*(0.3);
+
+#containerInstagram{
+  height: $containerInstaHeight;
+  width: $containerInstaHeight;
+  display: block;
+  margin-left: $containerInstaHeight;
+  margin-top: -$containerInstaHeight;
+}
+.il-photo__img{
+  max-width: $imgSize;
+  max-height: $imgSize;
+  min-width: $imgSize;
+  min-height: $imgSize;
+  height: $imgSize;
+  width: $imgSize;
+  padding:  $imgSize*(1/90);
+}
+.containerForm{
+  height: $containerInstaHeight;
+  width: $containerInstaHeight;
+  display: block;
+  margin: auto;
+}
