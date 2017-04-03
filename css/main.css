@@ -68,3 +68,7 @@ footer{
   padding-left: 10%;
   padding-right: 10%;
 }
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
