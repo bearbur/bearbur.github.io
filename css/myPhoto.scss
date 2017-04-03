@@ -1,13 +1,12 @@
-$containerInstaHeight:500px;
+$containerInstaHeight:400px;
 $pageLeft:40vw;
-$imgSize: $containerInstaHeight*(0.3);
+$imgSize: $containerInstaHeight*(0.25);
 
 #containerInstagram{
   height: $containerInstaHeight;
   width: $containerInstaHeight;
   display: block;
-  margin-left: $containerInstaHeight;
-  margin-top: -$containerInstaHeight;
+  margin: auto;
 }
 .il-photo__img{
   max-width: $imgSize;
@@ -16,11 +15,14 @@ $imgSize: $containerInstaHeight*(0.3);
   min-height: $imgSize;
   height: $imgSize;
   width: $imgSize;
-  padding:  $imgSize*(1/90);
+  padding:  5px/*$imgSize*(1/90)*/;
 }
-.containerForm{
-  height: $containerInstaHeight;
-  width: $containerInstaHeight;
-  display: block;
-  margin: auto;
+
+#containerInstagram a{
+  font-size: 0;
+  padding-bottom: 0;
+}
+.instagramLite{
+  padding: 0;
+  margin:0;
 }

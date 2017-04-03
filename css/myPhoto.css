@@ -1,23 +1,24 @@
 #containerInstagram {
-  height: 500px;
-  width: 500px;
-  display: block;
-  margin-left: 500px;
-  margin-top: -500px; }
-
-.il-photo__img {
-  max-width: 150px;
-  max-height: 150px;
-  min-width: 150px;
-  min-height: 150px;
-  height: 150px;
-  width: 150px;
-  padding: 1.66667px; }
-
-.containerForm {
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   display: block;
   margin: auto; }
+
+.il-photo__img {
+  max-width: 100px;
+  max-height: 100px;
+  min-width: 100px;
+  min-height: 100px;
+  height: 100px;
+  width: 100px;
+  padding: 5px; }
+
+#containerInstagram a {
+  font-size: 0;
+  padding-bottom: 0; }
+
+.instagramLite {
+  padding: 0;
+  margin: 0; }
 
 /*# sourceMappingURL=myPhoto.css.map */
