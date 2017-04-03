@@ -1,7 +1,7 @@
 $('.instagram-lite').instagramLite({
 	accessToken: '4677492945.7a2bc5b.fa2f224ea0584db2a74a89526497f3ac',
   list: false,
-		urls: false,
+		urls: true,
 		success: function() {
 			console.log('The request was successful!');
 		},
