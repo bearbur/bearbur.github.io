@@ -293,7 +293,7 @@ footer{
 }
 //index slide
 .realMain,.mainMenu, .boxes{
-    height: (1.75)*$heightSliderContacts;
+    height: (2.1)*$heightSliderContacts;
     min-height: 1300px;
     //Main slide
     .mainSlide{
@@ -484,49 +484,36 @@ footer{
           margin-left: (0.75)*$radiusClients;
           margin-top: 32vh;
         }
-        .clients:hover{
+        .clients:hover, .partners:hover{
           border: 0.1px solid lightgray;
           height: $radiusClients*(1.05);
           width: $radiusClients*(1.05);
           border-radius: $radiusClients*(0.0);
           }
-          .clients:active{
+          .clients:active, .partners:active{
               border: 0.5px solid pink;
           }
-        .partners:hover{
-          border: 3px solid lightgray;
-          height: $radiusClients*(1.2);
-          width: $radiusClients*(1.2);
-          border-radius: $radiusClients*(0.6);
-          }
+
           .partners:nth-of-type(1){
-            background: #FFFFFF url(../images/clients/logo01.png) center no-repeat;
-                      background-size: cover;
-            margin-left: -2*$radiusClients;
-          }
-          .partners:nth-of-type(2){
-            background: #FFFFFF url(../images/clients/logo02.png) center no-repeat;
-                      background-size: cover;
+            background: #FFFFFF url(../images/partners/logo01.gif) center no-repeat;
+            background-size: cover;
             margin-left: -(0.5)*$radiusClients;
           }
-          .partners:nth-of-type(3){
-            background: #FFFFFF url(../images/clients/logo01.png) center no-repeat;
-                      background-size: cover;
-            margin-left: (1)*$radiusClients;
-          }
-
       }
     }
     .ourClients{
       padding-top: 4em;
+      height: $heightSliderContacts;
       min-height: 300px;
+      max-height: 4*$radiusClients;
       span{
         display: inline-block;
         padding-top: 0.5em;
       }
     }
     .ourPartners{
-      padding-top: 10vh;
+      padding-top: 12vh;
+      text-align: center;
     }
 }
 //mainMenu
@@ -571,9 +558,6 @@ footer{
   min-height: 450px;
   height: 1600px;
   min-width: $widthSlideContacts;
-  //  height:  300px;
-  //min-height: $heightSliderContacts;
-
   /*
   Первичные стили:
   С ними работает слайд шоу
@@ -584,9 +568,6 @@ footer{
     width: $mainWidth;
     min-width: 100%;
     max-width: 45em;
-      /*padding: 0px;
-      margin: 0px;
-      list-style-type: none;*/
   }
   .slide-box {
     position: absolute;
@@ -609,10 +590,8 @@ footer{
       opacity: 1;
       z-index: 2;
   }
-  /*
-  Второстепенные стили:
-  Внешний вид; можете изменять
-  */
+  /*Второстепенные стили:
+  Внешний вид; можете изменять*/
   .slide-box {
     font-size: 1em;
     padding: 0;
@@ -639,8 +618,6 @@ footer{
   }
   .slider-photo-box ul{
     margin: auto;
-
-    /*margin-left: 10%;*/
   }
   .boxesDownload{
   padding-top: 2em;
@@ -661,15 +638,11 @@ footer{
     }
   }
   .boxText{
-    /**/height: 0.8*$heightSliderContacts;
+    height: 0.8*$heightSliderContacts;
     min-height:10em;
     max-height: 800px;
     max-height: (0.8)*$heightSliderContacts;
     min-height: 180px;
-    /*height: 800px;
-    width: 35em;
-    max-width: 100%;
-    min-width: 310px;*/
     margin:auto;
     text-align: center;
     padding: 2.1% 0;

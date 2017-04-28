@@ -224,7 +224,7 @@ footer {
     height: 10vh; }
 
 .realMain, .mainMenu, .boxes {
-  height: 113.75vh;
+  height: 136.5vh;
   min-height: 1300px;
   /*
   ╨Я╨╡╤А╨▓╨╕╤З╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
@@ -379,38 +379,28 @@ footer {
         background-size: contain;
         margin-left: 9vh;
         margin-top: 32vh; }
-      .realMain .contentAboutText .clientsList .clients:hover, .realMain .contentAboutText .partnersList .clients:hover, .realMain .ourPartners .clientsList .clients:hover, .realMain .ourPartners .partnersList .clients:hover, .realMain .ourClients .clientsList .clients:hover, .realMain .ourClients .partnersList .clients:hover, .mainMenu .contentAboutText .clientsList .clients:hover, .mainMenu .contentAboutText .partnersList .clients:hover, .mainMenu .ourPartners .clientsList .clients:hover, .mainMenu .ourPartners .partnersList .clients:hover, .mainMenu .ourClients .clientsList .clients:hover, .mainMenu .ourClients .partnersList .clients:hover, .boxes .contentAboutText .clientsList .clients:hover, .boxes .contentAboutText .partnersList .clients:hover, .boxes .ourPartners .clientsList .clients:hover, .boxes .ourPartners .partnersList .clients:hover, .boxes .ourClients .clientsList .clients:hover, .boxes .ourClients .partnersList .clients:hover {
+      .realMain .contentAboutText .clientsList .clients:hover, .realMain .contentAboutText .clientsList .partners:hover, .realMain .contentAboutText .partnersList .clients:hover, .realMain .contentAboutText .partnersList .partners:hover, .realMain .ourPartners .clientsList .clients:hover, .realMain .ourPartners .clientsList .partners:hover, .realMain .ourPartners .partnersList .clients:hover, .realMain .ourPartners .partnersList .partners:hover, .realMain .ourClients .clientsList .clients:hover, .realMain .ourClients .clientsList .partners:hover, .realMain .ourClients .partnersList .clients:hover, .realMain .ourClients .partnersList .partners:hover, .mainMenu .contentAboutText .clientsList .clients:hover, .mainMenu .contentAboutText .clientsList .partners:hover, .mainMenu .contentAboutText .partnersList .clients:hover, .mainMenu .contentAboutText .partnersList .partners:hover, .mainMenu .ourPartners .clientsList .clients:hover, .mainMenu .ourPartners .clientsList .partners:hover, .mainMenu .ourPartners .partnersList .clients:hover, .mainMenu .ourPartners .partnersList .partners:hover, .mainMenu .ourClients .clientsList .clients:hover, .mainMenu .ourClients .clientsList .partners:hover, .mainMenu .ourClients .partnersList .clients:hover, .mainMenu .ourClients .partnersList .partners:hover, .boxes .contentAboutText .clientsList .clients:hover, .boxes .contentAboutText .clientsList .partners:hover, .boxes .contentAboutText .partnersList .clients:hover, .boxes .contentAboutText .partnersList .partners:hover, .boxes .ourPartners .clientsList .clients:hover, .boxes .ourPartners .clientsList .partners:hover, .boxes .ourPartners .partnersList .clients:hover, .boxes .ourPartners .partnersList .partners:hover, .boxes .ourClients .clientsList .clients:hover, .boxes .ourClients .clientsList .partners:hover, .boxes .ourClients .partnersList .clients:hover, .boxes .ourClients .partnersList .partners:hover {
         border: 0.1px solid lightgray;
         height: 12.6vh;
         width: 12.6vh;
         border-radius: 0vh; }
-      .realMain .contentAboutText .clientsList .clients:active, .realMain .contentAboutText .partnersList .clients:active, .realMain .ourPartners .clientsList .clients:active, .realMain .ourPartners .partnersList .clients:active, .realMain .ourClients .clientsList .clients:active, .realMain .ourClients .partnersList .clients:active, .mainMenu .contentAboutText .clientsList .clients:active, .mainMenu .contentAboutText .partnersList .clients:active, .mainMenu .ourPartners .clientsList .clients:active, .mainMenu .ourPartners .partnersList .clients:active, .mainMenu .ourClients .clientsList .clients:active, .mainMenu .ourClients .partnersList .clients:active, .boxes .contentAboutText .clientsList .clients:active, .boxes .contentAboutText .partnersList .clients:active, .boxes .ourPartners .clientsList .clients:active, .boxes .ourPartners .partnersList .clients:active, .boxes .ourClients .clientsList .clients:active, .boxes .ourClients .partnersList .clients:active {
+      .realMain .contentAboutText .clientsList .clients:active, .realMain .contentAboutText .clientsList .partners:active, .realMain .contentAboutText .partnersList .clients:active, .realMain .contentAboutText .partnersList .partners:active, .realMain .ourPartners .clientsList .clients:active, .realMain .ourPartners .clientsList .partners:active, .realMain .ourPartners .partnersList .clients:active, .realMain .ourPartners .partnersList .partners:active, .realMain .ourClients .clientsList .clients:active, .realMain .ourClients .clientsList .partners:active, .realMain .ourClients .partnersList .clients:active, .realMain .ourClients .partnersList .partners:active, .mainMenu .contentAboutText .clientsList .clients:active, .mainMenu .contentAboutText .clientsList .partners:active, .mainMenu .contentAboutText .partnersList .clients:active, .mainMenu .contentAboutText .partnersList .partners:active, .mainMenu .ourPartners .clientsList .clients:active, .mainMenu .ourPartners .clientsList .partners:active, .mainMenu .ourPartners .partnersList .clients:active, .mainMenu .ourPartners .partnersList .partners:active, .mainMenu .ourClients .clientsList .clients:active, .mainMenu .ourClients .clientsList .partners:active, .mainMenu .ourClients .partnersList .clients:active, .mainMenu .ourClients .partnersList .partners:active, .boxes .contentAboutText .clientsList .clients:active, .boxes .contentAboutText .clientsList .partners:active, .boxes .contentAboutText .partnersList .clients:active, .boxes .contentAboutText .partnersList .partners:active, .boxes .ourPartners .clientsList .clients:active, .boxes .ourPartners .clientsList .partners:active, .boxes .ourPartners .partnersList .clients:active, .boxes .ourPartners .partnersList .partners:active, .boxes .ourClients .clientsList .clients:active, .boxes .ourClients .clientsList .partners:active, .boxes .ourClients .partnersList .clients:active, .boxes .ourClients .partnersList .partners:active {
         border: 0.5px solid pink; }
-      .realMain .contentAboutText .clientsList .partners:hover, .realMain .contentAboutText .partnersList .partners:hover, .realMain .ourPartners .clientsList .partners:hover, .realMain .ourPartners .partnersList .partners:hover, .realMain .ourClients .clientsList .partners:hover, .realMain .ourClients .partnersList .partners:hover, .mainMenu .contentAboutText .clientsList .partners:hover, .mainMenu .contentAboutText .partnersList .partners:hover, .mainMenu .ourPartners .clientsList .partners:hover, .mainMenu .ourPartners .partnersList .partners:hover, .mainMenu .ourClients .clientsList .partners:hover, .mainMenu .ourClients .partnersList .partners:hover, .boxes .contentAboutText .clientsList .partners:hover, .boxes .contentAboutText .partnersList .partners:hover, .boxes .ourPartners .clientsList .partners:hover, .boxes .ourPartners .partnersList .partners:hover, .boxes .ourClients .clientsList .partners:hover, .boxes .ourClients .partnersList .partners:hover {
-        border: 3px solid lightgray;
-        height: 14.4vh;
-        width: 14.4vh;
-        border-radius: 7.2vh; }
       .realMain .contentAboutText .clientsList .partners:nth-of-type(1), .realMain .contentAboutText .partnersList .partners:nth-of-type(1), .realMain .ourPartners .clientsList .partners:nth-of-type(1), .realMain .ourPartners .partnersList .partners:nth-of-type(1), .realMain .ourClients .clientsList .partners:nth-of-type(1), .realMain .ourClients .partnersList .partners:nth-of-type(1), .mainMenu .contentAboutText .clientsList .partners:nth-of-type(1), .mainMenu .contentAboutText .partnersList .partners:nth-of-type(1), .mainMenu .ourPartners .clientsList .partners:nth-of-type(1), .mainMenu .ourPartners .partnersList .partners:nth-of-type(1), .mainMenu .ourClients .clientsList .partners:nth-of-type(1), .mainMenu .ourClients .partnersList .partners:nth-of-type(1), .boxes .contentAboutText .clientsList .partners:nth-of-type(1), .boxes .contentAboutText .partnersList .partners:nth-of-type(1), .boxes .ourPartners .clientsList .partners:nth-of-type(1), .boxes .ourPartners .partnersList .partners:nth-of-type(1), .boxes .ourClients .clientsList .partners:nth-of-type(1), .boxes .ourClients .partnersList .partners:nth-of-type(1) {
-        background: #FFFFFF url(../images/clients/logo01.png) center no-repeat;
-        background-size: cover;
-        margin-left: -24vh; }
-      .realMain .contentAboutText .clientsList .partners:nth-of-type(2), .realMain .contentAboutText .partnersList .partners:nth-of-type(2), .realMain .ourPartners .clientsList .partners:nth-of-type(2), .realMain .ourPartners .partnersList .partners:nth-of-type(2), .realMain .ourClients .clientsList .partners:nth-of-type(2), .realMain .ourClients .partnersList .partners:nth-of-type(2), .mainMenu .contentAboutText .clientsList .partners:nth-of-type(2), .mainMenu .contentAboutText .partnersList .partners:nth-of-type(2), .mainMenu .ourPartners .clientsList .partners:nth-of-type(2), .mainMenu .ourPartners .partnersList .partners:nth-of-type(2), .mainMenu .ourClients .clientsList .partners:nth-of-type(2), .mainMenu .ourClients .partnersList .partners:nth-of-type(2), .boxes .contentAboutText .clientsList .partners:nth-of-type(2), .boxes .contentAboutText .partnersList .partners:nth-of-type(2), .boxes .ourPartners .clientsList .partners:nth-of-type(2), .boxes .ourPartners .partnersList .partners:nth-of-type(2), .boxes .ourClients .clientsList .partners:nth-of-type(2), .boxes .ourClients .partnersList .partners:nth-of-type(2) {
-        background: #FFFFFF url(../images/clients/logo02.png) center no-repeat;
+        background: #FFFFFF url(../images/partners/logo01.gif) center no-repeat;
         background-size: cover;
         margin-left: -6vh; }
-      .realMain .contentAboutText .clientsList .partners:nth-of-type(3), .realMain .contentAboutText .partnersList .partners:nth-of-type(3), .realMain .ourPartners .clientsList .partners:nth-of-type(3), .realMain .ourPartners .partnersList .partners:nth-of-type(3), .realMain .ourClients .clientsList .partners:nth-of-type(3), .realMain .ourClients .partnersList .partners:nth-of-type(3), .mainMenu .contentAboutText .clientsList .partners:nth-of-type(3), .mainMenu .contentAboutText .partnersList .partners:nth-of-type(3), .mainMenu .ourPartners .clientsList .partners:nth-of-type(3), .mainMenu .ourPartners .partnersList .partners:nth-of-type(3), .mainMenu .ourClients .clientsList .partners:nth-of-type(3), .mainMenu .ourClients .partnersList .partners:nth-of-type(3), .boxes .contentAboutText .clientsList .partners:nth-of-type(3), .boxes .contentAboutText .partnersList .partners:nth-of-type(3), .boxes .ourPartners .clientsList .partners:nth-of-type(3), .boxes .ourPartners .partnersList .partners:nth-of-type(3), .boxes .ourClients .clientsList .partners:nth-of-type(3), .boxes .ourClients .partnersList .partners:nth-of-type(3) {
-        background: #FFFFFF url(../images/clients/logo01.png) center no-repeat;
-        background-size: cover;
-        margin-left: 12vh; }
   .realMain .ourClients, .mainMenu .ourClients, .boxes .ourClients {
     padding-top: 4em;
-    min-height: 300px; }
+    height: 65vh;
+    min-height: 300px;
+    max-height: 48vh; }
     .realMain .ourClients span, .mainMenu .ourClients span, .boxes .ourClients span {
       display: inline-block;
       padding-top: 0.5em; }
   .realMain .ourPartners, .mainMenu .ourPartners, .boxes .ourPartners {
-    padding-top: 10vh; }
+    padding-top: 12vh;
+    text-align: center; }
 
 .mainMenu {
   max-height: 117vh;
@@ -452,19 +442,14 @@ footer {
   ╨б ╨╜╨╕╨╝╨╕ ╤А╨░╨▒╨╛╤В╨░╨╡╤В ╤Б╨╗╨░╨╣╨┤ ╤И╨╛╤Г
   */
   /*╨б╨┤╨╡╨╗╨░╤В╤М ╨▓╨╕╨┤╨╕╨╝╤Л╨╝, ╨┐╤А╨╛╨╖╤А╨░╤З╨╜╨╛╤Б╤В╤М=0;*/
-  /*
-  ╨Т╤В╨╛╤А╨╛╤Б╤В╨╡╨┐╨╡╨╜╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
-  ╨Т╨╜╨╡╤И╨╜╨╕╨╣ ╨▓╨╕╨┤; ╨╝╨╛╨╢╨╡╤В╨╡ ╨╕╨╖╨╝╨╡╨╜╤П╤В╤М
-  */ }
+  /*╨Т╤В╨╛╤А╨╛╤Б╤В╨╡╨┐╨╡╨╜╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
+  ╨Т╨╜╨╡╤И╨╜╨╕╨╣ ╨▓╨╕╨┤; ╨╝╨╛╨╢╨╡╤В╨╡ ╨╕╨╖╨╝╨╡╨╜╤П╤В╤М*/ }
   .boxes #slides-box {
     height: 65vh;
     max-height: 450px;
     width: 100%;
     min-width: 100%;
-    max-width: 45em;
-    /*padding: 0px;
-    margin: 0px;
-    list-style-type: none;*/ }
+    max-width: 45em; }
   .boxes .slide-box {
     position: absolute;
     left: 0px;
@@ -502,8 +487,7 @@ footer {
     background: #FFFFFF url(../images/box/04.JPG) center no-repeat;
     background-size: cover; }
   .boxes .slider-photo-box ul {
-    margin: auto;
-    /*margin-left: 10%;*/ }
+    margin: auto; }
   .boxes .boxesDownload {
     padding-top: 2em;
     min-width: 60%;
@@ -521,16 +505,11 @@ footer {
       font-size: 2vh;
       color: #000; }
   .boxes .boxText {
-    /**/
     height: 52vh;
     min-height: 10em;
     max-height: 800px;
     max-height: 52vh;
     min-height: 180px;
-    /*height: 800px;
-    width: 35em;
-    max-width: 100%;
-    min-width: 310px;*/
     margin: auto;
     text-align: center;
     padding: 2.1% 0;
