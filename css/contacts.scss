@@ -1,0 +1,680 @@
+//body
+  $heightBody: 60em;
+  $alignCenter: center;
+  $colorFont: #000;
+  $marginAuto: auto;
+  $displayInfo: block;
+  $centerAlign:$alignCenter;
+//head
+  $h1FontSize: 9vh;
+  $widthHeader: 80vw;
+  $heightHeader: 18vh;
+  $fontHeader: Adam;
+//main
+  $mainWidth: 100%;
+  $mainMarginTop: 5vh;
+  $fontMain: Futura;
+  $widthSlideContacts: 60vw;
+  $widthInfo: 50vw;
+  $widthInfoContacts: 30vh;
+  $heightSliderContacts: 65vh;
+  $heightInfoContacts: 47.5vh;
+  $heightDataContacts: 30vh;
+  $containerInstaHeight:25vh;
+  $minHeightInsta: 300px;
+  $minWidthInsta: 300px;
+  $imgSize: $widthInfoContacts*(1/3);//$containerInstaHeight*(0.25);
+//footer
+  $heightFooter: 10vh;
+//main slide
+  $clientsDisplay: inline-block;
+  $radiusClients: 12vh;
+  $moveClients: $widthSlideContacts;
+html {
+ position:relative;
+ min-height:100%;
+}
+/*.container {
+  height: 0em;
+  padding-bottom: 0*$heightFooter;
+}*/
+.mainClass{
+  margin-top: $mainMarginTop;
+  height: $heightSliderContacts+$heightDataContacts*(3)+$containerInstaHeight;//+1.5*$heightFooter;
+  min-height: (4.2)*$minHeightInsta;
+  width: $mainWidth;
+  .contactsSlide{
+    background: #FFFFFF url(../images/Contacts.jpg)center no-repeat;
+    background-size: cover;
+    height: $heightSliderContacts;
+    max-height: (1.5)*$minHeightInsta;
+    min-width: 60%;
+    max-width: 45em;
+    margin: $marginAuto;
+    position: relative;
+  }
+  .contactsData{
+    width: $widthInfoContacts;
+    min-width: $minWidthInsta;
+    margin: auto;
+    min-height: 100px;
+    height: $heightDataContacts*(2.2);
+    max-height: 40%;
+    font-size: $h1FontSize*(0.225);
+  }
+  .contactsInstagram{
+
+    width: $widthInfoContacts;
+    min-width: $minWidthInsta;
+    margin: auto;
+    min-height: $minHeightInsta;
+    height: $heightInfoContacts;
+    max-height: 40%;
+    font-size: $h1FontSize*(0.225);
+    padding-top:  $heightInfoContacts*(1/12);
+  }
+  .contactsDataInfo{
+    width: $widthInfoContacts;
+    padding-top:  $heightInfoContacts*(1/12);
+    height: $heightDataContacts;
+    min-width: $minWidthInsta;
+  }
+  .contactsDataForm{
+    width: $widthInfoContacts;
+    padding-top:  $heightInfoContacts*(1/12);
+    height: (1.2)*$heightDataContacts;
+    min-width: $minWidthInsta;
+  }
+  .MessageToUs{
+    margin-top: 1em;
+  }
+  .contactsData{
+      text-align: $centerAlign;
+      color: #000;
+      text-decoration: none;
+      a{
+        color: black;
+      }
+      ul,li{
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        margin: auto;
+        padding-left: 0;
+        list-style: none;
+      }
+      span{
+        font-weight: lighter;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        letter-spacing: 0.2em;
+        font-size: 1.21em;
+      }
+      .someLabel{
+
+        width: $widthInfoContacts*(0.5);
+        margin: $marginAuto;
+        font-weight: lighter;
+        text-align: left;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+      }
+      .someInput{
+        width: 10em;//$widthInfoContacts*(3/5);
+        height: 1.5em;
+        text-align: $alignCenter;
+        padding: 2px;
+        border: 1px solid lightgray;
+        vertical-align: middle;
+      }
+      .Mes{
+        height: 4.5em;
+      }
+      .Tel{
+        font-size: 1.21em;
+      }
+      .sendButton{
+        margin-top: 5px;
+        margin-left: $widthInfoContacts*(1/7);
+        border: none;
+        border-radius: 1px;
+        background: lightgray;
+        padding: 1px;
+        height: 1.5em;
+      }
+  }
+  .contactsInstagram{
+    text-align: center;
+    margin: auto;
+    .instaTitle{
+      height: 2.2em;
+      margin: auto;
+      width: $widthInfoContacts;
+      min-width: 320px;
+      .instaTitle1, .instaTitle2{
+        min-width: 25px;
+      }
+      .instaTitle1{
+        padding-top:0px;
+        text-align: left;
+        margin-left: 0.5em;
+        font-size: 1em;
+      }
+      .instaTitle2{
+        margin-left: 80px;
+        margin-top: -2.5em;
+        text-align: left;
+        font-size: 1em;
+        a:nth-of-type(2){
+          font-size: 0.9em;
+        };
+      }
+      /*table{
+        margin: auto;
+        max-width: (0.8)*$widthInfoContacts;
+        min-width: 250px;
+      }
+      td{
+        min-width: 50px;
+        text-align: left;
+      }*/
+      a{
+        font-weight: lighter;
+        letter-spacing: 0.2em;
+        color: #000;
+      }
+    }
+      #containerInstagram{
+        height: $heightInfoContacts;
+        width: $widthInfoContacts;
+        min-width: $minWidthInsta;
+        min-height: $minHeightInsta;
+        margin: $marginAuto;
+        text-align: $alignCenter;
+        margin-top: 1em;
+      }
+      .il-photo__img{
+        height: $imgSize;
+        width: $imgSize;
+        min-height: $minWidthInsta*(1/3);
+        min-width: $minWidthInsta*(1/3);
+        padding:  5px;
+        border: 1px solid white;
+      }
+      #containerInstagram a{
+        font-size: 0;
+        padding-bottom: 0;
+      }
+      .instagram-lite{
+        min-width: $minWidthInsta;
+        min-height: $minHeightInsta;
+        padding-left: 0;
+        width: $imgSize*(3.0);
+      }
+  }
+}
+body{
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    margin-bottom: 0;
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    padding-bottom: 0;
+    height: 100%;
+    color: #000;
+    margin: $marginAuto;
+    font-family: $fontMain, sans-serif;
+    width: $widthSlideContacts;
+    color: $colorFont;
+}
+header{
+  margin-top: 0;
+  width: $widthHeader;
+  height:$heightHeader;
+  margin: $marginAuto;
+  padding-top: $heightHeader/7;
+  text-align:$alignCenter;
+  .navygation{
+    font-size: $h1FontSize*(0.245);
+    font-family: $fontMain;
+    letter-spacing: $h1FontSize*(0.0015);
+    width: $widthHeader;
+    padding-top: $heightHeader/7;
+  }
+  h1,h2{
+    font-family: $fontHeader;
+    font-stretch: ultra-condensed;
+    line-height: 1em;
+  }
+  h1,h2,nav{
+    text-align: $alignCenter;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: $colorFont;
+  }
+  a{
+    color: $colorFont;
+  }
+  h1{
+    font-size: $h1FontSize;
+    font-weight: bolder;
+  }
+  h2{
+    font-size: $h1FontSize*(0.5);
+    margin-top: -0.3em;
+    font-weight: bold;
+  }
+  a:hover{
+    color: $colorFont;
+  //  text-decoration: none;
+  }
+}
+footer{
+  font-size: 2vh;
+  font-family: $fontMain;
+  height: $heightFooter;
+  margin: $marginAuto;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  .copyRight{
+    height: $heightFooter*(2/5);
+    margin-top: $heightFooter*(-0/5);
+    font-size: 0.5em;
+    background: lightgray;
+    p{
+      padding: 0;
+      margin:0;
+    }
+  }
+  .socialMediaButtons{
+    height: $heightFooter*(5/5);
+  }
+}
+//index slide
+.realMain,.mainMenu, .boxes{
+    height: (1.75)*$heightSliderContacts;
+    min-height: 1300px;
+    //Main slide
+    .mainSlide{
+      background-size: cover;
+      height: $heightSliderContacts;
+      max-height: (1.5)*$minHeightInsta;
+      min-width: 60%;
+      max-width: 45em;
+      margin: $marginAuto;
+      position: relative;
+    }
+    /*
+    Первичные стили:
+    С ними работает слайд шоу
+    */
+    #slides {
+        height: $heightSliderContacts;
+          max-height: (1.5)*$minHeightInsta;
+        width: $mainWidth;
+        min-width: 100%;
+        max-width: 45em;
+        /*padding: 0px;
+        margin: 0px;
+        list-style-type: none;*/
+    }
+    .slide {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        //height: 100%;
+        height:  $heightSliderContacts;
+          max-height: (1.5)*$minHeightInsta;
+        min-width: 100%;
+        max-width: 45em;
+        opacity: 0;
+        z-index: 1;
+        -webkit-transition: opacity 1s;
+        -moz-transition: opacity 1s;
+        -o-transition: opacity 1s;
+        transition: opacity 1s;
+    }
+    /*Сделать видимым, прозрачность=0;*/
+    .showing {
+        opacity: 1;
+        z-index: 2;
+    }
+    /*
+    Второстепенные стили:
+    Внешний вид; можете изменять
+    */
+    .slide {
+        font-size: 1em;
+        padding: 0;
+        box-sizing: border-box;
+        background: #333;
+        color: #fff;
+        height: 100%;
+    }
+    .slide:nth-of-type(1) {
+        background: #FFFFFF url(../images/01.JPG) center no-repeat;
+            background-size: cover;
+    }
+    .slide:nth-of-type(2) {
+        background: #FFFFFF url(../images/02.JPG) center no-repeat;
+            background-size: cover;
+    }
+    .slide:nth-of-type(3) {
+        background: #FFFFFF url(../images/03.JPG) center no-repeat;
+            background-size: cover;
+    }
+    .slide:nth-of-type(4) {
+        background: #FFFFFF url(../images/04.JPG) center no-repeat;
+            background-size: cover;
+    }
+    .slide:nth-of-type(5) {
+        background: #FFFFFF url(../images/05.JPG) center no-repeat;
+            background-size: cover;
+    }
+    .controls,button{
+      margin-top: 0.5em;
+      background: gray;
+      color:black;
+      font-size: 1.1em;
+      border: 0.5px solid #00a;
+
+    }
+    .tableslider1{
+      height: 4em;
+    }
+    .tableslider{
+      text-align: center;
+      padding-top: 1em;
+      margin: auto;
+      opacity: 0.15;
+    }
+    .tableslider td{
+      min-width: 5em;
+    }
+    .tableslider button{
+      width: 100%;
+    }
+    .slider-photo ul{
+      margin: auto;
+    }
+    .contentAboutText,.ourPartners,.ourClients{
+
+      height: (0.3)*$heightSliderContacts;
+      min-height: 180px;
+    //  max-height: 355px;
+      width: 30em;
+      max-width: 90%;
+      min-width: 310px;
+      margin:auto;
+      text-align: center;
+      padding: 2.1% 0;
+      font-size: 2.2vh;
+      font-weight: 100;
+      p{
+        text-align: justify;
+      }
+      span{
+        font-size: 1.3em;
+
+      }
+
+      .clientsList, .partnersList{
+        height: 1.2*$radiusClients;
+        .clients, .partners{
+          display:$clientsDisplay;
+          position: absolute;
+          height: $radiusClients;
+          width: $radiusClients;
+          border-radius: $radiusClients*(0.0);
+          line-height: 100px;
+          //border: 1px solid gray;
+          margin: $radiusClients*(0.1);
+        }
+        .clients:nth-of-type(1){
+          background: #FFFFFF url(../images/clients/logo01.gif) center no-repeat;
+                    background-size: contain;
+          margin-left: -1.75*$radiusClients;
+        }
+        .clients:nth-of-type(2){
+          background: #FFFFFF url(../images/clients/logo02.gif) center no-repeat;
+                    background-size: contain;
+          margin-left: -(0.5)*$radiusClients;
+        }
+        .clients:nth-of-type(3){
+          background: #FFFFFF url(../images/clients/logo03.gif) center no-repeat;
+                    background-size: contain;
+          margin-left: (0.75)*$radiusClients;
+          margin-top: 16vh;
+        }
+        .clients:nth-of-type(4){
+          background: #FFFFFF url(../images/clients/logo04.gif) center no-repeat;
+                    background-size: contain;
+                    background-size: 75%;
+                    opacity: 0.9;
+          margin-left: -1.75*$radiusClients;
+          margin-top: 16vh;
+        }
+        .clients:nth-of-type(5){
+          background: #FFFFFF url(../images/clients/logo05.gif) center no-repeat;
+                    background-size: contain;
+          margin-left: -(0.5)*$radiusClients;
+          margin-top: 16vh;
+        }
+        .clients:nth-of-type(6){
+          background: #FFFFFF url(../images/clients/logo06.gif) center no-repeat;
+                    background-size: contain;
+          margin-left: (0.75)*$radiusClients;
+        }
+        .clients:nth-of-type(7){
+          background: #FFFFFF url(../images/clients/logo07.gif) center no-repeat;
+                    background-size: contain;
+          margin-left: -1.75*$radiusClients;
+          margin-top: 32vh;
+        }
+        .clients:nth-of-type(8){
+          background: #FFFFFF url(../images/clients/logo08.gif) center no-repeat;
+                    background-size: contain;
+          margin-left: -(0.5)*$radiusClients;
+          margin-top: 32vh;
+        }
+        .clients:nth-of-type(9){
+          background: #FFFFFF url(../images/clients/logo09.gif) center no-repeat;
+                    background-size: contain;
+          margin-left: (0.75)*$radiusClients;
+          margin-top: 32vh;
+        }
+        .clients:hover{
+          border: 0.1px solid lightgray;
+          height: $radiusClients*(1.05);
+          width: $radiusClients*(1.05);
+          border-radius: $radiusClients*(0.0);
+          }
+          .clients:active{
+              border: 0.5px solid pink;
+          }
+        .partners:hover{
+          border: 3px solid lightgray;
+          height: $radiusClients*(1.2);
+          width: $radiusClients*(1.2);
+          border-radius: $radiusClients*(0.6);
+          }
+          .partners:nth-of-type(1){
+            background: #FFFFFF url(../images/clients/logo01.png) center no-repeat;
+                      background-size: cover;
+            margin-left: -2*$radiusClients;
+          }
+          .partners:nth-of-type(2){
+            background: #FFFFFF url(../images/clients/logo02.png) center no-repeat;
+                      background-size: cover;
+            margin-left: -(0.5)*$radiusClients;
+          }
+          .partners:nth-of-type(3){
+            background: #FFFFFF url(../images/clients/logo01.png) center no-repeat;
+                      background-size: cover;
+            margin-left: (1)*$radiusClients;
+          }
+
+      }
+    }
+    .ourClients{
+      padding-top: 4em;
+      min-height: 300px;
+      span{
+        display: inline-block;
+        padding-top: 0.5em;
+      }
+    }
+    .ourPartners{
+      padding-top: 10vh;
+    }
+}
+//mainMenu
+.mainMenu{
+  max-height: (1.8)*$heightSliderContacts;
+  min-height: 450px;
+  height: 1200px;
+  .contentMainMenu{
+    background: #FFFFFF url(../images/Menu.jpg)center no-repeat;
+    background-size: cover;
+    height: $heightSliderContacts;
+    max-height: (1.5)*$minHeightInsta;
+    min-width: 60%;
+    max-width: 45em;
+    margin: $marginAuto;
+    position: relative;
+  }
+  .menuText{
+  min-height: (0.5)*$heightSliderContacts;
+  }
+  .contentAboutTextLinkMenu{
+  //  padding-top:50px;
+    min-width: 200px;
+    max-width: 60vw;
+    margin: $marginAuto;
+    height: (1/8)*$heightSliderContacts;
+    min-height: 2em;
+    max-height: 10vh;
+    letter-spacing: 0.1em;
+    text-align:center;
+    font-weight: bolder;
+    vertical-align: text-top;
+    a{
+      font-size: 2vh;
+      color: #000;
+    }
+  }
+}
+//boxes
+.boxes {
+  max-height: (2.3)*$heightSliderContacts;
+  min-height: 450px;
+  height: 1600px;
+  min-width: $widthSlideContacts;
+  //  height:  300px;
+  //min-height: $heightSliderContacts;
+
+  /*
+  Первичные стили:
+  С ними работает слайд шоу
+  */
+  #slides-box {
+    height: $heightSliderContacts;
+      max-height: (1.5)*$minHeightInsta;
+    width: $mainWidth;
+    min-width: 100%;
+    max-width: 45em;
+      /*padding: 0px;
+      margin: 0px;
+      list-style-type: none;*/
+  }
+  .slide-box {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    //height: 100%;
+    height:  $heightSliderContacts;
+      max-height: (1.5)*$minHeightInsta;
+    min-width: 100%;
+    max-width: 45em;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+  /*Сделать видимым, прозрачность=0;*/
+  .showing {
+      opacity: 1;
+      z-index: 2;
+  }
+  /*
+  Второстепенные стили:
+  Внешний вид; можете изменять
+  */
+  .slide-box {
+    font-size: 1em;
+    padding: 0;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+    height: 100%;
+  }
+  .slide-box:nth-of-type(1) {
+      background: #FFFFFF url(../images/box/01.JPG) center no-repeat;
+          background-size: cover;
+  }
+  .slide-box:nth-of-type(2) {
+      background: #FFFFFF url(../images/box/02.JPG) center no-repeat;
+          background-size: cover;
+  }
+  .slide-box:nth-of-type(3) {
+      background: #FFFFFF url(../images/box/03.JPG) center no-repeat;
+          background-size: cover;
+  }
+  .slide-box:nth-of-type(4) {
+      background: #FFFFFF url(../images/box/04.JPG) center no-repeat;
+          background-size: cover;
+  }
+  .slider-photo-box ul{
+    margin: auto;
+
+    /*margin-left: 10%;*/
+  }
+  .boxesDownload{
+  padding-top: 2em;
+    min-width: 60%;
+    max-width: 80vw;
+    margin: $marginAuto;
+    height: (1/8)*$heightSliderContacts;
+    min-height: 2em;
+    max-height: 10vh;
+    letter-spacing: 0.1em;
+    text-align:center;
+    font-weight: bolder;
+    vertical-align: text-top;
+          font-size: 2.2vh;
+    a{
+      font-size: 2vh;
+      color: #000;
+    }
+  }
+  .boxText{
+    /**/height: 0.8*$heightSliderContacts;
+    min-height:10em;
+    max-height: 800px;
+    max-height: (0.8)*$heightSliderContacts;
+    min-height: 180px;
+    /*height: 800px;
+    width: 35em;
+    max-width: 100%;
+    min-width: 310px;*/
+    margin:auto;
+    text-align: center;
+    padding: 2.1% 0;
+    font-size: 2.1vh;
+    p{
+      text-align: justify;
+    }
+  }
+}

@@ -1,0 +1,540 @@
+@charset "UTF-8";
+html {
+  position: relative;
+  min-height: 100%; }
+
+/*.container {
+  height: 0em;
+  padding-bottom: 0*$heightFooter;
+}*/
+.mainClass {
+  margin-top: 5vh;
+  height: 180vh;
+  min-height: 1260px;
+  width: 100%; }
+  .mainClass .contactsSlide {
+    background: #FFFFFF url(../images/Contacts.jpg) center no-repeat;
+    background-size: cover;
+    height: 65vh;
+    max-height: 450px;
+    min-width: 60%;
+    max-width: 45em;
+    margin: auto;
+    position: relative; }
+  .mainClass .contactsData {
+    width: 30vh;
+    min-width: 300px;
+    margin: auto;
+    min-height: 100px;
+    height: 66vh;
+    max-height: 40%;
+    font-size: 2.025vh; }
+  .mainClass .contactsInstagram {
+    width: 30vh;
+    min-width: 300px;
+    margin: auto;
+    min-height: 300px;
+    height: 47.5vh;
+    max-height: 40%;
+    font-size: 2.025vh;
+    padding-top: 3.95833vh; }
+  .mainClass .contactsDataInfo {
+    width: 30vh;
+    padding-top: 3.95833vh;
+    height: 30vh;
+    min-width: 300px; }
+  .mainClass .contactsDataForm {
+    width: 30vh;
+    padding-top: 3.95833vh;
+    height: 36vh;
+    min-width: 300px; }
+  .mainClass .MessageToUs {
+    margin-top: 1em; }
+  .mainClass .contactsData {
+    text-align: center;
+    color: #000;
+    text-decoration: none; }
+    .mainClass .contactsData a {
+      color: black; }
+    .mainClass .contactsData ul, .mainClass .contactsData li {
+      padding-top: 0.25em;
+      padding-bottom: 0.25em;
+      margin: auto;
+      padding-left: 0;
+      list-style: none; }
+    .mainClass .contactsData span {
+      font-weight: lighter;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      letter-spacing: 0.2em;
+      font-size: 1.21em; }
+    .mainClass .contactsData .someLabel {
+      width: 15vh;
+      margin: auto;
+      font-weight: lighter;
+      text-align: left;
+      padding-top: 0.25em;
+      padding-bottom: 0.25em; }
+    .mainClass .contactsData .someInput {
+      width: 10em;
+      height: 1.5em;
+      text-align: center;
+      padding: 2px;
+      border: 1px solid lightgray;
+      vertical-align: middle; }
+    .mainClass .contactsData .Mes {
+      height: 4.5em; }
+    .mainClass .contactsData .Tel {
+      font-size: 1.21em; }
+    .mainClass .contactsData .sendButton {
+      margin-top: 5px;
+      margin-left: 4.28571vh;
+      border: none;
+      border-radius: 1px;
+      background: lightgray;
+      padding: 1px;
+      height: 1.5em; }
+  .mainClass .contactsInstagram {
+    text-align: center;
+    margin: auto; }
+    .mainClass .contactsInstagram .instaTitle {
+      height: 2.2em;
+      margin: auto;
+      width: 30vh;
+      min-width: 320px;
+      /*table{
+        margin: auto;
+        max-width: (0.8)*$widthInfoContacts;
+        min-width: 250px;
+      }
+      td{
+        min-width: 50px;
+        text-align: left;
+      }*/ }
+      .mainClass .contactsInstagram .instaTitle .instaTitle1, .mainClass .contactsInstagram .instaTitle .instaTitle2 {
+        min-width: 25px; }
+      .mainClass .contactsInstagram .instaTitle .instaTitle1 {
+        padding-top: 0px;
+        text-align: left;
+        margin-left: 0.5em;
+        font-size: 1em; }
+      .mainClass .contactsInstagram .instaTitle .instaTitle2 {
+        margin-left: 80px;
+        margin-top: -2.5em;
+        text-align: left;
+        font-size: 1em; }
+        .mainClass .contactsInstagram .instaTitle .instaTitle2 a:nth-of-type(2) {
+          font-size: 0.9em; }
+      .mainClass .contactsInstagram .instaTitle a {
+        font-weight: lighter;
+        letter-spacing: 0.2em;
+        color: #000; }
+    .mainClass .contactsInstagram #containerInstagram {
+      height: 47.5vh;
+      width: 30vh;
+      min-width: 300px;
+      min-height: 300px;
+      margin: auto;
+      text-align: center;
+      margin-top: 1em; }
+    .mainClass .contactsInstagram .il-photo__img {
+      height: 10vh;
+      width: 10vh;
+      min-height: 100px;
+      min-width: 100px;
+      padding: 5px;
+      border: 1px solid white; }
+    .mainClass .contactsInstagram #containerInstagram a {
+      font-size: 0;
+      padding-bottom: 0; }
+    .mainClass .contactsInstagram .instagram-lite {
+      min-width: 300px;
+      min-height: 300px;
+      padding-left: 0;
+      width: 30vh; }
+
+body {
+  min-width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  /* ╨Ю╤В╤Б╤В╤Г╨┐ ╤Б╨╗╨╡╨▓╨░ ╨▓ ╨▒╤А╨░╤Г╨╖╨╡╤А╨╡ IE ╨╕ Opera */
+  margin-bottom: 0;
+  padding-left: 0;
+  /* ╨Ю╤В╤Б╤В╤Г╨┐ ╤Б╨╗╨╡╨▓╨░ ╨▓ ╨▒╤А╨░╤Г╨╖╨╡╤А╨╡ Firefox, Safari, Chrome */
+  padding-bottom: 0;
+  height: 100%;
+  color: #000;
+  margin: auto;
+  font-family: Futura, sans-serif;
+  width: 60vw;
+  color: #000; }
+
+header {
+  margin-top: 0;
+  width: 80vw;
+  height: 18vh;
+  margin: auto;
+  padding-top: 2.57143vh;
+  text-align: center; }
+  header .navygation {
+    font-size: 2.205vh;
+    font-family: Futura;
+    letter-spacing: 0.0135vh;
+    width: 80vw;
+    padding-top: 2.57143vh; }
+  header h1, header h2 {
+    font-family: Adam;
+    font-stretch: ultra-condensed;
+    line-height: 1em; }
+  header h1, header h2, header nav {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #000; }
+  header a {
+    color: #000; }
+  header h1 {
+    font-size: 9vh;
+    font-weight: bolder; }
+  header h2 {
+    font-size: 4.5vh;
+    margin-top: -0.3em;
+    font-weight: bold; }
+  header a:hover {
+    color: #000; }
+
+footer {
+  font-size: 2vh;
+  font-family: Futura;
+  height: 10vh;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  bottom: 0; }
+  footer .copyRight {
+    height: 4vh;
+    margin-top: 0vh;
+    font-size: 0.5em;
+    background: lightgray; }
+    footer .copyRight p {
+      padding: 0;
+      margin: 0; }
+  footer .socialMediaButtons {
+    height: 10vh; }
+
+.realMain, .mainMenu, .boxes {
+  height: 113.75vh;
+  min-height: 1300px;
+  /*
+  ╨Я╨╡╤А╨▓╨╕╤З╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
+  ╨б ╨╜╨╕╨╝╨╕ ╤А╨░╨▒╨╛╤В╨░╨╡╤В ╤Б╨╗╨░╨╣╨┤ ╤И╨╛╤Г
+  */
+  /*╨б╨┤╨╡╨╗╨░╤В╤М ╨▓╨╕╨┤╨╕╨╝╤Л╨╝, ╨┐╤А╨╛╨╖╤А╨░╤З╨╜╨╛╤Б╤В╤М=0;*/
+  /*
+  ╨Т╤В╨╛╤А╨╛╤Б╤В╨╡╨┐╨╡╨╜╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
+  ╨Т╨╜╨╡╤И╨╜╨╕╨╣ ╨▓╨╕╨┤; ╨╝╨╛╨╢╨╡╤В╨╡ ╨╕╨╖╨╝╨╡╨╜╤П╤В╤М
+  */ }
+  .realMain .mainSlide, .mainMenu .mainSlide, .boxes .mainSlide {
+    background-size: cover;
+    height: 65vh;
+    max-height: 450px;
+    min-width: 60%;
+    max-width: 45em;
+    margin: auto;
+    position: relative; }
+  .realMain #slides, .mainMenu #slides, .boxes #slides {
+    height: 65vh;
+    max-height: 450px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 45em;
+    /*padding: 0px;
+    margin: 0px;
+    list-style-type: none;*/ }
+  .realMain .slide, .mainMenu .slide, .boxes .slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 65vh;
+    max-height: 450px;
+    min-width: 100%;
+    max-width: 45em;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s; }
+  .realMain .showing, .mainMenu .showing, .boxes .showing {
+    opacity: 1;
+    z-index: 2; }
+  .realMain .slide, .mainMenu .slide, .boxes .slide {
+    font-size: 1em;
+    padding: 0;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+    height: 100%; }
+  .realMain .slide:nth-of-type(1), .mainMenu .slide:nth-of-type(1), .boxes .slide:nth-of-type(1) {
+    background: #FFFFFF url(../images/01.JPG) center no-repeat;
+    background-size: cover; }
+  .realMain .slide:nth-of-type(2), .mainMenu .slide:nth-of-type(2), .boxes .slide:nth-of-type(2) {
+    background: #FFFFFF url(../images/02.JPG) center no-repeat;
+    background-size: cover; }
+  .realMain .slide:nth-of-type(3), .mainMenu .slide:nth-of-type(3), .boxes .slide:nth-of-type(3) {
+    background: #FFFFFF url(../images/03.JPG) center no-repeat;
+    background-size: cover; }
+  .realMain .slide:nth-of-type(4), .mainMenu .slide:nth-of-type(4), .boxes .slide:nth-of-type(4) {
+    background: #FFFFFF url(../images/04.JPG) center no-repeat;
+    background-size: cover; }
+  .realMain .slide:nth-of-type(5), .mainMenu .slide:nth-of-type(5), .boxes .slide:nth-of-type(5) {
+    background: #FFFFFF url(../images/05.JPG) center no-repeat;
+    background-size: cover; }
+  .realMain .controls, .realMain button, .mainMenu .controls, .mainMenu button, .boxes .controls, .boxes button {
+    margin-top: 0.5em;
+    background: gray;
+    color: black;
+    font-size: 1.1em;
+    border: 0.5px solid #00a; }
+  .realMain .tableslider1, .mainMenu .tableslider1, .boxes .tableslider1 {
+    height: 4em; }
+  .realMain .tableslider, .mainMenu .tableslider, .boxes .tableslider {
+    text-align: center;
+    padding-top: 1em;
+    margin: auto;
+    opacity: 0.15; }
+  .realMain .tableslider td, .mainMenu .tableslider td, .boxes .tableslider td {
+    min-width: 5em; }
+  .realMain .tableslider button, .mainMenu .tableslider button, .boxes .tableslider button {
+    width: 100%; }
+  .realMain .slider-photo ul, .mainMenu .slider-photo ul, .boxes .slider-photo ul {
+    margin: auto; }
+  .realMain .contentAboutText, .realMain .ourPartners, .realMain .ourClients, .mainMenu .contentAboutText, .mainMenu .ourPartners, .mainMenu .ourClients, .boxes .contentAboutText, .boxes .ourPartners, .boxes .ourClients {
+    height: 19.5vh;
+    min-height: 180px;
+    width: 30em;
+    max-width: 90%;
+    min-width: 310px;
+    margin: auto;
+    text-align: center;
+    padding: 2.1% 0;
+    font-size: 2.2vh;
+    font-weight: 100; }
+    .realMain .contentAboutText p, .realMain .ourPartners p, .realMain .ourClients p, .mainMenu .contentAboutText p, .mainMenu .ourPartners p, .mainMenu .ourClients p, .boxes .contentAboutText p, .boxes .ourPartners p, .boxes .ourClients p {
+      text-align: justify; }
+    .realMain .contentAboutText span, .realMain .ourPartners span, .realMain .ourClients span, .mainMenu .contentAboutText span, .mainMenu .ourPartners span, .mainMenu .ourClients span, .boxes .contentAboutText span, .boxes .ourPartners span, .boxes .ourClients span {
+      font-size: 1.3em; }
+    .realMain .contentAboutText .clientsList, .realMain .contentAboutText .partnersList, .realMain .ourPartners .clientsList, .realMain .ourPartners .partnersList, .realMain .ourClients .clientsList, .realMain .ourClients .partnersList, .mainMenu .contentAboutText .clientsList, .mainMenu .contentAboutText .partnersList, .mainMenu .ourPartners .clientsList, .mainMenu .ourPartners .partnersList, .mainMenu .ourClients .clientsList, .mainMenu .ourClients .partnersList, .boxes .contentAboutText .clientsList, .boxes .contentAboutText .partnersList, .boxes .ourPartners .clientsList, .boxes .ourPartners .partnersList, .boxes .ourClients .clientsList, .boxes .ourClients .partnersList {
+      height: 14.4vh; }
+      .realMain .contentAboutText .clientsList .clients, .realMain .contentAboutText .clientsList .partners, .realMain .contentAboutText .partnersList .clients, .realMain .contentAboutText .partnersList .partners, .realMain .ourPartners .clientsList .clients, .realMain .ourPartners .clientsList .partners, .realMain .ourPartners .partnersList .clients, .realMain .ourPartners .partnersList .partners, .realMain .ourClients .clientsList .clients, .realMain .ourClients .clientsList .partners, .realMain .ourClients .partnersList .clients, .realMain .ourClients .partnersList .partners, .mainMenu .contentAboutText .clientsList .clients, .mainMenu .contentAboutText .clientsList .partners, .mainMenu .contentAboutText .partnersList .clients, .mainMenu .contentAboutText .partnersList .partners, .mainMenu .ourPartners .clientsList .clients, .mainMenu .ourPartners .clientsList .partners, .mainMenu .ourPartners .partnersList .clients, .mainMenu .ourPartners .partnersList .partners, .mainMenu .ourClients .clientsList .clients, .mainMenu .ourClients .clientsList .partners, .mainMenu .ourClients .partnersList .clients, .mainMenu .ourClients .partnersList .partners, .boxes .contentAboutText .clientsList .clients, .boxes .contentAboutText .clientsList .partners, .boxes .contentAboutText .partnersList .clients, .boxes .contentAboutText .partnersList .partners, .boxes .ourPartners .clientsList .clients, .boxes .ourPartners .clientsList .partners, .boxes .ourPartners .partnersList .clients, .boxes .ourPartners .partnersList .partners, .boxes .ourClients .clientsList .clients, .boxes .ourClients .clientsList .partners, .boxes .ourClients .partnersList .clients, .boxes .ourClients .partnersList .partners {
+        display: inline-block;
+        position: absolute;
+        height: 12vh;
+        width: 12vh;
+        border-radius: 0vh;
+        line-height: 100px;
+        margin: 1.2vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(1), .realMain .contentAboutText .partnersList .clients:nth-of-type(1), .realMain .ourPartners .clientsList .clients:nth-of-type(1), .realMain .ourPartners .partnersList .clients:nth-of-type(1), .realMain .ourClients .clientsList .clients:nth-of-type(1), .realMain .ourClients .partnersList .clients:nth-of-type(1), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(1), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(1), .mainMenu .ourPartners .clientsList .clients:nth-of-type(1), .mainMenu .ourPartners .partnersList .clients:nth-of-type(1), .mainMenu .ourClients .clientsList .clients:nth-of-type(1), .mainMenu .ourClients .partnersList .clients:nth-of-type(1), .boxes .contentAboutText .clientsList .clients:nth-of-type(1), .boxes .contentAboutText .partnersList .clients:nth-of-type(1), .boxes .ourPartners .clientsList .clients:nth-of-type(1), .boxes .ourPartners .partnersList .clients:nth-of-type(1), .boxes .ourClients .clientsList .clients:nth-of-type(1), .boxes .ourClients .partnersList .clients:nth-of-type(1) {
+        background: #FFFFFF url(../images/clients/logo01.gif) center no-repeat;
+        background-size: contain;
+        margin-left: -21vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(2), .realMain .contentAboutText .partnersList .clients:nth-of-type(2), .realMain .ourPartners .clientsList .clients:nth-of-type(2), .realMain .ourPartners .partnersList .clients:nth-of-type(2), .realMain .ourClients .clientsList .clients:nth-of-type(2), .realMain .ourClients .partnersList .clients:nth-of-type(2), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(2), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(2), .mainMenu .ourPartners .clientsList .clients:nth-of-type(2), .mainMenu .ourPartners .partnersList .clients:nth-of-type(2), .mainMenu .ourClients .clientsList .clients:nth-of-type(2), .mainMenu .ourClients .partnersList .clients:nth-of-type(2), .boxes .contentAboutText .clientsList .clients:nth-of-type(2), .boxes .contentAboutText .partnersList .clients:nth-of-type(2), .boxes .ourPartners .clientsList .clients:nth-of-type(2), .boxes .ourPartners .partnersList .clients:nth-of-type(2), .boxes .ourClients .clientsList .clients:nth-of-type(2), .boxes .ourClients .partnersList .clients:nth-of-type(2) {
+        background: #FFFFFF url(../images/clients/logo02.gif) center no-repeat;
+        background-size: contain;
+        margin-left: -6vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(3), .realMain .contentAboutText .partnersList .clients:nth-of-type(3), .realMain .ourPartners .clientsList .clients:nth-of-type(3), .realMain .ourPartners .partnersList .clients:nth-of-type(3), .realMain .ourClients .clientsList .clients:nth-of-type(3), .realMain .ourClients .partnersList .clients:nth-of-type(3), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(3), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(3), .mainMenu .ourPartners .clientsList .clients:nth-of-type(3), .mainMenu .ourPartners .partnersList .clients:nth-of-type(3), .mainMenu .ourClients .clientsList .clients:nth-of-type(3), .mainMenu .ourClients .partnersList .clients:nth-of-type(3), .boxes .contentAboutText .clientsList .clients:nth-of-type(3), .boxes .contentAboutText .partnersList .clients:nth-of-type(3), .boxes .ourPartners .clientsList .clients:nth-of-type(3), .boxes .ourPartners .partnersList .clients:nth-of-type(3), .boxes .ourClients .clientsList .clients:nth-of-type(3), .boxes .ourClients .partnersList .clients:nth-of-type(3) {
+        background: #FFFFFF url(../images/clients/logo03.gif) center no-repeat;
+        background-size: contain;
+        margin-left: 9vh;
+        margin-top: 16vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(4), .realMain .contentAboutText .partnersList .clients:nth-of-type(4), .realMain .ourPartners .clientsList .clients:nth-of-type(4), .realMain .ourPartners .partnersList .clients:nth-of-type(4), .realMain .ourClients .clientsList .clients:nth-of-type(4), .realMain .ourClients .partnersList .clients:nth-of-type(4), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(4), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(4), .mainMenu .ourPartners .clientsList .clients:nth-of-type(4), .mainMenu .ourPartners .partnersList .clients:nth-of-type(4), .mainMenu .ourClients .clientsList .clients:nth-of-type(4), .mainMenu .ourClients .partnersList .clients:nth-of-type(4), .boxes .contentAboutText .clientsList .clients:nth-of-type(4), .boxes .contentAboutText .partnersList .clients:nth-of-type(4), .boxes .ourPartners .clientsList .clients:nth-of-type(4), .boxes .ourPartners .partnersList .clients:nth-of-type(4), .boxes .ourClients .clientsList .clients:nth-of-type(4), .boxes .ourClients .partnersList .clients:nth-of-type(4) {
+        background: #FFFFFF url(../images/clients/logo04.gif) center no-repeat;
+        background-size: contain;
+        background-size: 75%;
+        opacity: 0.9;
+        margin-left: -21vh;
+        margin-top: 16vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(5), .realMain .contentAboutText .partnersList .clients:nth-of-type(5), .realMain .ourPartners .clientsList .clients:nth-of-type(5), .realMain .ourPartners .partnersList .clients:nth-of-type(5), .realMain .ourClients .clientsList .clients:nth-of-type(5), .realMain .ourClients .partnersList .clients:nth-of-type(5), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(5), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(5), .mainMenu .ourPartners .clientsList .clients:nth-of-type(5), .mainMenu .ourPartners .partnersList .clients:nth-of-type(5), .mainMenu .ourClients .clientsList .clients:nth-of-type(5), .mainMenu .ourClients .partnersList .clients:nth-of-type(5), .boxes .contentAboutText .clientsList .clients:nth-of-type(5), .boxes .contentAboutText .partnersList .clients:nth-of-type(5), .boxes .ourPartners .clientsList .clients:nth-of-type(5), .boxes .ourPartners .partnersList .clients:nth-of-type(5), .boxes .ourClients .clientsList .clients:nth-of-type(5), .boxes .ourClients .partnersList .clients:nth-of-type(5) {
+        background: #FFFFFF url(../images/clients/logo05.gif) center no-repeat;
+        background-size: contain;
+        margin-left: -6vh;
+        margin-top: 16vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(6), .realMain .contentAboutText .partnersList .clients:nth-of-type(6), .realMain .ourPartners .clientsList .clients:nth-of-type(6), .realMain .ourPartners .partnersList .clients:nth-of-type(6), .realMain .ourClients .clientsList .clients:nth-of-type(6), .realMain .ourClients .partnersList .clients:nth-of-type(6), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(6), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(6), .mainMenu .ourPartners .clientsList .clients:nth-of-type(6), .mainMenu .ourPartners .partnersList .clients:nth-of-type(6), .mainMenu .ourClients .clientsList .clients:nth-of-type(6), .mainMenu .ourClients .partnersList .clients:nth-of-type(6), .boxes .contentAboutText .clientsList .clients:nth-of-type(6), .boxes .contentAboutText .partnersList .clients:nth-of-type(6), .boxes .ourPartners .clientsList .clients:nth-of-type(6), .boxes .ourPartners .partnersList .clients:nth-of-type(6), .boxes .ourClients .clientsList .clients:nth-of-type(6), .boxes .ourClients .partnersList .clients:nth-of-type(6) {
+        background: #FFFFFF url(../images/clients/logo06.gif) center no-repeat;
+        background-size: contain;
+        margin-left: 9vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(7), .realMain .contentAboutText .partnersList .clients:nth-of-type(7), .realMain .ourPartners .clientsList .clients:nth-of-type(7), .realMain .ourPartners .partnersList .clients:nth-of-type(7), .realMain .ourClients .clientsList .clients:nth-of-type(7), .realMain .ourClients .partnersList .clients:nth-of-type(7), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(7), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(7), .mainMenu .ourPartners .clientsList .clients:nth-of-type(7), .mainMenu .ourPartners .partnersList .clients:nth-of-type(7), .mainMenu .ourClients .clientsList .clients:nth-of-type(7), .mainMenu .ourClients .partnersList .clients:nth-of-type(7), .boxes .contentAboutText .clientsList .clients:nth-of-type(7), .boxes .contentAboutText .partnersList .clients:nth-of-type(7), .boxes .ourPartners .clientsList .clients:nth-of-type(7), .boxes .ourPartners .partnersList .clients:nth-of-type(7), .boxes .ourClients .clientsList .clients:nth-of-type(7), .boxes .ourClients .partnersList .clients:nth-of-type(7) {
+        background: #FFFFFF url(../images/clients/logo07.gif) center no-repeat;
+        background-size: contain;
+        margin-left: -21vh;
+        margin-top: 32vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(8), .realMain .contentAboutText .partnersList .clients:nth-of-type(8), .realMain .ourPartners .clientsList .clients:nth-of-type(8), .realMain .ourPartners .partnersList .clients:nth-of-type(8), .realMain .ourClients .clientsList .clients:nth-of-type(8), .realMain .ourClients .partnersList .clients:nth-of-type(8), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(8), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(8), .mainMenu .ourPartners .clientsList .clients:nth-of-type(8), .mainMenu .ourPartners .partnersList .clients:nth-of-type(8), .mainMenu .ourClients .clientsList .clients:nth-of-type(8), .mainMenu .ourClients .partnersList .clients:nth-of-type(8), .boxes .contentAboutText .clientsList .clients:nth-of-type(8), .boxes .contentAboutText .partnersList .clients:nth-of-type(8), .boxes .ourPartners .clientsList .clients:nth-of-type(8), .boxes .ourPartners .partnersList .clients:nth-of-type(8), .boxes .ourClients .clientsList .clients:nth-of-type(8), .boxes .ourClients .partnersList .clients:nth-of-type(8) {
+        background: #FFFFFF url(../images/clients/logo08.gif) center no-repeat;
+        background-size: contain;
+        margin-left: -6vh;
+        margin-top: 32vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(9), .realMain .contentAboutText .partnersList .clients:nth-of-type(9), .realMain .ourPartners .clientsList .clients:nth-of-type(9), .realMain .ourPartners .partnersList .clients:nth-of-type(9), .realMain .ourClients .clientsList .clients:nth-of-type(9), .realMain .ourClients .partnersList .clients:nth-of-type(9), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(9), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(9), .mainMenu .ourPartners .clientsList .clients:nth-of-type(9), .mainMenu .ourPartners .partnersList .clients:nth-of-type(9), .mainMenu .ourClients .clientsList .clients:nth-of-type(9), .mainMenu .ourClients .partnersList .clients:nth-of-type(9), .boxes .contentAboutText .clientsList .clients:nth-of-type(9), .boxes .contentAboutText .partnersList .clients:nth-of-type(9), .boxes .ourPartners .clientsList .clients:nth-of-type(9), .boxes .ourPartners .partnersList .clients:nth-of-type(9), .boxes .ourClients .clientsList .clients:nth-of-type(9), .boxes .ourClients .partnersList .clients:nth-of-type(9) {
+        background: #FFFFFF url(../images/clients/logo09.gif) center no-repeat;
+        background-size: contain;
+        margin-left: 9vh;
+        margin-top: 32vh; }
+      .realMain .contentAboutText .clientsList .clients:hover, .realMain .contentAboutText .partnersList .clients:hover, .realMain .ourPartners .clientsList .clients:hover, .realMain .ourPartners .partnersList .clients:hover, .realMain .ourClients .clientsList .clients:hover, .realMain .ourClients .partnersList .clients:hover, .mainMenu .contentAboutText .clientsList .clients:hover, .mainMenu .contentAboutText .partnersList .clients:hover, .mainMenu .ourPartners .clientsList .clients:hover, .mainMenu .ourPartners .partnersList .clients:hover, .mainMenu .ourClients .clientsList .clients:hover, .mainMenu .ourClients .partnersList .clients:hover, .boxes .contentAboutText .clientsList .clients:hover, .boxes .contentAboutText .partnersList .clients:hover, .boxes .ourPartners .clientsList .clients:hover, .boxes .ourPartners .partnersList .clients:hover, .boxes .ourClients .clientsList .clients:hover, .boxes .ourClients .partnersList .clients:hover {
+        border: 0.1px solid lightgray;
+        height: 12.6vh;
+        width: 12.6vh;
+        border-radius: 0vh; }
+      .realMain .contentAboutText .clientsList .clients:active, .realMain .contentAboutText .partnersList .clients:active, .realMain .ourPartners .clientsList .clients:active, .realMain .ourPartners .partnersList .clients:active, .realMain .ourClients .clientsList .clients:active, .realMain .ourClients .partnersList .clients:active, .mainMenu .contentAboutText .clientsList .clients:active, .mainMenu .contentAboutText .partnersList .clients:active, .mainMenu .ourPartners .clientsList .clients:active, .mainMenu .ourPartners .partnersList .clients:active, .mainMenu .ourClients .clientsList .clients:active, .mainMenu .ourClients .partnersList .clients:active, .boxes .contentAboutText .clientsList .clients:active, .boxes .contentAboutText .partnersList .clients:active, .boxes .ourPartners .clientsList .clients:active, .boxes .ourPartners .partnersList .clients:active, .boxes .ourClients .clientsList .clients:active, .boxes .ourClients .partnersList .clients:active {
+        border: 0.5px solid pink; }
+      .realMain .contentAboutText .clientsList .partners:hover, .realMain .contentAboutText .partnersList .partners:hover, .realMain .ourPartners .clientsList .partners:hover, .realMain .ourPartners .partnersList .partners:hover, .realMain .ourClients .clientsList .partners:hover, .realMain .ourClients .partnersList .partners:hover, .mainMenu .contentAboutText .clientsList .partners:hover, .mainMenu .contentAboutText .partnersList .partners:hover, .mainMenu .ourPartners .clientsList .partners:hover, .mainMenu .ourPartners .partnersList .partners:hover, .mainMenu .ourClients .clientsList .partners:hover, .mainMenu .ourClients .partnersList .partners:hover, .boxes .contentAboutText .clientsList .partners:hover, .boxes .contentAboutText .partnersList .partners:hover, .boxes .ourPartners .clientsList .partners:hover, .boxes .ourPartners .partnersList .partners:hover, .boxes .ourClients .clientsList .partners:hover, .boxes .ourClients .partnersList .partners:hover {
+        border: 3px solid lightgray;
+        height: 14.4vh;
+        width: 14.4vh;
+        border-radius: 7.2vh; }
+      .realMain .contentAboutText .clientsList .partners:nth-of-type(1), .realMain .contentAboutText .partnersList .partners:nth-of-type(1), .realMain .ourPartners .clientsList .partners:nth-of-type(1), .realMain .ourPartners .partnersList .partners:nth-of-type(1), .realMain .ourClients .clientsList .partners:nth-of-type(1), .realMain .ourClients .partnersList .partners:nth-of-type(1), .mainMenu .contentAboutText .clientsList .partners:nth-of-type(1), .mainMenu .contentAboutText .partnersList .partners:nth-of-type(1), .mainMenu .ourPartners .clientsList .partners:nth-of-type(1), .mainMenu .ourPartners .partnersList .partners:nth-of-type(1), .mainMenu .ourClients .clientsList .partners:nth-of-type(1), .mainMenu .ourClients .partnersList .partners:nth-of-type(1), .boxes .contentAboutText .clientsList .partners:nth-of-type(1), .boxes .contentAboutText .partnersList .partners:nth-of-type(1), .boxes .ourPartners .clientsList .partners:nth-of-type(1), .boxes .ourPartners .partnersList .partners:nth-of-type(1), .boxes .ourClients .clientsList .partners:nth-of-type(1), .boxes .ourClients .partnersList .partners:nth-of-type(1) {
+        background: #FFFFFF url(../images/clients/logo01.png) center no-repeat;
+        background-size: cover;
+        margin-left: -24vh; }
+      .realMain .contentAboutText .clientsList .partners:nth-of-type(2), .realMain .contentAboutText .partnersList .partners:nth-of-type(2), .realMain .ourPartners .clientsList .partners:nth-of-type(2), .realMain .ourPartners .partnersList .partners:nth-of-type(2), .realMain .ourClients .clientsList .partners:nth-of-type(2), .realMain .ourClients .partnersList .partners:nth-of-type(2), .mainMenu .contentAboutText .clientsList .partners:nth-of-type(2), .mainMenu .contentAboutText .partnersList .partners:nth-of-type(2), .mainMenu .ourPartners .clientsList .partners:nth-of-type(2), .mainMenu .ourPartners .partnersList .partners:nth-of-type(2), .mainMenu .ourClients .clientsList .partners:nth-of-type(2), .mainMenu .ourClients .partnersList .partners:nth-of-type(2), .boxes .contentAboutText .clientsList .partners:nth-of-type(2), .boxes .contentAboutText .partnersList .partners:nth-of-type(2), .boxes .ourPartners .clientsList .partners:nth-of-type(2), .boxes .ourPartners .partnersList .partners:nth-of-type(2), .boxes .ourClients .clientsList .partners:nth-of-type(2), .boxes .ourClients .partnersList .partners:nth-of-type(2) {
+        background: #FFFFFF url(../images/clients/logo02.png) center no-repeat;
+        background-size: cover;
+        margin-left: -6vh; }
+      .realMain .contentAboutText .clientsList .partners:nth-of-type(3), .realMain .contentAboutText .partnersList .partners:nth-of-type(3), .realMain .ourPartners .clientsList .partners:nth-of-type(3), .realMain .ourPartners .partnersList .partners:nth-of-type(3), .realMain .ourClients .clientsList .partners:nth-of-type(3), .realMain .ourClients .partnersList .partners:nth-of-type(3), .mainMenu .contentAboutText .clientsList .partners:nth-of-type(3), .mainMenu .contentAboutText .partnersList .partners:nth-of-type(3), .mainMenu .ourPartners .clientsList .partners:nth-of-type(3), .mainMenu .ourPartners .partnersList .partners:nth-of-type(3), .mainMenu .ourClients .clientsList .partners:nth-of-type(3), .mainMenu .ourClients .partnersList .partners:nth-of-type(3), .boxes .contentAboutText .clientsList .partners:nth-of-type(3), .boxes .contentAboutText .partnersList .partners:nth-of-type(3), .boxes .ourPartners .clientsList .partners:nth-of-type(3), .boxes .ourPartners .partnersList .partners:nth-of-type(3), .boxes .ourClients .clientsList .partners:nth-of-type(3), .boxes .ourClients .partnersList .partners:nth-of-type(3) {
+        background: #FFFFFF url(../images/clients/logo01.png) center no-repeat;
+        background-size: cover;
+        margin-left: 12vh; }
+  .realMain .ourClients, .mainMenu .ourClients, .boxes .ourClients {
+    padding-top: 4em;
+    min-height: 300px; }
+    .realMain .ourClients span, .mainMenu .ourClients span, .boxes .ourClients span {
+      display: inline-block;
+      padding-top: 0.5em; }
+  .realMain .ourPartners, .mainMenu .ourPartners, .boxes .ourPartners {
+    padding-top: 10vh; }
+
+.mainMenu {
+  max-height: 117vh;
+  min-height: 450px;
+  height: 1200px; }
+  .mainMenu .contentMainMenu {
+    background: #FFFFFF url(../images/Menu.jpg) center no-repeat;
+    background-size: cover;
+    height: 65vh;
+    max-height: 450px;
+    min-width: 60%;
+    max-width: 45em;
+    margin: auto;
+    position: relative; }
+  .mainMenu .menuText {
+    min-height: 32.5vh; }
+  .mainMenu .contentAboutTextLinkMenu {
+    min-width: 200px;
+    max-width: 60vw;
+    margin: auto;
+    height: 8.125vh;
+    min-height: 2em;
+    max-height: 10vh;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-weight: bolder;
+    vertical-align: text-top; }
+    .mainMenu .contentAboutTextLinkMenu a {
+      font-size: 2vh;
+      color: #000; }
+
+.boxes {
+  max-height: 149.5vh;
+  min-height: 450px;
+  height: 1600px;
+  min-width: 60vw;
+  /*
+  ╨Я╨╡╤А╨▓╨╕╤З╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
+  ╨б ╨╜╨╕╨╝╨╕ ╤А╨░╨▒╨╛╤В╨░╨╡╤В ╤Б╨╗╨░╨╣╨┤ ╤И╨╛╤Г
+  */
+  /*╨б╨┤╨╡╨╗╨░╤В╤М ╨▓╨╕╨┤╨╕╨╝╤Л╨╝, ╨┐╤А╨╛╨╖╤А╨░╤З╨╜╨╛╤Б╤В╤М=0;*/
+  /*
+  ╨Т╤В╨╛╤А╨╛╤Б╤В╨╡╨┐╨╡╨╜╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
+  ╨Т╨╜╨╡╤И╨╜╨╕╨╣ ╨▓╨╕╨┤; ╨╝╨╛╨╢╨╡╤В╨╡ ╨╕╨╖╨╝╨╡╨╜╤П╤В╤М
+  */ }
+  .boxes #slides-box {
+    height: 65vh;
+    max-height: 450px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 45em;
+    /*padding: 0px;
+    margin: 0px;
+    list-style-type: none;*/ }
+  .boxes .slide-box {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 65vh;
+    max-height: 450px;
+    min-width: 100%;
+    max-width: 45em;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s; }
+  .boxes .showing {
+    opacity: 1;
+    z-index: 2; }
+  .boxes .slide-box {
+    font-size: 1em;
+    padding: 0;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+    height: 100%; }
+  .boxes .slide-box:nth-of-type(1) {
+    background: #FFFFFF url(../images/box/01.JPG) center no-repeat;
+    background-size: cover; }
+  .boxes .slide-box:nth-of-type(2) {
+    background: #FFFFFF url(../images/box/02.JPG) center no-repeat;
+    background-size: cover; }
+  .boxes .slide-box:nth-of-type(3) {
+    background: #FFFFFF url(../images/box/03.JPG) center no-repeat;
+    background-size: cover; }
+  .boxes .slide-box:nth-of-type(4) {
+    background: #FFFFFF url(../images/box/04.JPG) center no-repeat;
+    background-size: cover; }
+  .boxes .slider-photo-box ul {
+    margin: auto;
+    /*margin-left: 10%;*/ }
+  .boxes .boxesDownload {
+    padding-top: 2em;
+    min-width: 60%;
+    max-width: 80vw;
+    margin: auto;
+    height: 8.125vh;
+    min-height: 2em;
+    max-height: 10vh;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-weight: bolder;
+    vertical-align: text-top;
+    font-size: 2.2vh; }
+    .boxes .boxesDownload a {
+      font-size: 2vh;
+      color: #000; }
+  .boxes .boxText {
+    /**/
+    height: 52vh;
+    min-height: 10em;
+    max-height: 800px;
+    max-height: 52vh;
+    min-height: 180px;
+    /*height: 800px;
+    width: 35em;
+    max-width: 100%;
+    min-width: 310px;*/
+    margin: auto;
+    text-align: center;
+    padding: 2.1% 0;
+    font-size: 2.1vh; }
+    .boxes .boxText p {
+      text-align: justify; }
+
+/*# sourceMappingURL=contacts.css.map */

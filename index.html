@@ -1,47 +1,105 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/myClasses.css">
-    <title>BearBur</title>
-  </head>
-  <body>
-    <header>
-      <h1>BearBur - it's who I'm.</h1>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="#">Code</a>
-        <a href="#">Blog</a>
-        <a href="#">Writing</a>
-        <a href="html/photo.html">Photo</a>
-      </nav>
-    </header>
-    <main>
-      <section>
-      <h2>All about me.</h2>
-      <article class="blogEntry">
-        Developer, writer, runner, vegetarian & traveler. Like frontend-development, javascript etc. Just wanna make world and web easiest.
-      </article>
-      <article class="copyPast">
-        <h3>And some motivation from Victor Marie Hugo <span>actually, i hate lorem ipsum :-)</span>:</h3>
-        A day will come when there will be no battlefields, but markets opening to commerce and minds opening to ideas. A day will come when the bullets and bombs are replaced by votes, by universal suffrage, by the venerable arbitration of a great supreme senate which will be to Europe what Parliament is to England, the Diet to Germany, and the Legislative Assembly to France.
-A day will come when a cannon will be a museum-piece, as instruments of torture are today. And we will be amazed to think that these things once existed!
-A day will come when we shall see those two immense groups, the United States of America and the United States of Europe, facing one another, stretching out their hands across the sea, exchanging their products, their arts, their works of genius, clearing up the globe, making deserts fruitful, ameliorating creation under the eyes of the Creator, and joining together, to reap the well-being of all, these two infinite forces, the fraternity of men and the power of God.
-  </article>
-  <article class="aboutMes">
-  </article>
-      </section>
-    </main>
-    <footer>
-      <section>
-        <article class="footPart">
-          Email me: <a href="mailto:bearbur@gmail.com"> bearbur@gmail.com</a> if you want to cooperate. I'm open to suggestions.
-        </article>
-      </section>
-    </footer>
-    <script type="text/javascript" src="js/drawMes.js">
-
-    </script>
+<html lang="ru">
+<head>
+  <!--<meta http-equiv="Cache-Control" content="max-age=3600, must-revalidate">-->
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta charset="utf-8">
+  <meta property="og:title" content="SaltCatering.Ru"/>
+  <meta property="og:description" content="Говорят, слишком солёное блюдо - верный знак того, что повар влюбился. Мы абсолютно точно влюблены в своё дело, а вся соль - в необычных сочетаниях привычных ингредиентов, в сезонных продуктах, многие из которых мы выращиваем у себя на даче или закупаем у знакомых фермеров, в уважительном отношении к людям и еде."/>
+  <meta property="og:image" content="https://saltcatering.ru/images/About.jpg"/>
+  <meta property="og:url" content="http://saltcatering.ru"/>
+  <meta property="og:site_name" content="SaltCatering.Ru"/>
+  <meta name="keywords" content="Кейтеринг Москва, Кейтеринг в Москве, Кейтеринг на праздник, Заказать еду , Заказ еды Москва, Оформление стола, Ищем кейтеринг, Выездное обслуживание, Еда на свадьбу, Здоровое питание, Органическая еда, Деревенская еда, Фермерская еда, Доставка еды, Еда на праздник, Организация мероприятия, Организация свадьбы, Меню на свадьбу, Меню праздничного стола, Заказ еды на природу"/>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/contacts.css" charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/contactsClassic.css" charset="utf-8">
+  <!-- Yandex.Metrika counter-->
+  <script type="text/javascript" src="js/yandexMetrica.js"></script>
+  <!-- Yandex.Metrika counter -->
+  <title>SALT CATERING</title>
+</head>
+<body>
+  <header>                <!--Заголовок-->
+    <h1>SALT</h1>
+    <h2>catering</h2>
+    <nav class="navygation">                <!--Меню навигации по сайту-->
+    <a href="index.html">о нас</a>&ensp;&#149;
+    <a href="html/menu.html">меню</a>&ensp;&#149;
+    <a href="html/boxes.html">коробки</a>&ensp;&#149;
+    <a href="html/contacts.html">контакты</a>
+    </nav>
+  </header>
+  <main>
+    <div class="mainClass realMain">
+      <div class="mainSlide">
+        <div class="slider-photo">
+          <ul id="slides">
+              <li class="slide showing"></li>
+              <li class="slide"></li>
+              <li class="slide"></li>
+              <li class="slide"></li>
+              <li class="slide"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="tableslider1">
+        <br>
+        <table class="tableslider">
+          <tr>
+            <td>
+                <button  class="controls" id="previous">&#9204;</button> <!-- Кнопка предыдущий -->
+            </td>
+            <td>
+              <button  class="controls" id="pause">&#9208;</button> <!-- Кнопка паузы -->
+            </td>
+            <td>
+                <button  class="controls" id="next">&#9205;</button> <!-- Кнопка следующий -->
+            </td>
+          </tr>
+        </table>
+      </div>
+            <div class="contentAboutText">
+              <p>Говорят, слишком солёное блюдо - верный знак того, что повар влюбился. Мы абсолютно точно влюблены в своё дело, а вся соль - в необычных сочетаниях привычных ингредиентов, в сезонных продуктах, многие из которых мы выращиваем у себя на даче или закупаем у знакомых фермеров, в уважительном отношении к людям и еде.</p>
+            </div>
+        <div class="ourClients">
+          <span>Наши клиенты</span>
+          <div class="clientsList">
+                <a class="clients" href="http://www.msu.ru/" rel="nofollow"  target="_blank"></a>
+                <a class="clients" href="http://school.skolkovo.ru/ru/" rel="nofollow"  target="_blank"></a>
+                <a class="clients" href="http://www.tsvetnoy.com/ru/" rel="nofollow"  target="_blank"></a>
+                <a class="clients" href="http://www.impacthubmoscow.net/" rel="nofollow"  target="_blank"></a>
+                <a class="clients" href="http://www.vedomosti.ru/" rel="nofollow"  target="_blank"></a>
+                <a class="clients" href="http://www.vismoot.ru/moscow-pre-moot/" rel="nofollow"  target="_blank"></a>
+                <a class="clients" href="http://back2work.ru" rel="nofollow"  target="_blank"></a>
+                <a class="clients" href="http://ompk.ru/" rel="nofollow"  target="_blank"></a>
+                <a class="clients" href="http://mhatschool.theatre.ru/" rel="nofollow"  target="_blank"></a>
+          </div>
+        </div>
+        <!--<div class="ourPartners">
+          <span>Наши партнеры:</span>
+          <div class="partnersList">
+            <ul>
+              <li> <div class="partners" href="#" rel="nofollow"  target="_blank"></div><div class="partners" href="#" rel="nofollow"  target="_blank"></div><div class="partners" href="#" rel="nofollow"  target="_blank"></div></li>
+            </ul>
+          </div>
+        </div>-->
+        </div>
+      </main>
+      <footer>
+        <div class="socialMediaButtons">
+          <a href="https://www.facebook.com/saltcateringmoscow/" rel="nofollow"  target="_blank"><img title="FB-go" alt="Facebook" src="images/facebook.png" border="0" style="height: 4em"></a>
+          &ensp;
+          <a href="https://vk.com/saltcatering" rel="nofollow"  target="_blank"><img title="VK-go" alt="Vkontakte" src="images/vkontakte.png" border="0" style="height: 4em"></a>
+          &ensp;
+          <a href="https://www.instagram.com/salt.catering" rel="nofollow"  target="_blank"><img title="Inst-go" alt="Instagram" src="images/instagram.png" border="0" style="height: 4em"></a>
+        </div>
+        <div class="copyRight">
+          <p>
+            Использование любых материалов возможно только с ссылкой на источник &#169;<a href="https://saltcatering.ru">saltcatering.ru</a> 2016-2017 <span>Разработка: &ensp;<a href="mailto:bearbur@gmail.com">bEARbUR Н.</a></span></p>
+        </div>
+      </footer>
+      <script type="text/javascript" src="js/gallery.js"></script>
+      <script type="text/javascript" src="js/ourClients.js"></script>
+      </script>
   </body>
 </html>

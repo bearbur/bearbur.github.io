@@ -1,5 +1,5 @@
 $('.instagram-lite').instagramLite({
-	accessToken: '4677492945.7a2bc5b.fa2f224ea0584db2a74a89526497f3ac',
+	accessToken: '3957809161.199f0e9.53bf57f4ee02408281c9f820a5c70b99',
   list: false,
 		urls: true,
     limit: 9,
