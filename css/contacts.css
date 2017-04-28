@@ -88,12 +88,13 @@ html {
       font-size: 1.21em; }
     .mainClass .contactsData .sendButton {
       margin-top: 5px;
-      margin-left: 4.28571vh;
+      margin-left: auto;
       border: none;
       border-radius: 1px;
       background: lightgray;
       padding: 1px;
-      height: 1.5em; }
+      height: 1.5em;
+      min-width: 10em; }
   .mainClass .contactsInstagram {
     text-align: center;
     margin: auto; }

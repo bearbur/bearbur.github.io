@@ -40,6 +40,7 @@ function magicMover(divSlider,divInfo,divInsta,contactsDataInfo,contactsDataForm
     mainHeight: getHeightOfElement(mainClass),
     mainWidth: getWidthOfElement(mainClass)
   };
+  var sendButton = document.getElementsByClassName('sendButton')[0];
   for (var key in contactsParam){
     console.log(key+" "+contactsParam[key])
   }//laptop
@@ -55,6 +56,9 @@ function magicMover(divSlider,divInfo,divInsta,contactsDataInfo,contactsDataForm
     mainClass.style.height = (contactsParam.mainHeight-contactsParam.dataFormHeight) +50+ 'px';
     mainClass.style.minHeight = 2.2*contactsParam.instaHeight+50+'px';
     mainHTML5.style.height = (contactsParam.mainHeight-contactsParam.dataFormHeight)+50 + 'px';
+    if (sendButton){
+      sendButton.style.marginLeft = '8em';
+    }
     console.log('laptop');
   }//laptopMain
   else if((contactsParam.mainWidth>1000)&&(contactsParam.sliderWidth>3*contactsParam.infoWidth)){
@@ -69,6 +73,9 @@ function magicMover(divSlider,divInfo,divInsta,contactsDataInfo,contactsDataForm
     mainClass.style.height = (contactsParam.mainHeight-contactsParam.instaHeight) + 'px';
     mainClass.style.minHeight = 2.2*contactsParam.instaHeight+'px';
     mainHTML5.style.height = (contactsParam.mainHeight-contactsParam.instaHeight) + 'px';
+    if (sendButton){
+      sendButton.style.marginLeft = '7.5em';
+    }
     console.log('laptopMain');
   }//iphone5s
   else if ((contactsParam.mainWidth>290)) {
