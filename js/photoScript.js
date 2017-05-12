@@ -1,4 +1,4 @@
-$('.instagram-lite').instagramLite({
+window.onload=$('.instagram-lite').instagramLite({
 	accessToken: '3957809161.199f0e9.53bf57f4ee02408281c9f820a5c70b99',
   list: false,
 		urls: true,
