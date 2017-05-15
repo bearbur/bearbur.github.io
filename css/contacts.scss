@@ -40,8 +40,8 @@ html {
 }*/
 .mainClass{
   margin-top: $mainMarginTop;
-  height: $heightSliderContacts+$heightDataContacts*(3)+$containerInstaHeight;//+1.5*$heightFooter;
-  min-height: (4.2)*$minHeightInsta;
+  height: $heightSliderContacts+$heightDataContacts*(2.5)+$containerInstaHeight;//+1.5*$heightFooter;
+  min-height: (4)*$minHeightInsta;
   width: $mainWidth;
   .contactsSlide{
     background: #FFFFFF url(../images/Contacts.jpg)center no-repeat;
@@ -263,6 +263,7 @@ header{
   }
 }
 footer{
+  position: absolute;
   font-size: 2vh;
   font-family: $fontMain;
   height: $heightFooter;
@@ -286,8 +287,8 @@ footer{
 }
 //index slide
 .realMain,.mainMenu, .boxes, .wedding{
-    height: (2.1)*$heightSliderContacts;
-    min-height: 1300px;
+    height: (2.3)*$heightSliderContacts;
+    min-height: 1200px;
     //Main slide
     .mainSlide{
       background-size: cover;
@@ -647,7 +648,7 @@ footer{
 }
 
 .wedding{
-  min-height: 1000px;
+  min-height: 1300px;
   .contentMainWedding{
     background: #FFFFFF url(../images/Wedding.jpg) center no-repeat;
     background-size: cover;
@@ -683,7 +684,7 @@ footer{
 @import url('https://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic');
 .leftContainer, .rightContainer{
 //  max-width: 2*$widthSlideContacts;
-  min-width: 320px;
+  min-width: 130px;
     display: inline-block;
     max-width: $widthSlideContacts*(0.48);
 }
@@ -726,14 +727,18 @@ footer{
 }
 @media screen and (max-width: 800px) {
     .leftContainer{
-  margin-left: -$widthSlideContacts*(0.70);
+  margin-left: -$widthSlideContacts*(0.7);
     }
     .wedding{
-      min-height: 2200px;
+      min-height: 220vh;
     }
+
     .navygation{
       a{
         font-size: 0.8em;
       }
     }
+}
+.mainMenu{
+  min-height: 155vh;
 }

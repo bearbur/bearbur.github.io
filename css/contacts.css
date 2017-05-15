@@ -10,8 +10,8 @@ html {
 }*/
 .mainClass {
   margin-top: 5vh;
-  height: 180vh;
-  min-height: 1260px;
+  height: 165vh;
+  min-height: 1200px;
   width: 100%; }
   .mainClass .contactsSlide {
     background: #FFFFFF url(../images/Contacts.jpg) center no-repeat;
@@ -153,10 +153,10 @@ body {
   min-width: 100%;
   max-width: 100%;
   margin-left: 0;
-  /* ╨Ю╤В╤Б╤В╤Г╨┐ ╤Б╨╗╨╡╨▓╨░ ╨▓ ╨▒╤А╨░╤Г╨╖╨╡╤А╨╡ IE ╨╕ Opera */
+  /* Отступ слева в браузере IE и Opera */
   margin-bottom: 0;
   padding-left: 0;
-  /* ╨Ю╤В╤Б╤В╤Г╨┐ ╤Б╨╗╨╡╨▓╨░ ╨▓ ╨▒╤А╨░╤Г╨╖╨╡╤А╨╡ Firefox, Safari, Chrome */
+  /* Отступ слева в браузере Firefox, Safari, Chrome */
   padding-bottom: 0;
   height: 100%;
   color: #000;
@@ -200,6 +200,7 @@ header {
     color: #000; }
 
 footer {
+  position: absolute;
   font-size: 2vh;
   font-family: Futura;
   height: 10vh;
@@ -219,16 +220,16 @@ footer {
     height: 10vh; }
 
 .realMain, .mainMenu, .boxes, .wedding {
-  height: 136.5vh;
-  min-height: 1300px;
+  height: 149.5vh;
+  min-height: 1200px;
   /*
-  ╨Я╨╡╤А╨▓╨╕╤З╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
-  ╨б ╨╜╨╕╨╝╨╕ ╤А╨░╨▒╨╛╤В╨░╨╡╤В ╤Б╨╗╨░╨╣╨┤ ╤И╨╛╤Г
+  Первичные стили:
+  С ними работает слайд шоу
   */
-  /*╨б╨┤╨╡╨╗╨░╤В╤М ╨▓╨╕╨┤╨╕╨╝╤Л╨╝, ╨┐╤А╨╛╨╖╤А╨░╤З╨╜╨╛╤Б╤В╤М=0;*/
+  /*Сделать видимым, прозрачность=0;*/
   /*
-  ╨Т╤В╨╛╤А╨╛╤Б╤В╨╡╨┐╨╡╨╜╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
-  ╨Т╨╜╨╡╤И╨╜╨╕╨╣ ╨▓╨╕╨┤; ╨╝╨╛╨╢╨╡╤В╨╡ ╨╕╨╖╨╝╨╡╨╜╤П╤В╤М
+  Второстепенные стили:
+  Внешний вид; можете изменять
   */ }
   .realMain .mainSlide, .mainMenu .mainSlide, .boxes .mainSlide, .wedding .mainSlide {
     background-size: cover;
@@ -433,12 +434,12 @@ footer {
   height: 1600px;
   min-width: 60vw;
   /*
-  ╨Я╨╡╤А╨▓╨╕╤З╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
-  ╨б ╨╜╨╕╨╝╨╕ ╤А╨░╨▒╨╛╤В╨░╨╡╤В ╤Б╨╗╨░╨╣╨┤ ╤И╨╛╤Г
+  Первичные стили:
+  С ними работает слайд шоу
   */
-  /*╨б╨┤╨╡╨╗╨░╤В╤М ╨▓╨╕╨┤╨╕╨╝╤Л╨╝, ╨┐╤А╨╛╨╖╤А╨░╤З╨╜╨╛╤Б╤В╤М=0;*/
-  /*╨Т╤В╨╛╤А╨╛╤Б╤В╨╡╨┐╨╡╨╜╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
-  ╨Т╨╜╨╡╤И╨╜╨╕╨╣ ╨▓╨╕╨┤; ╨╝╨╛╨╢╨╡╤В╨╡ ╨╕╨╖╨╝╨╡╨╜╤П╤В╤М*/ }
+  /*Сделать видимым, прозрачность=0;*/
+  /*Второстепенные стили:
+  Внешний вид; можете изменять*/ }
   .boxes #slides-box {
     height: 65vh;
     max-height: 450px;
@@ -513,7 +514,7 @@ footer {
       text-align: justify; }
 
 .wedding {
-  min-height: 1000px; }
+  min-height: 1300px; }
   .wedding .contentMainWedding {
     background: #FFFFFF url(../images/Wedding.jpg) center no-repeat;
     background-size: cover;
@@ -541,7 +542,7 @@ footer {
       color: #000; }
 
 .leftContainer, .rightContainer {
-  min-width: 320px;
+  min-width: 130px;
   display: inline-block;
   max-width: 28.8vw; }
 
@@ -581,9 +582,11 @@ footer {
     margin-left: -42vw; }
 
   .wedding {
-    min-height: 2200px; }
+    min-height: 220vh; }
 
   .navygation a {
     font-size: 0.8em; } }
+.mainMenu {
+  min-height: 155vh; }
 
 /*# sourceMappingURL=contacts.css.map */

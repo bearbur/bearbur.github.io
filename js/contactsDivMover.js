@@ -80,7 +80,7 @@ function magicMover(divSlider,divInfo,divInsta,contactsDataInfo,contactsDataForm
     console.log('laptopMain');
   }//iphone5s
   else if ((contactsParam.mainWidth>290)) {
-    divInsta.style.marginTop = '20vh';
+    divInsta.style.marginTop = '1vh';
     mainClass.style.height = (contactsParam.sliderHeight+contactsParam.infoHeight+contactsParam.instaHeight+60) + 'px';
     mainClass.style.minHeight = contactsParam.sliderHeight+2*contactsParam.instaHeight+'px';
     mainHTML5.style.height = (contactsParam.sliderHeight+contactsParam.infoHeight+contactsParam.instaHeight+60) + 'px';
