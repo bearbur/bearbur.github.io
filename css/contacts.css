@@ -314,7 +314,7 @@ footer {
     min-width: 310px;
     margin: auto;
     text-align: center;
-    padding: 2.1% 0;
+    padding: 1% 0;
     font-size: 2.2vh;
     font-weight: 100; }
     .realMain .contentAboutText p, .realMain .ourPartners p, .realMain .ourClients p, .mainMenu .contentAboutText p, .mainMenu .ourPartners p, .mainMenu .ourClients p, .boxes .contentAboutText p, .boxes .ourPartners p, .boxes .ourClients p, .wedding .contentAboutText p, .wedding .ourPartners p, .wedding .ourClients p {
@@ -342,8 +342,7 @@ footer {
       .realMain .contentAboutText .clientsList .clients:nth-of-type(3), .realMain .contentAboutText .partnersList .clients:nth-of-type(3), .realMain .ourPartners .clientsList .clients:nth-of-type(3), .realMain .ourPartners .partnersList .clients:nth-of-type(3), .realMain .ourClients .clientsList .clients:nth-of-type(3), .realMain .ourClients .partnersList .clients:nth-of-type(3), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(3), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(3), .mainMenu .ourPartners .clientsList .clients:nth-of-type(3), .mainMenu .ourPartners .partnersList .clients:nth-of-type(3), .mainMenu .ourClients .clientsList .clients:nth-of-type(3), .mainMenu .ourClients .partnersList .clients:nth-of-type(3), .boxes .contentAboutText .clientsList .clients:nth-of-type(3), .boxes .contentAboutText .partnersList .clients:nth-of-type(3), .boxes .ourPartners .clientsList .clients:nth-of-type(3), .boxes .ourPartners .partnersList .clients:nth-of-type(3), .boxes .ourClients .clientsList .clients:nth-of-type(3), .boxes .ourClients .partnersList .clients:nth-of-type(3), .wedding .contentAboutText .clientsList .clients:nth-of-type(3), .wedding .contentAboutText .partnersList .clients:nth-of-type(3), .wedding .ourPartners .clientsList .clients:nth-of-type(3), .wedding .ourPartners .partnersList .clients:nth-of-type(3), .wedding .ourClients .clientsList .clients:nth-of-type(3), .wedding .ourClients .partnersList .clients:nth-of-type(3) {
         background: #FFFFFF url(../images/clients/logo03.gif) center no-repeat;
         background-size: contain;
-        margin-left: 9vh;
-        margin-top: 16vh; }
+        margin-left: 9vh; }
       .realMain .contentAboutText .clientsList .clients:nth-of-type(4), .realMain .contentAboutText .partnersList .clients:nth-of-type(4), .realMain .ourPartners .clientsList .clients:nth-of-type(4), .realMain .ourPartners .partnersList .clients:nth-of-type(4), .realMain .ourClients .clientsList .clients:nth-of-type(4), .realMain .ourClients .partnersList .clients:nth-of-type(4), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(4), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(4), .mainMenu .ourPartners .clientsList .clients:nth-of-type(4), .mainMenu .ourPartners .partnersList .clients:nth-of-type(4), .mainMenu .ourClients .clientsList .clients:nth-of-type(4), .mainMenu .ourClients .partnersList .clients:nth-of-type(4), .boxes .contentAboutText .clientsList .clients:nth-of-type(4), .boxes .contentAboutText .partnersList .clients:nth-of-type(4), .boxes .ourPartners .clientsList .clients:nth-of-type(4), .boxes .ourPartners .partnersList .clients:nth-of-type(4), .boxes .ourClients .clientsList .clients:nth-of-type(4), .boxes .ourClients .partnersList .clients:nth-of-type(4), .wedding .contentAboutText .clientsList .clients:nth-of-type(4), .wedding .contentAboutText .partnersList .clients:nth-of-type(4), .wedding .ourPartners .clientsList .clients:nth-of-type(4), .wedding .ourPartners .partnersList .clients:nth-of-type(4), .wedding .ourClients .clientsList .clients:nth-of-type(4), .wedding .ourClients .partnersList .clients:nth-of-type(4) {
         background: #FFFFFF url(../images/clients/logo04.gif) center no-repeat;
         background-size: contain;
@@ -359,7 +358,8 @@ footer {
       .realMain .contentAboutText .clientsList .clients:nth-of-type(6), .realMain .contentAboutText .partnersList .clients:nth-of-type(6), .realMain .ourPartners .clientsList .clients:nth-of-type(6), .realMain .ourPartners .partnersList .clients:nth-of-type(6), .realMain .ourClients .clientsList .clients:nth-of-type(6), .realMain .ourClients .partnersList .clients:nth-of-type(6), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(6), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(6), .mainMenu .ourPartners .clientsList .clients:nth-of-type(6), .mainMenu .ourPartners .partnersList .clients:nth-of-type(6), .mainMenu .ourClients .clientsList .clients:nth-of-type(6), .mainMenu .ourClients .partnersList .clients:nth-of-type(6), .boxes .contentAboutText .clientsList .clients:nth-of-type(6), .boxes .contentAboutText .partnersList .clients:nth-of-type(6), .boxes .ourPartners .clientsList .clients:nth-of-type(6), .boxes .ourPartners .partnersList .clients:nth-of-type(6), .boxes .ourClients .clientsList .clients:nth-of-type(6), .boxes .ourClients .partnersList .clients:nth-of-type(6), .wedding .contentAboutText .clientsList .clients:nth-of-type(6), .wedding .contentAboutText .partnersList .clients:nth-of-type(6), .wedding .ourPartners .clientsList .clients:nth-of-type(6), .wedding .ourPartners .partnersList .clients:nth-of-type(6), .wedding .ourClients .clientsList .clients:nth-of-type(6), .wedding .ourClients .partnersList .clients:nth-of-type(6) {
         background: #FFFFFF url(../images/clients/logo06.gif) center no-repeat;
         background-size: contain;
-        margin-left: 9vh; }
+        margin-left: 9vh;
+        margin-top: 16vh; }
       .realMain .contentAboutText .clientsList .clients:nth-of-type(7), .realMain .contentAboutText .partnersList .clients:nth-of-type(7), .realMain .ourPartners .clientsList .clients:nth-of-type(7), .realMain .ourPartners .partnersList .clients:nth-of-type(7), .realMain .ourClients .clientsList .clients:nth-of-type(7), .realMain .ourClients .partnersList .clients:nth-of-type(7), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(7), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(7), .mainMenu .ourPartners .clientsList .clients:nth-of-type(7), .mainMenu .ourPartners .partnersList .clients:nth-of-type(7), .mainMenu .ourClients .clientsList .clients:nth-of-type(7), .mainMenu .ourClients .partnersList .clients:nth-of-type(7), .boxes .contentAboutText .clientsList .clients:nth-of-type(7), .boxes .contentAboutText .partnersList .clients:nth-of-type(7), .boxes .ourPartners .clientsList .clients:nth-of-type(7), .boxes .ourPartners .partnersList .clients:nth-of-type(7), .boxes .ourClients .clientsList .clients:nth-of-type(7), .boxes .ourClients .partnersList .clients:nth-of-type(7), .wedding .contentAboutText .clientsList .clients:nth-of-type(7), .wedding .contentAboutText .partnersList .clients:nth-of-type(7), .wedding .ourPartners .clientsList .clients:nth-of-type(7), .wedding .ourPartners .partnersList .clients:nth-of-type(7), .wedding .ourClients .clientsList .clients:nth-of-type(7), .wedding .ourClients .partnersList .clients:nth-of-type(7) {
         background: #FFFFFF url(../images/clients/logo07.gif) center no-repeat;
         background-size: contain;
@@ -375,6 +375,11 @@ footer {
         background-size: contain;
         margin-left: 9vh;
         margin-top: 32vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(10), .realMain .contentAboutText .partnersList .clients:nth-of-type(10), .realMain .ourPartners .clientsList .clients:nth-of-type(10), .realMain .ourPartners .partnersList .clients:nth-of-type(10), .realMain .ourClients .clientsList .clients:nth-of-type(10), .realMain .ourClients .partnersList .clients:nth-of-type(10), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(10), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(10), .mainMenu .ourPartners .clientsList .clients:nth-of-type(10), .mainMenu .ourPartners .partnersList .clients:nth-of-type(10), .mainMenu .ourClients .clientsList .clients:nth-of-type(10), .mainMenu .ourClients .partnersList .clients:nth-of-type(10), .boxes .contentAboutText .clientsList .clients:nth-of-type(10), .boxes .contentAboutText .partnersList .clients:nth-of-type(10), .boxes .ourPartners .clientsList .clients:nth-of-type(10), .boxes .ourPartners .partnersList .clients:nth-of-type(10), .boxes .ourClients .clientsList .clients:nth-of-type(10), .boxes .ourClients .partnersList .clients:nth-of-type(10), .wedding .contentAboutText .clientsList .clients:nth-of-type(10), .wedding .contentAboutText .partnersList .clients:nth-of-type(10), .wedding .ourPartners .clientsList .clients:nth-of-type(10), .wedding .ourPartners .partnersList .clients:nth-of-type(10), .wedding .ourClients .clientsList .clients:nth-of-type(10), .wedding .ourClients .partnersList .clients:nth-of-type(10) {
+        background: #FFFFFF url(../images/clients/logo10.gif) center no-repeat;
+        background-size: contain;
+        margin-left: -6vh;
+        margin-top: 48vh; }
       .realMain .contentAboutText .clientsList .clients:hover, .realMain .contentAboutText .clientsList .partners:hover, .realMain .contentAboutText .partnersList .clients:hover, .realMain .contentAboutText .partnersList .partners:hover, .realMain .ourPartners .clientsList .clients:hover, .realMain .ourPartners .clientsList .partners:hover, .realMain .ourPartners .partnersList .clients:hover, .realMain .ourPartners .partnersList .partners:hover, .realMain .ourClients .clientsList .clients:hover, .realMain .ourClients .clientsList .partners:hover, .realMain .ourClients .partnersList .clients:hover, .realMain .ourClients .partnersList .partners:hover, .mainMenu .contentAboutText .clientsList .clients:hover, .mainMenu .contentAboutText .clientsList .partners:hover, .mainMenu .contentAboutText .partnersList .clients:hover, .mainMenu .contentAboutText .partnersList .partners:hover, .mainMenu .ourPartners .clientsList .clients:hover, .mainMenu .ourPartners .clientsList .partners:hover, .mainMenu .ourPartners .partnersList .clients:hover, .mainMenu .ourPartners .partnersList .partners:hover, .mainMenu .ourClients .clientsList .clients:hover, .mainMenu .ourClients .clientsList .partners:hover, .mainMenu .ourClients .partnersList .clients:hover, .mainMenu .ourClients .partnersList .partners:hover, .boxes .contentAboutText .clientsList .clients:hover, .boxes .contentAboutText .clientsList .partners:hover, .boxes .contentAboutText .partnersList .clients:hover, .boxes .contentAboutText .partnersList .partners:hover, .boxes .ourPartners .clientsList .clients:hover, .boxes .ourPartners .clientsList .partners:hover, .boxes .ourPartners .partnersList .clients:hover, .boxes .ourPartners .partnersList .partners:hover, .boxes .ourClients .clientsList .clients:hover, .boxes .ourClients .clientsList .partners:hover, .boxes .ourClients .partnersList .clients:hover, .boxes .ourClients .partnersList .partners:hover, .wedding .contentAboutText .clientsList .clients:hover, .wedding .contentAboutText .clientsList .partners:hover, .wedding .contentAboutText .partnersList .clients:hover, .wedding .contentAboutText .partnersList .partners:hover, .wedding .ourPartners .clientsList .clients:hover, .wedding .ourPartners .clientsList .partners:hover, .wedding .ourPartners .partnersList .clients:hover, .wedding .ourPartners .partnersList .partners:hover, .wedding .ourClients .clientsList .clients:hover, .wedding .ourClients .clientsList .partners:hover, .wedding .ourClients .partnersList .clients:hover, .wedding .ourClients .partnersList .partners:hover {
         border: 0.1px solid lightgray;
         height: 12.6vh;
@@ -388,14 +393,14 @@ footer {
         margin-left: -6vh; }
   .realMain .ourClients, .mainMenu .ourClients, .boxes .ourClients, .wedding .ourClients {
     padding-top: 4em;
-    height: 65vh;
-    min-height: 300px;
-    max-height: 48vh; }
+    height: 97.5vh;
+    min-height: 450px;
+    max-height: 72vh; }
     .realMain .ourClients span, .mainMenu .ourClients span, .boxes .ourClients span, .wedding .ourClients span {
       display: inline-block;
       padding-top: 0.5em; }
   .realMain .ourPartners, .mainMenu .ourPartners, .boxes .ourPartners, .wedding .ourPartners {
-    padding-top: 12vh;
+    padding-top: 2.5vh;
     text-align: center; }
 
 .mainMenu {
@@ -588,5 +593,16 @@ footer {
     font-size: 0.8em; } }
 .mainMenu {
   min-height: 155vh; }
+
+.realMain {
+  min-height: 190vh; }
+
+@media screen and (max-width: 800px) {
+  .realMain {
+    min-height: 1300px; }
+
+  .ourPartners {
+    padding: 0;
+    margin-top: 0; } }
 
 /*# sourceMappingURL=contacts.css.map */

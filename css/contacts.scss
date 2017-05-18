@@ -402,7 +402,7 @@ footer{
       min-width: 310px;
       margin:auto;
       text-align: center;
-      padding: 2.1% 0;
+      padding: 1% 0;
       font-size: 2.2vh;
       font-weight: 100;
       p{
@@ -439,7 +439,7 @@ footer{
           background: #FFFFFF url(../images/clients/logo03.gif) center no-repeat;
                     background-size: contain;
           margin-left: (0.75)*$radiusClients;
-          margin-top: 16vh;
+
         }
         .clients:nth-of-type(4){
           background: #FFFFFF url(../images/clients/logo04.gif) center no-repeat;
@@ -459,6 +459,7 @@ footer{
           background: #FFFFFF url(../images/clients/logo06.gif) center no-repeat;
                     background-size: contain;
           margin-left: (0.75)*$radiusClients;
+                    margin-top: 16vh;
         }
         .clients:nth-of-type(7){
           background: #FFFFFF url(../images/clients/logo07.gif) center no-repeat;
@@ -477,6 +478,12 @@ footer{
                     background-size: contain;
           margin-left: (0.75)*$radiusClients;
           margin-top: 32vh;
+        }
+        .clients:nth-of-type(10){
+          background: #FFFFFF url(../images/clients/logo10.gif) center no-repeat;
+                    background-size: contain;
+          margin-left: -(0.5)*$radiusClients;
+          margin-top: 48vh;
         }
         .clients:hover, .partners:hover{
           border: 0.1px solid lightgray;
@@ -497,16 +504,16 @@ footer{
     }
     .ourClients{
       padding-top: 4em;
-      height: $heightSliderContacts;
-      min-height: 300px;
-      max-height: 4*$radiusClients;
+      height: $heightSliderContacts*(1.5);
+      min-height: 300px*(1.5);
+      max-height: 4*$radiusClients*(1.5);
       span{
         display: inline-block;
         padding-top: 0.5em;
       }
     }
     .ourPartners{
-      padding-top: 12vh;
+      padding-top: 2.5vh;
       text-align: center;
     }
 }
@@ -738,7 +745,20 @@ footer{
         font-size: 0.8em;
       }
     }
+
 }
 .mainMenu{
   min-height: 155vh;
+}
+.realMain{
+  min-height: 190vh;
+}
+@media screen and (max-width: 800px) {
+  .realMain{
+    min-height: 1300px;
+  }
+  .ourPartners{
+    padding: 0;
+    margin-top: 0;
+  }
 }

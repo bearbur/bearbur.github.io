@@ -52,11 +52,11 @@ function magicMover(divSlider,divInfo,divInsta,contactsDataInfo,contactsDataForm
     contactsDataForm.style.marginTop = -contactsParam.dataInfoHeight + 'px';
     divInfo.style.fontSize = '1em';
     divInsta.style.opacity = 0.9;
-    divInsta.style.marginTop = 100+ 'px';
+    divInsta.style.marginTop = -130+ 'px';
     divInfo.style.height = contactsParam.dataFormHeight*(0.8) + 'px';
-    mainClass.style.height = (contactsParam.mainHeight-contactsParam.dataFormHeight) +50+ 'px';
+    mainClass.style.height = (contactsParam.mainHeight-contactsParam.dataFormHeight) +70+ 'px';
     mainClass.style.minHeight = 2.2*contactsParam.instaHeight+50+'px';
-    mainHTML5.style.height = (contactsParam.mainHeight-contactsParam.dataFormHeight)+50 + 'px';
+    mainHTML5.style.height = (contactsParam.mainHeight-contactsParam.dataFormHeight)+70 + 'px';
     if (sendButton){
       sendButton.style.marginLeft = '8em';
     }
