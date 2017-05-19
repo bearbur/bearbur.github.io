@@ -751,14 +751,17 @@ footer{
   min-height: 155vh;
 }
 .realMain{
-  min-height: 190vh;
+  min-height: 200vh;
 }
 @media screen and (max-width: 800px) {
   .realMain{
-    min-height: 1300px;
+    min-height: 1500px;
   }
   .ourPartners{
     padding: 0;
     margin-top: 0;
+  }
+  .mainClass{
+    min-height: 1500px;
   }
 }
