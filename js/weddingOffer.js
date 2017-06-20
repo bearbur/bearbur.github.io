@@ -1,5 +1,59 @@
 `use strict`;
-var weddingOfferContainer = document.getElementsByClassName('weddingText')[0];
+var menuWedding = document.getElementsByClassName("weddingMenu")[0];
+var classForCards = 'offerWeddingCards';
+//Array with objects from json file.
+var offerCards = [];
+
+//Return {height: H, width: W} of element in px.
+heightAndWidth = function(element) {
+  try {
+    var parameters = {
+      height: 0,
+      width: 0
+    };
+    if (element) {
+      parameters.height = Math.max(
+      //element.scrollHeight,
+      element.offsetHeight, element.clientHeight);
+      parameters.width = Math.max(
+      //element.scrollWidth,
+      element.offsetWidth, element.clientWidth);
+    }
+    console.log(parameters);
+    return parameters;
+  } catch (e) {
+    console.log(e);
+  }
+}
+
+
+$.getJSON( "../json/weddingOffer.json", function( data ) {
+  $.each( data, function( key, val ) {
+    offerCards.push(val);
+  });
+});
+console.log(offerCards);
+
+
+//Add element from json to menu (make new div and adding that div to target (parent) div).
+//Also adding id from information at json to this new div.
+addElement = function (element , targetDiv, classElement){
+  var elementDiv = document.createElement('div');
+
+  try {
+    if(classElement) {elementDiv.className = classElement;}
+    else {elementDiv.className='';}
+  } catch (e) {
+    console.log(e);
+  } finally {
+    targetDiv.appendChild(elementDiv);
+  }
+}
+
+heightAndWidth(menuWedding);
+
+addElement(offerCards[0],menuWedding,classForCards);
+/*var weddingOfferContainer = document.getElementsByClassName('weddingText')[0];
 //function take element of DOM and draw border around
 makeBorders=function(targetDiv){
   targetDiv.style.border = "2.5px dotted black";
@@ -76,7 +130,7 @@ calculateHeightOfOffer = function(ourObject,heightOfOneRow){
 }
 
 
-/*makeDiv("JustSomeText","headWedding",weddingOfferContainer);*/
+//makeDiv("JustSomeText","headWedding",weddingOfferContainer);
 
 makeOfferForWedding = function(urlJSON, targetDiv){
 //makeBorders(targetDiv);
@@ -93,12 +147,12 @@ makeOfferForWedding = function(urlJSON, targetDiv){
           console.log("InThisCard we have some row with menu detail"+numbersObjectsInArray(data[i][tryFindArrayInObject(data[i])]));
     }
     console.log("Quantityyy of the offer cards: "+quantityOfferCards);
-    /*for(key in data){
-      var infoOffer = data[key];
-      for (key in infoOffer){
-        console.log(infoOffer[key]);
-      }
-    }*/
+    //for(key in data){
+      //var infoOffer = data[key];
+      //for (key in infoOffer){
+        //console.log(infoOffer[key]);
+      //}
+    //}
    });
   })();
 }
@@ -107,3 +161,4 @@ makeOfferForWedding = function(urlJSON, targetDiv){
 console.log(findParametersOfElement(weddingOfferContainer));
 
 makeOfferForWedding("../json/weddingOffer.json",weddingOfferContainer);
+*/

@@ -52,11 +52,11 @@ function magicMover(divSlider,divInfo,divInsta,contactsDataInfo,contactsDataForm
     contactsDataForm.style.marginTop = -contactsParam.dataInfoHeight + 'px';
     divInfo.style.fontSize = '1em';
     divInsta.style.opacity = 0.9;
-    divInsta.style.marginTop = -130+ 'px';
+    divInsta.style.marginTop = 30+ 'px';
     divInfo.style.height = contactsParam.dataFormHeight*(0.8) + 'px';
-    mainClass.style.height = (contactsParam.mainHeight-contactsParam.dataFormHeight) +70+ 'px';
+    mainClass.style.height = (contactsParam.mainHeight-contactsParam.dataFormHeight) +250+ 'px';
     mainClass.style.minHeight = 2.2*contactsParam.instaHeight+50+'px';
-    mainHTML5.style.height = (contactsParam.mainHeight-contactsParam.dataFormHeight)+70 + 'px';
+    mainHTML5.style.height = (contactsParam.mainHeight-contactsParam.dataFormHeight)+250 + 'px';
     if (sendButton){
       sendButton.style.marginLeft = '8em';
     }
@@ -71,19 +71,19 @@ function magicMover(divSlider,divInfo,divInsta,contactsDataInfo,contactsDataForm
     divInsta.style.opacity = 0.9;
     divInfo.style.height = contactsParam.instaHeight + 'px';
     divInfo.style.fontSize = '1.1em';
-    mainClass.style.height = (contactsParam.mainHeight-contactsParam.instaHeight) + 'px';
+    mainClass.style.height = (contactsParam.mainHeight-contactsParam.instaHeight)+ 170 + 'px';
     mainClass.style.minHeight = 2.2*contactsParam.instaHeight+'px';
-    mainHTML5.style.height = (contactsParam.mainHeight-contactsParam.instaHeight) + 'px';
+    mainHTML5.style.height = (contactsParam.mainHeight-contactsParam.instaHeight) + 170 + 'px';
     if (sendButton){
       sendButton.style.marginLeft = '7.5em';
     }
     console.log('laptopMain');
   }//iphone5s
   else if ((contactsParam.mainWidth>290)) {
-    divInsta.style.marginTop = '1vh';
-    mainClass.style.height = (contactsParam.sliderHeight+contactsParam.infoHeight+contactsParam.instaHeight+60) + 'px';
+    divInsta.style.marginTop = '12vh';
+    mainClass.style.height = (contactsParam.sliderHeight+contactsParam.infoHeight+contactsParam.instaHeight+200) + 'px';
     mainClass.style.minHeight = contactsParam.sliderHeight+2*contactsParam.instaHeight+'px';
-    mainHTML5.style.height = (contactsParam.sliderHeight+contactsParam.infoHeight+contactsParam.instaHeight+60) + 'px';
+    mainHTML5.style.height = (contactsParam.sliderHeight+contactsParam.infoHeight+contactsParam.instaHeight+200) + 'px';
     if(someLabelSS.length>=0){
       for (var i=0;i<someLabelSS.length;i++){
         someLabelSS[i].style.textAlign = 'center';
@@ -91,6 +91,7 @@ function magicMover(divSlider,divInfo,divInsta,contactsDataInfo,contactsDataForm
     }
     console.log('iphone');
   }
+
   else{
     console.log('nothing');
   }

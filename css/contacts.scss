@@ -46,6 +46,7 @@ html {
   .contactsSlide{
     background: #FFFFFF url(../images/Contacts.jpg)center no-repeat;
     background-size: cover;
+    background-position: center 90%;
     height: $heightSliderContacts;
     max-height: (1.5)*$minHeightInsta;
     min-width: 60%;
@@ -288,7 +289,7 @@ footer{
 //index slide
 .realMain,.mainMenu, .boxes, .wedding{
     height: (2.3)*$heightSliderContacts;
-    min-height: 1200px;
+    min-height: 1000px;
     //Main slide
     .mainSlide{
       background-size: cover;
@@ -364,6 +365,14 @@ footer{
     }
     .slide:nth-of-type(5) {
         background: #FFFFFF url(../images/05.JPG) center no-repeat;
+            background-size: cover;
+    }
+    .slide:nth-of-type(6) {
+        background: #FFFFFF url(../images/06.JPG) center no-repeat;
+            background-size: cover;
+    }
+    .slide:nth-of-type(7) {
+        background: #FFFFFF url(../images/07.JPG) center no-repeat;
             background-size: cover;
     }
     .controls,button{
@@ -519,11 +528,12 @@ footer{
 }
 //mainMenu
 .mainMenu{
-  max-height: (1.8)*$heightSliderContacts;
+  max-height: (1.2)*$heightSliderContacts;
   min-height: 450px;
-  height: 1200px;
+  height: 1000px;
   .contentMainMenu{
     background: #FFFFFF url(../images/Menu.jpg)center no-repeat;
+    background-position: center 75%;
     background-size: cover;
     height: $heightSliderContacts;
     max-height: (1.5)*$minHeightInsta;
@@ -555,9 +565,9 @@ footer{
 }
 //boxes
 .boxes {
-  max-height: (2.3)*$heightSliderContacts;
-  min-height: 450px;
-  height: 1600px;
+  max-height: (2.5)*$heightSliderContacts;
+  min-height: 550px;
+  height: 1350px;
   min-width: $widthSlideContacts;
   /*
   Первичные стили:
@@ -617,11 +627,19 @@ footer{
       background: #FFFFFF url(../images/box/04.JPG) center no-repeat;
           background-size: cover;
   }
+  .slide-box:nth-of-type(5) {
+      background: #FFFFFF url(../images/box/05.JPG) center no-repeat;
+          background-size: cover;
+  }
+  .slide-box:nth-of-type(6) {
+      background: #FFFFFF url(../images/box/06.JPG) center no-repeat;
+          background-size: cover;
+  }
   .slider-photo-box ul{
     margin: auto;
   }
   .boxesDownload{
-  padding-top: 2em;
+//  padding-top: 2em;
     min-width: 60%;
     max-width: 80vw;
     margin: $marginAuto;
@@ -653,12 +671,15 @@ footer{
     }
   }
 }
-
+    @import url('https://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic');
 .wedding{
-  min-height: 1300px;
+
+    height: 300vh;
+    margin-top: $mainMarginTop;
   .contentMainWedding{
-    background: #FFFFFF url(../images/Wedding.jpg) center no-repeat;
-    background-size: cover;
+    background: #ccc url(../images/Wedding.jpg) center no-repeat;
+    background-size: /*100% 100% */  cover;
+    background-position: center bottom;
     height: $heightSliderContacts;
     max-height: (1.5)*$minHeightInsta;
     min-width: 60%;
@@ -669,99 +690,767 @@ footer{
   .weddingText{
     min-width:  100%;
   }
-  .contentAboutTextLinkWedding{
+  .leftContainer, .rightContainer{
+      min-width: 30vw;
+    //  display: inline-block;
+    //  max-width: $widthSlideContacts*(0.5);
+  }
+  .weddingInfo{
+    min-width: 60vw;
+      display: block;
+      margin: auto;
+      min-height: 10vh;
+      max-width: 80vw;
+    //  max-width: $widthSlideContacts*(0.6);
+      .infoWeddingText{
+        text-align: justify;
+        padding-bottom: 3em;
+      }
+  }
+  .leftContainer, .rightContainer{
+    position: absolute;
+    //  margin-left: -$widthSlideContacts*(0.5);
+  }
+  /*.rightContainer  {
+    margin-left: 5px;
+  }*/
+  .cardsOffer{
+    border: 0.125em dotted black;
+    padding-left: 1em;
+    padding-right: 1em;
+    //min-width: 10vw;
+    min-width: 30vw;
+    margin-top: 0.25em;
+  }
+  .smallWeddingTab{
+    //border:  0.125em dotted black;
+    min-width: 30vw;
+    display: inline-block;
+    //width: $widthSlideContacts;
+    min-height: 20em;
+    //max-width: $widthSlideContacts*(1);
+  }
+  .BigWeddingTab{
+      //border:  0.125em dotted black;
+      min-width: 30vw;
+      display: inline-block;
+      //width: $widthSlideContacts;
+      min-height: 20em;
+      //max-width: $widthSlideContacts*(1);
+    }
+  .headWedding{
+    span{
+      font-family: 'Marck Script', cursive;
+      font-weight: bold;
+    }
+  }
+  .dishTitle{
+    font-size: 0.7em;
+    min-height: 1em;
+  }
+  .dishDetail{
+    font-size: 0.4em;
+    min-height: 1em;
+  }
+  .priceOfDishes{
+    min-height: 1em;
+  }
+  .smallSpan{
+    font-size: 0.95em !important;
+  }
+  .leftContainerSmall, .rightContainerSmall{
+    margin-top: -2em;
+    min-width: 30vw;
+    //display: inline-block;
+    //max-width: $widthSlideContacts*(0.5);
+    position: absolute;
+    margin-top: 10px;
+  }
+  /*.leftContainerSmall{
+  //  margin-left: -$widthSlideContacts*(0.5);
+  }
+  .rightContainerSmall{
+    margin-left: 5px;
+  }*/
+  .contentAboutTextHeader{
+    margin-top: 100vh;
+    font-size: 1.2em !important;
+  }
+  /*.contentAboutTextLinkWedding{
+    margin-top: 400px;
+    font-size: 1.5em;
+  }*/
+
+
+  /*  .contentAboutTextLinkWedding{
   //  padding-top:50px;
     min-width: 200px;
     max-width: 100%;
-    margin: $marginAuto;
+    margin-left: $marginAuto;
+    margin-right: $marginAuto;
     height: (1/8)*$heightSliderContacts;
     min-height: 2em;
     max-height: 10vh;
     letter-spacing: 0.1em;
     text-align:center;
-    font-weight: bolder;
+
     vertical-align: text-top;
     a{
-      font-size: 2vh;
+      font-size: 1.1em;
+        font-weight: 400;
       color: #000;
     }
-  }
+  }*/
 }
 //offerPart
-@import url('https://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic');
-.leftContainer, .rightContainer{
-//  max-width: 2*$widthSlideContacts;
-  min-width: 130px;
-    display: inline-block;
-    max-width: $widthSlideContacts*(0.48);
-}
-.leftContainer{
 
-  position: absolute;
-  margin-left: -$widthSlideContacts*(0.49);
-}
-.rightContainer{
-
-  position: absolute;
-  margin-left: $widthSlideContacts*(0.01);
-}
-.cardsOffer{
-  border: 0.125em dotted black;
-  //max-height: 100vh;
-  //max-width: $widthSlideContacts*(0.5);
-  padding-left: 1em;
-  padding-right: 1em;
-}
-.cardsOffer:nth-of-type(2){
-  margin-top: 1em;
-}
-.headWedding{
-  span{
-    font-family: 'Marck Script', cursive;
-    font-weight: bold;
-  }
-}
-.dishTitle{
-  font-size: 0.7em;
-  min-height: 1em;
-}
-.dishDetail{
-  font-size: 0.4em;
-  min-height: 1em;
-}
-.priceOfDishes{
-  min-height: 1em;
-}
-@media screen and (max-width: 800px) {
-    .leftContainer{
-  margin-left: -$widthSlideContacts*(0.7);
-    }
-    .wedding{
-      min-height: 220vh;
-    }
-
-    .navygation{
-      a{
-        font-size: 0.8em;
-      }
-    }
-
-}
+///////////////////
 .mainMenu{
-  min-height: 155vh;
+  max-height: 150vh;
 }
 .realMain{
-  min-height: 200vh;
+  min-height: 215vh;
 }
-@media screen and (max-width: 800px) {
+
+//small smartphone
+@media all and (min-width: 280px) and (max-width:600px) and (min-height: 450px) and (max-height:740px){
+//  body{color:red}
+  .wedding{
+    .BigWeddingTab,.smallWeddingTab{
+      display: block;
+    }
+    height: 420vh;
+    .BigWeddingTab{
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute;
+
+
+      .leftContainer, .rightContainer{
+        max-height: 100vh;
+        height: 100vh;
+        overflow-y: scroll;
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block;
+        .cardsOffer{
+          min-width: 75vw;
+          max-width: 75vw;
+          margin-left: 0vw;
+        }
+      }
+      .rightContainer{
+        margin-top: 105vh;
+      }
+
+    }
+
+    .contentAboutTextHeader{
+      margin-top: 215vh;
+    }
+    .smallWeddingTab{
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute;
+
+      .leftContainerSmall,.rightContainerSmall{
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block;
+        .cardsOffer{
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 75vw;
+          max-width: 75vw;
+          //margin-left: 15vw;
+        }
+      }
+      .rightContainerSmall{
+        margin-top: 27em;
+      }
+    }
+  }
+}
+//big smartphone
+@media all and (min-width: 600px) and (max-width:900px) and (min-height: 737px) and (max-height:1440px){
+//  body{color:orange}
+  .wedding{
+    height: 420vh;
+    .BigWeddingTab{
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute;
+
+
+      .leftContainer, .rightContainer{
+        max-height: 100vh;
+        height: 100vh;
+        overflow-y: scroll;
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block;
+        .cardsOffer{
+          min-width: 75vw;
+          max-width: 75vw;
+          margin-left: 0vw;
+        }
+      }
+      .rightContainer{
+        margin-top: 105vh;
+      }
+
+    }
+
+    .contentAboutTextHeader{
+      margin-top: 215vh;
+    }
+    .smallWeddingTab{
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute;
+
+      .leftContainerSmall,.rightContainerSmall{
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block;
+        .cardsOffer{
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 75vw;
+          max-width: 75vw;
+          //margin-left: 15vw;
+        }
+      }
+      .rightContainerSmall{
+        margin-top: 27em;
+      }
+    }
+  }
+}
+//giant smartphone
+@media all and (min-width: 900px) and (max-width:1100px) and (min-height: 1001px) and (max-height:1920px){
+//  body{color:yellow}
+  .wedding{
+    height: 400vh;
+    .BigWeddingTab{
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute;
+
+
+      .leftContainer, .rightContainer{
+        max-height: 100vh;
+        height: 100vh;
+        overflow-y: scroll;
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block;
+        .cardsOffer{
+          min-width: 75vw;
+          max-width: 75vw;
+          margin-left: 0vw;
+        }
+      }
+      .rightContainer{
+        margin-top: 105vh;
+      }
+
+    }
+
+    .contentAboutTextHeader{
+      margin-top: 215vh;
+    }
+    .smallWeddingTab{
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute;
+
+      .leftContainerSmall,.rightContainerSmall{
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block;
+        .cardsOffer{
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 75vw;
+          max-width: 75vw;
+          //margin-left: 15vw;
+        }
+      }
+      .rightContainerSmall{
+        margin-top: 27em;
+      }
+    }
+  }
+}
+@media all and (min-width: 800px) and (max-width:1280px) and (min-height: 600px) and (max-height:900px){
+//  body{color:blue}
+  .wedding{
+    height: 350vh;
+    .weddingInfo{
+      max-width: 60vw;
+    }
+    .BigWeddingTab{
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: scroll;
+      min-width: 60vw;
+      max-width: 60vw;
+      margin-left: 20vw;
+      display: block;
+      position: absolute;
+      .leftContainer, .rightContainer{
+        max-height: 100vh;
+        height: 100vh;
+      //  overflow-y: scroll;
+        min-width: 28vw;
+        max-width: 28vw;
+        margin-left: 0vw;
+        display: inline-block;
+        .cardsOffer{
+          min-width: 28vw;
+          max-width: 28vw;
+          margin-left: 0vw;
+        }
+      }
+      .leftContainer{
+        margin-left: -29vw;
+      }
+      .rightContainer{
+        margin-left: 1vw;
+      //  margin-top: 105vh;
+      }
+
+    }
+    .contentAboutTextHeader{
+      margin-top: 160vh;
+    }
+    .smallWeddingTab{
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: scroll;
+      min-width: 60vw;
+      max-width: 60vw;
+      margin-left: 20vw;
+      display: block;
+      position: absolute;
+
+      .leftContainerSmall,.rightContainerSmall{
+        min-width: 28vw;
+        max-width: 28vw;
+        margin-left: 0vw;
+        display: inline-block;
+        .cardsOffer{
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 28vw;
+          max-width: 28vw;
+          //margin-left: 15vw;
+        }
+      }
+      .leftContainerSmall{
+        margin-left: -29vw;
+      }
+      .rightContainerSmall{
+        margin-left: 1vw;
+        //margin-top: 27em;
+      }
+    }
+  }
+}
+@media all and (min-width: 1280px) and (max-width:1600px) and (min-height: 900px) and (max-height:1080px){
+  //  body{color:purple}
+  .wedding{
+    height: 320vh;
+    .weddingInfo{
+      max-width: 60vw;
+    }
+    .BigWeddingTab{
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: scroll;
+      min-width: 60vw;
+      max-width: 60vw;
+      margin-left: 20vw;
+      display: block;
+      position: absolute;
+      .leftContainer, .rightContainer{
+        max-height: 100vh;
+        height: 100vh;
+      //  overflow-y: scroll;
+        min-width: 28vw;
+        max-width: 28vw;
+        margin-left: 0vw;
+        display: inline-block;
+        .cardsOffer{
+          min-width: 28vw;
+          max-width: 28vw;
+          margin-left: 0vw;
+        }
+      }
+      .leftContainer{
+        margin-left: -29vw;
+      }
+      .rightContainer{
+        margin-left: 1vw;
+      //  margin-top: 105vh;
+      }
+
+    }
+    .contentAboutTextHeader{
+      margin-top: 160vh;
+    }
+    .smallWeddingTab{
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: scroll;
+      min-width: 60vw;
+      max-width: 60vw;
+      margin-left: 20vw;
+      display: block;
+      position: absolute;
+
+      .leftContainerSmall,.rightContainerSmall{
+        min-width: 28vw;
+        max-width: 28vw;
+        margin-left: 0vw;
+        display: inline-block;
+        .cardsOffer{
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 28vw;
+          max-width: 28vw;
+          //margin-left: 15vw;
+        }
+      }
+      .leftContainerSmall{
+        margin-left: -29vw;
+      }
+      .rightContainerSmall{
+        margin-left: 1vw;
+        //margin-top: 27em;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 1440px) and (max-width:5000px) and (min-height: 600px) and (max-height:5000px){
+//  body{color:brown}
+  .wedding{
+    height: 310vh;
+    .weddingInfo{
+      max-width: 60vw;
+    }
+    .BigWeddingTab{
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: scroll;
+      min-width: 60vw;
+      max-width: 60vw;
+      margin-left: 20vw;
+      display: block;
+      position: absolute;
+      .leftContainer, .rightContainer{
+        max-height: 100vh;
+        height: 100vh;
+      //  overflow-y: scroll;
+        min-width: 28vw;
+        max-width: 28vw;
+        margin-left: 0vw;
+        display: inline-block;
+        .cardsOffer{
+          min-width: 28vw;
+          max-width: 28vw;
+          margin-left: 0vw;
+        }
+      }
+      .leftContainer{
+        margin-left: -29vw;
+      }
+      .rightContainer{
+        margin-left: 1vw;
+      //  margin-top: 105vh;
+      }
+
+    }
+    .contentAboutTextHeader{
+      margin-top: 140vh;
+    }
+    .smallWeddingTab{
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: scroll;
+      min-width: 60vw;
+      max-width: 60vw;
+      margin-left: 20vw;
+      display: block;
+      position: absolute;
+
+      .leftContainerSmall,.rightContainerSmall{
+        min-width: 28vw;
+        max-width: 28vw;
+        margin-left: 0vw;
+        display: inline-block;
+        .cardsOffer{
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 28vw;
+          max-width: 28vw;
+          //margin-left: 15vw;
+        }
+      }
+      .leftContainerSmall{
+        margin-left: -29vw;
+      }
+      .rightContainerSmall{
+        margin-left: 1vw;
+        //margin-top: 27em;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-height: 800px) and (max-width: 500px){
+  .contentMainWedding, .contentMainMenu, .mainSlide {
+    max-height: 250px !important;
+  }
+  .mainClass .contactsSlide {
+    max-height: 250px !important;
+  }
+}
+//iphone_5
+@media all and (max-height: 666px) and (max-width: 376px){
+  .mainMenu{
+    max-height: 1000px;
+  }
+  .mainClass{
+    max-height: 775px;
+  }
+  .realMain{
+    min-height: 1300px;
+  }
+  header, .navygation{
+    min-width: 300px;
+  }
+  .boxes{
+    min-height: 900px;
+  }
+
+}
+//iphone_6
+@media all and (min-width:375px) and (min-height:667px) and (max-height: 700px) and (max-width: 400px){
+  .mainMenu{
+    max-height: 1100px;
+  }
+  .mainClass{
+    max-height: 850px;
+  }
+  .realMain{
+    min-height: 1450px;
+  }
+  header, .navygation{
+    min-width: 350px;
+  }
+  .boxes{
+    min-height: 1050px;
+  }
+
+}
+//iphone_plus
+@media all and (min-height: 701px) and (max-height: 850px) and (min-width: 400px) and (max-width: 500px){
+  .mainMenu{
+    height: (1.1)*$heightSliderContacts;
+    min-height: 950px;
+  }
+  .mainClass{
+    max-height: 800px;
+  }
   .realMain{
     min-height: 1500px;
   }
-  .ourPartners{
-    padding: 0;
-    margin-top: 0;
+  header, .navygation{
+    min-width: 390px;
+  }
+  .boxes{
+    min-height: 1100px;
+  }
+
+}
+//iphone_plus7
+@media all and (min-width: 620px) and (max-width: 820px) and (min-height: 1180px) and (max-height: 1380px) {
+  .mainMenu{
+    height: (1.1)*$heightSliderContacts;
+    min-height: 100vh;
   }
   .mainClass{
+    max-height: 800px;
+  }
+  .realMain{
+    min-height: 180vh;
+  }
+  header, .navygation{
+    min-width: 680px;
+  }
+  .boxes{
+    min-height: 115vh;
+  }
+
+}
+//laptop_full
+@media all and (min-height: 1000px) and (min-width: 1441px) {
+  .realMain{
+    min-height: 1900px;
+  }
+  .mainMenu{
+    min-height: 1100px;
+  }
+  .boxes{
+    min-height: 1200px;
+  }
+
+}
+
+//laptop_small
+@media  all and (min-width: 1025px)and(max-width: 1440px)  and (min-height: 600px) and(max-height: 1000px) {
+  .realMain{
     min-height: 1500px;
   }
+  .mainMenu{
+    min-height: 900px;
+    height: 900px;
+  }
+  .boxes{
+    min-height: 1100px;
+  }
+
+}
+@media all and (min-width: 1000px) and (max-width: 1200px) and (min-height: 1300px) and  (max-height: 1400px){
+  .realMain{
+    height: 2200px;
+  }
+  .mainMenu{
+    height: 1400px;
+  }
+  .boxes{
+    height: 1600px;
+  }
+
+}
+//ipad
+@media  all and (min-width: 700px) and (max-width: 900px) and  (min-height: 1000px)and (max-height: 1200px){
+  .realMain{
+  min-height: 1600px;
+  }
+  .mainMenu{
+    height: 1100px;
+  }
+  .boxes{
+    height: 1200px;
+    .contentAboutTextLink{
+      padding-top: 0;
+    }
+  }
+
+}
+//ipadmini
+@media all and (min-width: 1000px) and (max-width: 1100px) and (min-height: 700px) and (max-height: 800px){
+  .realMain{
+  min-height: 1600px;
+  }
+  .mainMenu{
+    height: 1100px;
+  }
+  .boxes{
+    height: 1200px;
+    .contentAboutTextLink{
+      padding-top: 0;
+    }
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 768px) and (min-height: 769px) and (max-height: 1300px)  {
+  header,.navygation{
+    min-width: 85vw!important;
+  }
+
+}
+@media all and (min-width: 300px) and (max-width: 1300px) and (min-height: 600px) and (max-height: 768px)  {
+    header,.navygation{
+      min-width: 85vw!important;
+    }
+
 }
