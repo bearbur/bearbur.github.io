@@ -1,0 +1,184 @@
+.weatherWrapper {
+    min-width: 350px;
+    min-height: 850px;
+
+    max-width: 90%;
+    max-height: 800px;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+}
+
+.cityCardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    min-width: 49%;
+    max-width: 49%;
+
+    min-height: 150px;
+}
+
+.cityCard {
+    display: grid;
+    width: 100%;
+    min-height: 150px;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 50% 15% 20% 10%;
+
+    border-radius: 5px;
+
+    padding: 2px;
+
+    user-select: none;
+
+    cursor: pointer;
+}
+
+.cityCard:hover {
+    background: rgba(1, 1, 1, 0.1);
+}
+
+.weatherIcon {
+    min-height: 50px;
+
+    width: 100%;
+    height: max-content;
+    max-height: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    align-self: center;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 1;
+}
+
+.weatherIcon {
+    height: auto;
+    width: 75px;
+}
+
+.locationLabel {
+    font-size: 0.75rem;
+
+    width: 100%;
+    height: max-content;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    font-weight: 600;
+}
+
+.locationLabelMain {
+    font-size: 0.6rem;
+
+    font-weight: 200;
+}
+
+.weatherDataRow {
+    grid-row: 3;
+    justify-self: center;
+
+    font-size: 1.1rem;
+}
+
+.locationTemperature {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.locationWind {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-items: center;
+
+    width: 100%;
+}
+
+.windDirection {
+    font-size: 0.5rem;
+}
+
+.locationPressure {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.weatherDataRowLabels {
+    grid-row: 4;
+    justify-self: center;
+
+    font-size: 0.5rem;
+}
+
+.loadError {
+    color: red;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+    .weatherWrapper {
+        min-width: 99vw;
+        min-height: 99vh;
+    }
+
+    .cityCardWrapper {
+        min-height: 17vh;
+        min-width: 44vw;
+    }
+
+    .cityCard {
+        width: 100%;
+        min-height: 17vh;
+    }
+
+    .weatherIcon {
+        min-height: 12vh;
+    }
+
+    .locationLabel {
+        font-size: 1.5rem;
+    }
+    .locationLabelMain {
+        font-size: 1rem;
+    }
+    .windDirection {
+        font-size: 1rem;
+    }
+
+    .weatherDataRowLabels {
+        font-size: 1rem;
+    }
+
+    .weatherDataRow {
+        font-size: 1.5rem;
+    }
+}

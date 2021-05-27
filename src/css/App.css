@@ -1,0 +1,20 @@
+body {
+    background-color: rgba(1, 1, 1, 0.1);
+    font-family: 'JetBrains Mono Light', sans-serif;
+}
+
+.containerWeatherWidget {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .containerWeatherWidget {
+        width: 100vw;
+        height: 100vh;
+    }
+}
