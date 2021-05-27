@@ -1,0 +1,10 @@
+/*@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,cyrillic-ext,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic&subset=cyrillic,cyrillic-ext,latin-ext);*/
+@font-face {
+font-family: Adam;
+src: url(../fonts/Adam.otf) format("opentype");
+}
+@font-face {
+font-family: Futura;
+src: url(../fonts/FuturaOrtoLtLight.ttf) format("truetype");
+}

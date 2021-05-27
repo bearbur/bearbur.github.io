@@ -1,0 +1,1511 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic");
+html {
+  position: relative;
+  min-height: 100%; }
+
+/*.container {
+  height: 0em;
+  padding-bottom: 0*$heightFooter;
+}*/
+.mainClass {
+  margin-top: 5vh;
+  height: 165vh;
+  min-height: 1200px;
+  width: 100%; }
+  .mainClass .contactsSlide {
+    background: #FFFFFF url(../images/Contacts.jpg) center no-repeat;
+    background-size: cover;
+    background-position: center 90%;
+    height: 65vh;
+    max-height: 450px;
+    min-width: 60%;
+    max-width: 45em;
+    margin: auto;
+    position: relative; }
+  .mainClass .contactsData {
+    width: 30vh;
+    min-width: 300px;
+    margin: auto;
+    min-height: 100px;
+    height: 66vh;
+    max-height: 40%;
+    font-size: 2.025vh; }
+  .mainClass .contactsInstagram {
+    width: 30vh;
+    min-width: 300px;
+    margin: auto;
+    min-height: 300px;
+    height: 47.5vh;
+    max-height: 40%;
+    font-size: 2.025vh;
+    padding-top: 3.95833vh; }
+  .mainClass .contactsDataInfo {
+    width: 30vh;
+    padding-top: 3.95833vh;
+    height: 30vh;
+    min-width: 300px; }
+  .mainClass .contactsDataForm {
+    width: 30vh;
+    padding-top: 3.95833vh;
+    height: 36vh;
+    min-width: 300px; }
+  .mainClass .MessageToUs {
+    margin-top: 1em; }
+  .mainClass .contactsData {
+    text-align: center;
+    color: #000;
+    text-decoration: none; }
+    .mainClass .contactsData a {
+      color: black; }
+    .mainClass .contactsData ul, .mainClass .contactsData li {
+      padding-top: 0.25em;
+      padding-bottom: 0.25em;
+      margin: auto;
+      padding-left: 0;
+      list-style: none; }
+    .mainClass .contactsData span {
+      font-weight: lighter;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      letter-spacing: 0.2em;
+      font-size: 1.21em; }
+    .mainClass .contactsData .someLabel {
+      width: 15vh;
+      margin: auto;
+      font-weight: lighter;
+      text-align: left;
+      padding-top: 0.25em;
+      padding-bottom: 0.25em;
+      letter-spacing: 0.1em; }
+    .mainClass .contactsData .someInput {
+      width: 10em;
+      height: 1.5em;
+      text-align: center;
+      padding: 2px;
+      border: 1px solid lightgray;
+      vertical-align: middle; }
+    .mainClass .contactsData .Mes {
+      height: 4.5em; }
+    .mainClass .contactsData .Tel {
+      font-size: 1.21em; }
+    .mainClass .contactsData .sendButton {
+      margin-top: 5px;
+      margin-left: auto;
+      border: none;
+      border-radius: 1px;
+      background: lightgray;
+      padding: 1px;
+      height: 1.5em;
+      min-width: 10em; }
+  .mainClass .contactsInstagram {
+    text-align: center;
+    margin: auto; }
+    .mainClass .contactsInstagram .instaTitle {
+      height: 2.2em;
+      margin: auto;
+      width: 30vh;
+      min-width: 320px; }
+      .mainClass .contactsInstagram .instaTitle .instaTitle1, .mainClass .contactsInstagram .instaTitle .instaTitle2 {
+        min-width: 50px; }
+      .mainClass .contactsInstagram .instaTitle .instaTitle1 {
+        padding-top: 0px;
+        text-align: center;
+        margin-left: 0.1em;
+        font-size: 1em;
+        width: 9vh;
+        max-width: 70px; }
+      .mainClass .contactsInstagram .instaTitle .instaTitle2 {
+        margin-left: 9vh;
+        margin-top: -2.5em;
+        text-align: left;
+        font-size: 1em; }
+        .mainClass .contactsInstagram .instaTitle .instaTitle2 a:nth-of-type(2) {
+          font-size: 0.9em; }
+      .mainClass .contactsInstagram .instaTitle a {
+        font-weight: lighter;
+        letter-spacing: 0.2em;
+        color: #000; }
+    .mainClass .contactsInstagram #containerInstagram {
+      height: 47.5vh;
+      width: 30vh;
+      min-width: 300px;
+      min-height: 300px;
+      margin: auto;
+      text-align: center;
+      margin-top: 1em; }
+    .mainClass .contactsInstagram .il-photo__img {
+      height: 10vh;
+      width: 10vh;
+      min-height: 100px;
+      min-width: 100px;
+      padding: 5px;
+      border: 1px solid white; }
+    .mainClass .contactsInstagram #containerInstagram a {
+      font-size: 0;
+      padding-bottom: 0; }
+    .mainClass .contactsInstagram .instagram-lite {
+      min-width: 300px;
+      min-height: 300px;
+      padding-left: 0;
+      width: 30vh; }
+
+body {
+  min-width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  /* ╨Ю╤В╤Б╤В╤Г╨┐ ╤Б╨╗╨╡╨▓╨░ ╨▓ ╨▒╤А╨░╤Г╨╖╨╡╤А╨╡ IE ╨╕ Opera */
+  margin-bottom: 0;
+  padding-left: 0;
+  /* ╨Ю╤В╤Б╤В╤Г╨┐ ╤Б╨╗╨╡╨▓╨░ ╨▓ ╨▒╤А╨░╤Г╨╖╨╡╤А╨╡ Firefox, Safari, Chrome */
+  padding-bottom: 0;
+  height: 100%;
+  color: #000;
+  margin: auto;
+  font-family: Futura, sans-serif;
+  width: 60vw;
+  color: #000; }
+
+header {
+  margin-top: 0;
+  width: 80vw;
+  height: 18vh;
+  margin: auto;
+  padding-top: 2.57143vh;
+  text-align: center; }
+  header .navygation {
+    font-size: 2.205vh;
+    font-family: Futura;
+    letter-spacing: 0.0135vh;
+    width: 80vw;
+    padding-top: 2.57143vh; }
+  header h1, header h2 {
+    font-family: Adam;
+    font-stretch: ultra-condensed;
+    line-height: 1em; }
+  header h1, header h2, header nav {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #000; }
+  header a {
+    color: #000; }
+  header h1 {
+    font-size: 9vh;
+    font-weight: bolder; }
+  header h2 {
+    font-size: 4.5vh;
+    margin-top: -0.3em;
+    font-weight: bold; }
+  header a:hover {
+    color: #000; }
+
+footer {
+  position: absolute;
+  font-size: 2vh;
+  font-family: Futura;
+  height: 10vh;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  bottom: 0; }
+  footer .copyRight {
+    height: 4vh;
+    margin-top: 0vh;
+    font-size: 0.5em;
+    background: lightgray; }
+    footer .copyRight p {
+      padding: 0;
+      margin: 0; }
+  footer .socialMediaButtons {
+    height: 10vh; }
+
+.realMain, .mainMenu, .boxes, .wedding {
+  height: 149.5vh;
+  min-height: 1000px;
+  /*
+  ╨Я╨╡╤А╨▓╨╕╤З╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
+  ╨б ╨╜╨╕╨╝╨╕ ╤А╨░╨▒╨╛╤В╨░╨╡╤В ╤Б╨╗╨░╨╣╨┤ ╤И╨╛╤Г
+  */
+  /*╨б╨┤╨╡╨╗╨░╤В╤М ╨▓╨╕╨┤╨╕╨╝╤Л╨╝, ╨┐╤А╨╛╨╖╤А╨░╤З╨╜╨╛╤Б╤В╤М=0;*/
+  /*
+  ╨Т╤В╨╛╤А╨╛╤Б╤В╨╡╨┐╨╡╨╜╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
+  ╨Т╨╜╨╡╤И╨╜╨╕╨╣ ╨▓╨╕╨┤; ╨╝╨╛╨╢╨╡╤В╨╡ ╨╕╨╖╨╝╨╡╨╜╤П╤В╤М
+  */ }
+  .realMain .mainSlide, .mainMenu .mainSlide, .boxes .mainSlide, .wedding .mainSlide {
+    background-size: cover;
+    height: 65vh;
+    max-height: 450px;
+    min-width: 60%;
+    max-width: 45em;
+    margin: auto;
+    position: relative; }
+  .realMain #slides, .mainMenu #slides, .boxes #slides, .wedding #slides {
+    height: 65vh;
+    max-height: 450px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 45em;
+    /*padding: 0px;
+    margin: 0px;
+    list-style-type: none;*/ }
+  .realMain .slide, .mainMenu .slide, .boxes .slide, .wedding .slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 65vh;
+    max-height: 450px;
+    min-width: 100%;
+    max-width: 45em;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s; }
+  .realMain .showing, .mainMenu .showing, .boxes .showing, .wedding .showing {
+    opacity: 1;
+    z-index: 2; }
+  .realMain .slide, .mainMenu .slide, .boxes .slide, .wedding .slide {
+    font-size: 1em;
+    padding: 0;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+    height: 100%; }
+  .realMain .slide:nth-of-type(1), .mainMenu .slide:nth-of-type(1), .boxes .slide:nth-of-type(1), .wedding .slide:nth-of-type(1) {
+    background: #FFFFFF url(../images/01.JPG) center no-repeat;
+    background-size: cover; }
+  .realMain .slide:nth-of-type(2), .mainMenu .slide:nth-of-type(2), .boxes .slide:nth-of-type(2), .wedding .slide:nth-of-type(2) {
+    background: #FFFFFF url(../images/02.JPG) center no-repeat;
+    background-size: cover; }
+  .realMain .slide:nth-of-type(3), .mainMenu .slide:nth-of-type(3), .boxes .slide:nth-of-type(3), .wedding .slide:nth-of-type(3) {
+    background: #FFFFFF url(../images/03.JPG) center no-repeat;
+    background-size: cover; }
+  .realMain .slide:nth-of-type(4), .mainMenu .slide:nth-of-type(4), .boxes .slide:nth-of-type(4), .wedding .slide:nth-of-type(4) {
+    background: #FFFFFF url(../images/04.JPG) center no-repeat;
+    background-size: cover; }
+  .realMain .slide:nth-of-type(5), .mainMenu .slide:nth-of-type(5), .boxes .slide:nth-of-type(5), .wedding .slide:nth-of-type(5) {
+    background: #FFFFFF url(../images/05.JPG) center no-repeat;
+    background-size: cover; }
+  .realMain .slide:nth-of-type(6), .mainMenu .slide:nth-of-type(6), .boxes .slide:nth-of-type(6), .wedding .slide:nth-of-type(6) {
+    background: #FFFFFF url(../images/06.JPG) center no-repeat;
+    background-size: cover; }
+  .realMain .slide:nth-of-type(7), .mainMenu .slide:nth-of-type(7), .boxes .slide:nth-of-type(7), .wedding .slide:nth-of-type(7) {
+    background: #FFFFFF url(../images/07.JPG) center no-repeat;
+    background-size: cover; }
+  .realMain .controls, .realMain button, .mainMenu .controls, .mainMenu button, .boxes .controls, .boxes button, .wedding .controls, .wedding button {
+    margin-top: 0.5em;
+    background: gray;
+    color: black;
+    font-size: 1.1em;
+    border: 0.5px solid #00a; }
+  .realMain .tableslider1, .mainMenu .tableslider1, .boxes .tableslider1, .wedding .tableslider1 {
+    height: 4em; }
+  .realMain .tableslider, .mainMenu .tableslider, .boxes .tableslider, .wedding .tableslider {
+    text-align: center;
+    padding-top: 1em;
+    margin: auto;
+    opacity: 0.15; }
+  .realMain .tableslider td, .mainMenu .tableslider td, .boxes .tableslider td, .wedding .tableslider td {
+    min-width: 5em; }
+  .realMain .tableslider button, .mainMenu .tableslider button, .boxes .tableslider button, .wedding .tableslider button {
+    width: 100%; }
+  .realMain .slider-photo ul, .mainMenu .slider-photo ul, .boxes .slider-photo ul, .wedding .slider-photo ul {
+    margin: auto; }
+  .realMain .contentAboutText, .realMain .ourPartners, .realMain .ourClients, .mainMenu .contentAboutText, .mainMenu .ourPartners, .mainMenu .ourClients, .boxes .contentAboutText, .boxes .ourPartners, .boxes .ourClients, .wedding .contentAboutText, .wedding .ourPartners, .wedding .ourClients {
+    height: 19.5vh;
+    min-height: 180px;
+    width: 30em;
+    max-width: 90%;
+    min-width: 310px;
+    margin: auto;
+    text-align: center;
+    padding: 1% 0;
+    font-size: 2.2vh;
+    font-weight: 100; }
+    .realMain .contentAboutText p, .realMain .ourPartners p, .realMain .ourClients p, .mainMenu .contentAboutText p, .mainMenu .ourPartners p, .mainMenu .ourClients p, .boxes .contentAboutText p, .boxes .ourPartners p, .boxes .ourClients p, .wedding .contentAboutText p, .wedding .ourPartners p, .wedding .ourClients p {
+      text-align: justify; }
+    .realMain .contentAboutText span, .realMain .ourPartners span, .realMain .ourClients span, .mainMenu .contentAboutText span, .mainMenu .ourPartners span, .mainMenu .ourClients span, .boxes .contentAboutText span, .boxes .ourPartners span, .boxes .ourClients span, .wedding .contentAboutText span, .wedding .ourPartners span, .wedding .ourClients span {
+      font-size: 1.3em; }
+    .realMain .contentAboutText .clientsList, .realMain .contentAboutText .partnersList, .realMain .ourPartners .clientsList, .realMain .ourPartners .partnersList, .realMain .ourClients .clientsList, .realMain .ourClients .partnersList, .mainMenu .contentAboutText .clientsList, .mainMenu .contentAboutText .partnersList, .mainMenu .ourPartners .clientsList, .mainMenu .ourPartners .partnersList, .mainMenu .ourClients .clientsList, .mainMenu .ourClients .partnersList, .boxes .contentAboutText .clientsList, .boxes .contentAboutText .partnersList, .boxes .ourPartners .clientsList, .boxes .ourPartners .partnersList, .boxes .ourClients .clientsList, .boxes .ourClients .partnersList, .wedding .contentAboutText .clientsList, .wedding .contentAboutText .partnersList, .wedding .ourPartners .clientsList, .wedding .ourPartners .partnersList, .wedding .ourClients .clientsList, .wedding .ourClients .partnersList {
+      height: 14.4vh; }
+      .realMain .contentAboutText .clientsList .clients, .realMain .contentAboutText .clientsList .partners, .realMain .contentAboutText .partnersList .clients, .realMain .contentAboutText .partnersList .partners, .realMain .ourPartners .clientsList .clients, .realMain .ourPartners .clientsList .partners, .realMain .ourPartners .partnersList .clients, .realMain .ourPartners .partnersList .partners, .realMain .ourClients .clientsList .clients, .realMain .ourClients .clientsList .partners, .realMain .ourClients .partnersList .clients, .realMain .ourClients .partnersList .partners, .mainMenu .contentAboutText .clientsList .clients, .mainMenu .contentAboutText .clientsList .partners, .mainMenu .contentAboutText .partnersList .clients, .mainMenu .contentAboutText .partnersList .partners, .mainMenu .ourPartners .clientsList .clients, .mainMenu .ourPartners .clientsList .partners, .mainMenu .ourPartners .partnersList .clients, .mainMenu .ourPartners .partnersList .partners, .mainMenu .ourClients .clientsList .clients, .mainMenu .ourClients .clientsList .partners, .mainMenu .ourClients .partnersList .clients, .mainMenu .ourClients .partnersList .partners, .boxes .contentAboutText .clientsList .clients, .boxes .contentAboutText .clientsList .partners, .boxes .contentAboutText .partnersList .clients, .boxes .contentAboutText .partnersList .partners, .boxes .ourPartners .clientsList .clients, .boxes .ourPartners .clientsList .partners, .boxes .ourPartners .partnersList .clients, .boxes .ourPartners .partnersList .partners, .boxes .ourClients .clientsList .clients, .boxes .ourClients .clientsList .partners, .boxes .ourClients .partnersList .clients, .boxes .ourClients .partnersList .partners, .wedding .contentAboutText .clientsList .clients, .wedding .contentAboutText .clientsList .partners, .wedding .contentAboutText .partnersList .clients, .wedding .contentAboutText .partnersList .partners, .wedding .ourPartners .clientsList .clients, .wedding .ourPartners .clientsList .partners, .wedding .ourPartners .partnersList .clients, .wedding .ourPartners .partnersList .partners, .wedding .ourClients .clientsList .clients, .wedding .ourClients .clientsList .partners, .wedding .ourClients .partnersList .clients, .wedding .ourClients .partnersList .partners {
+        display: inline-block;
+        position: absolute;
+        height: 12vh;
+        width: 12vh;
+        border-radius: 0vh;
+        line-height: 100px;
+        margin: 1.2vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(1), .realMain .contentAboutText .partnersList .clients:nth-of-type(1), .realMain .ourPartners .clientsList .clients:nth-of-type(1), .realMain .ourPartners .partnersList .clients:nth-of-type(1), .realMain .ourClients .clientsList .clients:nth-of-type(1), .realMain .ourClients .partnersList .clients:nth-of-type(1), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(1), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(1), .mainMenu .ourPartners .clientsList .clients:nth-of-type(1), .mainMenu .ourPartners .partnersList .clients:nth-of-type(1), .mainMenu .ourClients .clientsList .clients:nth-of-type(1), .mainMenu .ourClients .partnersList .clients:nth-of-type(1), .boxes .contentAboutText .clientsList .clients:nth-of-type(1), .boxes .contentAboutText .partnersList .clients:nth-of-type(1), .boxes .ourPartners .clientsList .clients:nth-of-type(1), .boxes .ourPartners .partnersList .clients:nth-of-type(1), .boxes .ourClients .clientsList .clients:nth-of-type(1), .boxes .ourClients .partnersList .clients:nth-of-type(1), .wedding .contentAboutText .clientsList .clients:nth-of-type(1), .wedding .contentAboutText .partnersList .clients:nth-of-type(1), .wedding .ourPartners .clientsList .clients:nth-of-type(1), .wedding .ourPartners .partnersList .clients:nth-of-type(1), .wedding .ourClients .clientsList .clients:nth-of-type(1), .wedding .ourClients .partnersList .clients:nth-of-type(1) {
+        background: #FFFFFF url(../images/clients/logo01.gif) center no-repeat;
+        background-size: contain;
+        margin-left: -21vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(2), .realMain .contentAboutText .partnersList .clients:nth-of-type(2), .realMain .ourPartners .clientsList .clients:nth-of-type(2), .realMain .ourPartners .partnersList .clients:nth-of-type(2), .realMain .ourClients .clientsList .clients:nth-of-type(2), .realMain .ourClients .partnersList .clients:nth-of-type(2), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(2), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(2), .mainMenu .ourPartners .clientsList .clients:nth-of-type(2), .mainMenu .ourPartners .partnersList .clients:nth-of-type(2), .mainMenu .ourClients .clientsList .clients:nth-of-type(2), .mainMenu .ourClients .partnersList .clients:nth-of-type(2), .boxes .contentAboutText .clientsList .clients:nth-of-type(2), .boxes .contentAboutText .partnersList .clients:nth-of-type(2), .boxes .ourPartners .clientsList .clients:nth-of-type(2), .boxes .ourPartners .partnersList .clients:nth-of-type(2), .boxes .ourClients .clientsList .clients:nth-of-type(2), .boxes .ourClients .partnersList .clients:nth-of-type(2), .wedding .contentAboutText .clientsList .clients:nth-of-type(2), .wedding .contentAboutText .partnersList .clients:nth-of-type(2), .wedding .ourPartners .clientsList .clients:nth-of-type(2), .wedding .ourPartners .partnersList .clients:nth-of-type(2), .wedding .ourClients .clientsList .clients:nth-of-type(2), .wedding .ourClients .partnersList .clients:nth-of-type(2) {
+        background: #FFFFFF url(../images/clients/logo02.gif) center no-repeat;
+        background-size: contain;
+        margin-left: -6vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(3), .realMain .contentAboutText .partnersList .clients:nth-of-type(3), .realMain .ourPartners .clientsList .clients:nth-of-type(3), .realMain .ourPartners .partnersList .clients:nth-of-type(3), .realMain .ourClients .clientsList .clients:nth-of-type(3), .realMain .ourClients .partnersList .clients:nth-of-type(3), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(3), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(3), .mainMenu .ourPartners .clientsList .clients:nth-of-type(3), .mainMenu .ourPartners .partnersList .clients:nth-of-type(3), .mainMenu .ourClients .clientsList .clients:nth-of-type(3), .mainMenu .ourClients .partnersList .clients:nth-of-type(3), .boxes .contentAboutText .clientsList .clients:nth-of-type(3), .boxes .contentAboutText .partnersList .clients:nth-of-type(3), .boxes .ourPartners .clientsList .clients:nth-of-type(3), .boxes .ourPartners .partnersList .clients:nth-of-type(3), .boxes .ourClients .clientsList .clients:nth-of-type(3), .boxes .ourClients .partnersList .clients:nth-of-type(3), .wedding .contentAboutText .clientsList .clients:nth-of-type(3), .wedding .contentAboutText .partnersList .clients:nth-of-type(3), .wedding .ourPartners .clientsList .clients:nth-of-type(3), .wedding .ourPartners .partnersList .clients:nth-of-type(3), .wedding .ourClients .clientsList .clients:nth-of-type(3), .wedding .ourClients .partnersList .clients:nth-of-type(3) {
+        background: #FFFFFF url(../images/clients/logo03.gif) center no-repeat;
+        background-size: contain;
+        margin-left: 9vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(4), .realMain .contentAboutText .partnersList .clients:nth-of-type(4), .realMain .ourPartners .clientsList .clients:nth-of-type(4), .realMain .ourPartners .partnersList .clients:nth-of-type(4), .realMain .ourClients .clientsList .clients:nth-of-type(4), .realMain .ourClients .partnersList .clients:nth-of-type(4), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(4), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(4), .mainMenu .ourPartners .clientsList .clients:nth-of-type(4), .mainMenu .ourPartners .partnersList .clients:nth-of-type(4), .mainMenu .ourClients .clientsList .clients:nth-of-type(4), .mainMenu .ourClients .partnersList .clients:nth-of-type(4), .boxes .contentAboutText .clientsList .clients:nth-of-type(4), .boxes .contentAboutText .partnersList .clients:nth-of-type(4), .boxes .ourPartners .clientsList .clients:nth-of-type(4), .boxes .ourPartners .partnersList .clients:nth-of-type(4), .boxes .ourClients .clientsList .clients:nth-of-type(4), .boxes .ourClients .partnersList .clients:nth-of-type(4), .wedding .contentAboutText .clientsList .clients:nth-of-type(4), .wedding .contentAboutText .partnersList .clients:nth-of-type(4), .wedding .ourPartners .clientsList .clients:nth-of-type(4), .wedding .ourPartners .partnersList .clients:nth-of-type(4), .wedding .ourClients .clientsList .clients:nth-of-type(4), .wedding .ourClients .partnersList .clients:nth-of-type(4) {
+        background: #FFFFFF url(../images/clients/logo04.gif) center no-repeat;
+        background-size: contain;
+        background-size: 75%;
+        opacity: 0.9;
+        margin-left: -21vh;
+        margin-top: 16vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(5), .realMain .contentAboutText .partnersList .clients:nth-of-type(5), .realMain .ourPartners .clientsList .clients:nth-of-type(5), .realMain .ourPartners .partnersList .clients:nth-of-type(5), .realMain .ourClients .clientsList .clients:nth-of-type(5), .realMain .ourClients .partnersList .clients:nth-of-type(5), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(5), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(5), .mainMenu .ourPartners .clientsList .clients:nth-of-type(5), .mainMenu .ourPartners .partnersList .clients:nth-of-type(5), .mainMenu .ourClients .clientsList .clients:nth-of-type(5), .mainMenu .ourClients .partnersList .clients:nth-of-type(5), .boxes .contentAboutText .clientsList .clients:nth-of-type(5), .boxes .contentAboutText .partnersList .clients:nth-of-type(5), .boxes .ourPartners .clientsList .clients:nth-of-type(5), .boxes .ourPartners .partnersList .clients:nth-of-type(5), .boxes .ourClients .clientsList .clients:nth-of-type(5), .boxes .ourClients .partnersList .clients:nth-of-type(5), .wedding .contentAboutText .clientsList .clients:nth-of-type(5), .wedding .contentAboutText .partnersList .clients:nth-of-type(5), .wedding .ourPartners .clientsList .clients:nth-of-type(5), .wedding .ourPartners .partnersList .clients:nth-of-type(5), .wedding .ourClients .clientsList .clients:nth-of-type(5), .wedding .ourClients .partnersList .clients:nth-of-type(5) {
+        background: #FFFFFF url(../images/clients/logo05.gif) center no-repeat;
+        background-size: contain;
+        margin-left: -6vh;
+        margin-top: 16vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(6), .realMain .contentAboutText .partnersList .clients:nth-of-type(6), .realMain .ourPartners .clientsList .clients:nth-of-type(6), .realMain .ourPartners .partnersList .clients:nth-of-type(6), .realMain .ourClients .clientsList .clients:nth-of-type(6), .realMain .ourClients .partnersList .clients:nth-of-type(6), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(6), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(6), .mainMenu .ourPartners .clientsList .clients:nth-of-type(6), .mainMenu .ourPartners .partnersList .clients:nth-of-type(6), .mainMenu .ourClients .clientsList .clients:nth-of-type(6), .mainMenu .ourClients .partnersList .clients:nth-of-type(6), .boxes .contentAboutText .clientsList .clients:nth-of-type(6), .boxes .contentAboutText .partnersList .clients:nth-of-type(6), .boxes .ourPartners .clientsList .clients:nth-of-type(6), .boxes .ourPartners .partnersList .clients:nth-of-type(6), .boxes .ourClients .clientsList .clients:nth-of-type(6), .boxes .ourClients .partnersList .clients:nth-of-type(6), .wedding .contentAboutText .clientsList .clients:nth-of-type(6), .wedding .contentAboutText .partnersList .clients:nth-of-type(6), .wedding .ourPartners .clientsList .clients:nth-of-type(6), .wedding .ourPartners .partnersList .clients:nth-of-type(6), .wedding .ourClients .clientsList .clients:nth-of-type(6), .wedding .ourClients .partnersList .clients:nth-of-type(6) {
+        background: #FFFFFF url(../images/clients/logo06.gif) center no-repeat;
+        background-size: contain;
+        margin-left: 9vh;
+        margin-top: 16vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(7), .realMain .contentAboutText .partnersList .clients:nth-of-type(7), .realMain .ourPartners .clientsList .clients:nth-of-type(7), .realMain .ourPartners .partnersList .clients:nth-of-type(7), .realMain .ourClients .clientsList .clients:nth-of-type(7), .realMain .ourClients .partnersList .clients:nth-of-type(7), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(7), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(7), .mainMenu .ourPartners .clientsList .clients:nth-of-type(7), .mainMenu .ourPartners .partnersList .clients:nth-of-type(7), .mainMenu .ourClients .clientsList .clients:nth-of-type(7), .mainMenu .ourClients .partnersList .clients:nth-of-type(7), .boxes .contentAboutText .clientsList .clients:nth-of-type(7), .boxes .contentAboutText .partnersList .clients:nth-of-type(7), .boxes .ourPartners .clientsList .clients:nth-of-type(7), .boxes .ourPartners .partnersList .clients:nth-of-type(7), .boxes .ourClients .clientsList .clients:nth-of-type(7), .boxes .ourClients .partnersList .clients:nth-of-type(7), .wedding .contentAboutText .clientsList .clients:nth-of-type(7), .wedding .contentAboutText .partnersList .clients:nth-of-type(7), .wedding .ourPartners .clientsList .clients:nth-of-type(7), .wedding .ourPartners .partnersList .clients:nth-of-type(7), .wedding .ourClients .clientsList .clients:nth-of-type(7), .wedding .ourClients .partnersList .clients:nth-of-type(7) {
+        background: #FFFFFF url(../images/clients/logo07.gif) center no-repeat;
+        background-size: contain;
+        margin-left: -21vh;
+        margin-top: 32vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(8), .realMain .contentAboutText .partnersList .clients:nth-of-type(8), .realMain .ourPartners .clientsList .clients:nth-of-type(8), .realMain .ourPartners .partnersList .clients:nth-of-type(8), .realMain .ourClients .clientsList .clients:nth-of-type(8), .realMain .ourClients .partnersList .clients:nth-of-type(8), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(8), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(8), .mainMenu .ourPartners .clientsList .clients:nth-of-type(8), .mainMenu .ourPartners .partnersList .clients:nth-of-type(8), .mainMenu .ourClients .clientsList .clients:nth-of-type(8), .mainMenu .ourClients .partnersList .clients:nth-of-type(8), .boxes .contentAboutText .clientsList .clients:nth-of-type(8), .boxes .contentAboutText .partnersList .clients:nth-of-type(8), .boxes .ourPartners .clientsList .clients:nth-of-type(8), .boxes .ourPartners .partnersList .clients:nth-of-type(8), .boxes .ourClients .clientsList .clients:nth-of-type(8), .boxes .ourClients .partnersList .clients:nth-of-type(8), .wedding .contentAboutText .clientsList .clients:nth-of-type(8), .wedding .contentAboutText .partnersList .clients:nth-of-type(8), .wedding .ourPartners .clientsList .clients:nth-of-type(8), .wedding .ourPartners .partnersList .clients:nth-of-type(8), .wedding .ourClients .clientsList .clients:nth-of-type(8), .wedding .ourClients .partnersList .clients:nth-of-type(8) {
+        background: #FFFFFF url(../images/clients/logo08.gif) center no-repeat;
+        background-size: contain;
+        margin-left: -6vh;
+        margin-top: 32vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(9), .realMain .contentAboutText .partnersList .clients:nth-of-type(9), .realMain .ourPartners .clientsList .clients:nth-of-type(9), .realMain .ourPartners .partnersList .clients:nth-of-type(9), .realMain .ourClients .clientsList .clients:nth-of-type(9), .realMain .ourClients .partnersList .clients:nth-of-type(9), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(9), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(9), .mainMenu .ourPartners .clientsList .clients:nth-of-type(9), .mainMenu .ourPartners .partnersList .clients:nth-of-type(9), .mainMenu .ourClients .clientsList .clients:nth-of-type(9), .mainMenu .ourClients .partnersList .clients:nth-of-type(9), .boxes .contentAboutText .clientsList .clients:nth-of-type(9), .boxes .contentAboutText .partnersList .clients:nth-of-type(9), .boxes .ourPartners .clientsList .clients:nth-of-type(9), .boxes .ourPartners .partnersList .clients:nth-of-type(9), .boxes .ourClients .clientsList .clients:nth-of-type(9), .boxes .ourClients .partnersList .clients:nth-of-type(9), .wedding .contentAboutText .clientsList .clients:nth-of-type(9), .wedding .contentAboutText .partnersList .clients:nth-of-type(9), .wedding .ourPartners .clientsList .clients:nth-of-type(9), .wedding .ourPartners .partnersList .clients:nth-of-type(9), .wedding .ourClients .clientsList .clients:nth-of-type(9), .wedding .ourClients .partnersList .clients:nth-of-type(9) {
+        background: #FFFFFF url(../images/clients/logo09.gif) center no-repeat;
+        background-size: contain;
+        margin-left: 9vh;
+        margin-top: 32vh; }
+      .realMain .contentAboutText .clientsList .clients:nth-of-type(10), .realMain .contentAboutText .partnersList .clients:nth-of-type(10), .realMain .ourPartners .clientsList .clients:nth-of-type(10), .realMain .ourPartners .partnersList .clients:nth-of-type(10), .realMain .ourClients .clientsList .clients:nth-of-type(10), .realMain .ourClients .partnersList .clients:nth-of-type(10), .mainMenu .contentAboutText .clientsList .clients:nth-of-type(10), .mainMenu .contentAboutText .partnersList .clients:nth-of-type(10), .mainMenu .ourPartners .clientsList .clients:nth-of-type(10), .mainMenu .ourPartners .partnersList .clients:nth-of-type(10), .mainMenu .ourClients .clientsList .clients:nth-of-type(10), .mainMenu .ourClients .partnersList .clients:nth-of-type(10), .boxes .contentAboutText .clientsList .clients:nth-of-type(10), .boxes .contentAboutText .partnersList .clients:nth-of-type(10), .boxes .ourPartners .clientsList .clients:nth-of-type(10), .boxes .ourPartners .partnersList .clients:nth-of-type(10), .boxes .ourClients .clientsList .clients:nth-of-type(10), .boxes .ourClients .partnersList .clients:nth-of-type(10), .wedding .contentAboutText .clientsList .clients:nth-of-type(10), .wedding .contentAboutText .partnersList .clients:nth-of-type(10), .wedding .ourPartners .clientsList .clients:nth-of-type(10), .wedding .ourPartners .partnersList .clients:nth-of-type(10), .wedding .ourClients .clientsList .clients:nth-of-type(10), .wedding .ourClients .partnersList .clients:nth-of-type(10) {
+        background: #FFFFFF url(../images/clients/logo10.gif) center no-repeat;
+        background-size: contain;
+        margin-left: -6vh;
+        margin-top: 48vh; }
+      .realMain .contentAboutText .clientsList .clients:hover, .realMain .contentAboutText .clientsList .partners:hover, .realMain .contentAboutText .partnersList .clients:hover, .realMain .contentAboutText .partnersList .partners:hover, .realMain .ourPartners .clientsList .clients:hover, .realMain .ourPartners .clientsList .partners:hover, .realMain .ourPartners .partnersList .clients:hover, .realMain .ourPartners .partnersList .partners:hover, .realMain .ourClients .clientsList .clients:hover, .realMain .ourClients .clientsList .partners:hover, .realMain .ourClients .partnersList .clients:hover, .realMain .ourClients .partnersList .partners:hover, .mainMenu .contentAboutText .clientsList .clients:hover, .mainMenu .contentAboutText .clientsList .partners:hover, .mainMenu .contentAboutText .partnersList .clients:hover, .mainMenu .contentAboutText .partnersList .partners:hover, .mainMenu .ourPartners .clientsList .clients:hover, .mainMenu .ourPartners .clientsList .partners:hover, .mainMenu .ourPartners .partnersList .clients:hover, .mainMenu .ourPartners .partnersList .partners:hover, .mainMenu .ourClients .clientsList .clients:hover, .mainMenu .ourClients .clientsList .partners:hover, .mainMenu .ourClients .partnersList .clients:hover, .mainMenu .ourClients .partnersList .partners:hover, .boxes .contentAboutText .clientsList .clients:hover, .boxes .contentAboutText .clientsList .partners:hover, .boxes .contentAboutText .partnersList .clients:hover, .boxes .contentAboutText .partnersList .partners:hover, .boxes .ourPartners .clientsList .clients:hover, .boxes .ourPartners .clientsList .partners:hover, .boxes .ourPartners .partnersList .clients:hover, .boxes .ourPartners .partnersList .partners:hover, .boxes .ourClients .clientsList .clients:hover, .boxes .ourClients .clientsList .partners:hover, .boxes .ourClients .partnersList .clients:hover, .boxes .ourClients .partnersList .partners:hover, .wedding .contentAboutText .clientsList .clients:hover, .wedding .contentAboutText .clientsList .partners:hover, .wedding .contentAboutText .partnersList .clients:hover, .wedding .contentAboutText .partnersList .partners:hover, .wedding .ourPartners .clientsList .clients:hover, .wedding .ourPartners .clientsList .partners:hover, .wedding .ourPartners .partnersList .clients:hover, .wedding .ourPartners .partnersList .partners:hover, .wedding .ourClients .clientsList .clients:hover, .wedding .ourClients .clientsList .partners:hover, .wedding .ourClients .partnersList .clients:hover, .wedding .ourClients .partnersList .partners:hover {
+        border: 0.1px solid lightgray;
+        height: 12.6vh;
+        width: 12.6vh;
+        border-radius: 0vh; }
+      .realMain .contentAboutText .clientsList .clients:active, .realMain .contentAboutText .clientsList .partners:active, .realMain .contentAboutText .partnersList .clients:active, .realMain .contentAboutText .partnersList .partners:active, .realMain .ourPartners .clientsList .clients:active, .realMain .ourPartners .clientsList .partners:active, .realMain .ourPartners .partnersList .clients:active, .realMain .ourPartners .partnersList .partners:active, .realMain .ourClients .clientsList .clients:active, .realMain .ourClients .clientsList .partners:active, .realMain .ourClients .partnersList .clients:active, .realMain .ourClients .partnersList .partners:active, .mainMenu .contentAboutText .clientsList .clients:active, .mainMenu .contentAboutText .clientsList .partners:active, .mainMenu .contentAboutText .partnersList .clients:active, .mainMenu .contentAboutText .partnersList .partners:active, .mainMenu .ourPartners .clientsList .clients:active, .mainMenu .ourPartners .clientsList .partners:active, .mainMenu .ourPartners .partnersList .clients:active, .mainMenu .ourPartners .partnersList .partners:active, .mainMenu .ourClients .clientsList .clients:active, .mainMenu .ourClients .clientsList .partners:active, .mainMenu .ourClients .partnersList .clients:active, .mainMenu .ourClients .partnersList .partners:active, .boxes .contentAboutText .clientsList .clients:active, .boxes .contentAboutText .clientsList .partners:active, .boxes .contentAboutText .partnersList .clients:active, .boxes .contentAboutText .partnersList .partners:active, .boxes .ourPartners .clientsList .clients:active, .boxes .ourPartners .clientsList .partners:active, .boxes .ourPartners .partnersList .clients:active, .boxes .ourPartners .partnersList .partners:active, .boxes .ourClients .clientsList .clients:active, .boxes .ourClients .clientsList .partners:active, .boxes .ourClients .partnersList .clients:active, .boxes .ourClients .partnersList .partners:active, .wedding .contentAboutText .clientsList .clients:active, .wedding .contentAboutText .clientsList .partners:active, .wedding .contentAboutText .partnersList .clients:active, .wedding .contentAboutText .partnersList .partners:active, .wedding .ourPartners .clientsList .clients:active, .wedding .ourPartners .clientsList .partners:active, .wedding .ourPartners .partnersList .clients:active, .wedding .ourPartners .partnersList .partners:active, .wedding .ourClients .clientsList .clients:active, .wedding .ourClients .clientsList .partners:active, .wedding .ourClients .partnersList .clients:active, .wedding .ourClients .partnersList .partners:active {
+        border: 0.5px solid pink; }
+      .realMain .contentAboutText .clientsList .partners:nth-of-type(1), .realMain .contentAboutText .partnersList .partners:nth-of-type(1), .realMain .ourPartners .clientsList .partners:nth-of-type(1), .realMain .ourPartners .partnersList .partners:nth-of-type(1), .realMain .ourClients .clientsList .partners:nth-of-type(1), .realMain .ourClients .partnersList .partners:nth-of-type(1), .mainMenu .contentAboutText .clientsList .partners:nth-of-type(1), .mainMenu .contentAboutText .partnersList .partners:nth-of-type(1), .mainMenu .ourPartners .clientsList .partners:nth-of-type(1), .mainMenu .ourPartners .partnersList .partners:nth-of-type(1), .mainMenu .ourClients .clientsList .partners:nth-of-type(1), .mainMenu .ourClients .partnersList .partners:nth-of-type(1), .boxes .contentAboutText .clientsList .partners:nth-of-type(1), .boxes .contentAboutText .partnersList .partners:nth-of-type(1), .boxes .ourPartners .clientsList .partners:nth-of-type(1), .boxes .ourPartners .partnersList .partners:nth-of-type(1), .boxes .ourClients .clientsList .partners:nth-of-type(1), .boxes .ourClients .partnersList .partners:nth-of-type(1), .wedding .contentAboutText .clientsList .partners:nth-of-type(1), .wedding .contentAboutText .partnersList .partners:nth-of-type(1), .wedding .ourPartners .clientsList .partners:nth-of-type(1), .wedding .ourPartners .partnersList .partners:nth-of-type(1), .wedding .ourClients .clientsList .partners:nth-of-type(1), .wedding .ourClients .partnersList .partners:nth-of-type(1) {
+        background: #FFFFFF url(../images/partners/logo01.gif) center no-repeat;
+        background-size: cover;
+        margin-left: -6vh; }
+  .realMain .ourClients, .mainMenu .ourClients, .boxes .ourClients, .wedding .ourClients {
+    padding-top: 4em;
+    height: 97.5vh;
+    min-height: 450px;
+    max-height: 72vh; }
+    .realMain .ourClients span, .mainMenu .ourClients span, .boxes .ourClients span, .wedding .ourClients span {
+      display: inline-block;
+      padding-top: 0.5em; }
+  .realMain .ourPartners, .mainMenu .ourPartners, .boxes .ourPartners, .wedding .ourPartners {
+    padding-top: 2.5vh;
+    text-align: center; }
+
+.mainMenu {
+  max-height: 78vh;
+  min-height: 110vh;
+  height: 1000px; }
+  .mainMenu .contentMainMenu {
+    background: #FFFFFF url(../images/Menu.jpg) center no-repeat;
+    background-position: center 75%;
+    background-size: cover;
+    height: 65vh;
+    max-height: 450px;
+    min-width: 60%;
+    max-width: 45em;
+    margin: auto;
+    position: relative; }
+  .mainMenu .menuText {
+    min-height: 32.5vh; }
+  .mainMenu .contentAboutTextLinkMenu {
+    min-width: 200px;
+    max-width: 60vw;
+    margin: auto;
+    height: 8.125vh;
+    min-height: 2em;
+    max-height: 10vh;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-weight: bolder;
+    vertical-align: text-top; }
+    .mainMenu .contentAboutTextLinkMenu a {
+      font-size: 2vh;
+      color: #000; }
+
+.boxes {
+  max-height: 162.5vh;
+  min-height: 550px;
+  height: 1350px;
+  min-width: 60vw;
+  /*
+  ╨Я╨╡╤А╨▓╨╕╤З╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
+  ╨б ╨╜╨╕╨╝╨╕ ╤А╨░╨▒╨╛╤В╨░╨╡╤В ╤Б╨╗╨░╨╣╨┤ ╤И╨╛╤Г
+  */
+  /*╨б╨┤╨╡╨╗╨░╤В╤М ╨▓╨╕╨┤╨╕╨╝╤Л╨╝, ╨┐╤А╨╛╨╖╤А╨░╤З╨╜╨╛╤Б╤В╤М=0;*/
+  /*╨Т╤В╨╛╤А╨╛╤Б╤В╨╡╨┐╨╡╨╜╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕:
+  ╨Т╨╜╨╡╤И╨╜╨╕╨╣ ╨▓╨╕╨┤; ╨╝╨╛╨╢╨╡╤В╨╡ ╨╕╨╖╨╝╨╡╨╜╤П╤В╤М*/ }
+  .boxes #slides-box {
+    height: 65vh;
+    max-height: 450px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 45em; }
+  .boxes .slide-box {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 65vh;
+    max-height: 450px;
+    min-width: 100%;
+    max-width: 45em;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s; }
+  .boxes .showing {
+    opacity: 1;
+    z-index: 2; }
+  .boxes .slide-box {
+    font-size: 1em;
+    padding: 0;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+    height: 100%; }
+  .boxes .slide-box:nth-of-type(1) {
+    background: #FFFFFF url(../images/box/01.JPG) center no-repeat;
+    background-size: cover; }
+  .boxes .slide-box:nth-of-type(2) {
+    background: #FFFFFF url(../images/box/02.JPG) center no-repeat;
+    background-size: cover; }
+  .boxes .slide-box:nth-of-type(3) {
+    background: #FFFFFF url(../images/box/03.JPG) center no-repeat;
+    background-size: cover; }
+  .boxes .slide-box:nth-of-type(4) {
+    background: #FFFFFF url(../images/box/04.JPG) center no-repeat;
+    background-size: cover; }
+  .boxes .slide-box:nth-of-type(5) {
+    background: #FFFFFF url(../images/box/05.JPG) center no-repeat;
+    background-size: cover; }
+  .boxes .slide-box:nth-of-type(6) {
+    background: #FFFFFF url(../images/box/06.JPG) center no-repeat;
+    background-size: cover; }
+  .boxes .slider-photo-box ul {
+    margin: auto; }
+  .boxes .boxesDownload {
+    min-width: 60%;
+    max-width: 80vw;
+    margin: auto;
+    height: 8.125vh;
+    min-height: 2em;
+    max-height: 10vh;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-weight: bolder;
+    vertical-align: text-top;
+    font-size: 2.2vh; }
+    .boxes .boxesDownload a {
+      font-size: 2vh;
+      color: #000; }
+  .boxes .boxText {
+    height: 52vh;
+    min-height: 10em;
+    max-height: 800px;
+    max-height: 52vh;
+    min-height: 180px;
+    margin: auto;
+    text-align: center;
+    padding: 2.1% 0;
+    font-size: 2.1vh; }
+    .boxes .boxText p {
+      text-align: justify; }
+
+.wedding {
+  height: 300vh;
+  margin-top: 5vh;
+  /*.rightContainer  {
+    margin-left: 5px;
+  }*/
+  /*.leftContainerSmall{
+  //  margin-left: -$widthSlideContacts*(0.5);
+  }
+  .rightContainerSmall{
+    margin-left: 5px;
+  }*/
+  /*.contentAboutTextLinkWedding{
+    margin-top: 400px;
+    font-size: 1.5em;
+  }*/
+  /*  .contentAboutTextLinkWedding{
+  //  padding-top:50px;
+    min-width: 200px;
+    max-width: 100%;
+    margin-left: $marginAuto;
+    margin-right: $marginAuto;
+    height: (1/8)*$heightSliderContacts;
+    min-height: 2em;
+    max-height: 10vh;
+    letter-spacing: 0.1em;
+    text-align:center;
+
+    vertical-align: text-top;
+    a{
+      font-size: 1.1em;
+        font-weight: 400;
+      color: #000;
+    }
+  }*/ }
+  .wedding .contentMainWedding {
+    background: #ccc url(../images/Wedding.jpg) center no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 65vh;
+    max-height: 450px;
+    min-width: 60%;
+    max-width: 45em;
+    margin: auto;
+    position: relative; }
+  .wedding .weddingText {
+    min-width: 100%; }
+  .wedding .leftContainer, .wedding .rightContainer {
+    min-width: 30vw; }
+  .wedding .weddingInfo {
+    min-width: 60vw;
+    display: block;
+    margin: auto;
+    min-height: 10vh;
+    max-width: 80vw; }
+    .wedding .weddingInfo .infoWeddingText {
+      text-align: justify;
+      padding-bottom: 3em; }
+  .wedding .leftContainer, .wedding .rightContainer {
+    position: absolute; }
+  .wedding .cardsOffer {
+    border: 0.125em dotted black;
+    padding-left: 1em;
+    padding-right: 1em;
+    min-width: 30vw;
+    margin-top: 0.25em; }
+  .wedding .smallWeddingTab {
+    min-width: 30vw;
+    display: inline-block;
+    min-height: 20em; }
+  .wedding .BigWeddingTab {
+    min-width: 30vw;
+    display: inline-block;
+    min-height: 20em; }
+  .wedding .headWedding span {
+    font-family: 'Marck Script', cursive;
+    font-weight: bold; }
+  .wedding .dishTitle {
+    font-size: 0.7em;
+    min-height: 1em; }
+  .wedding .dishDetail {
+    font-size: 0.4em;
+    min-height: 1em; }
+  .wedding .priceOfDishes {
+    min-height: 1em; }
+  .wedding .smallSpan {
+    font-size: 0.95em !important; }
+  .wedding .leftContainerSmall, .wedding .rightContainerSmall {
+    margin-top: -2em;
+    min-width: 30vw;
+    position: absolute;
+    margin-top: 10px; }
+  .wedding .contentAboutTextHeader {
+    margin-top: 100vh;
+    font-size: 1.2em !important; }
+
+.mainMenu {
+  max-height: 185vh; }
+
+.realMain {
+  min-height: 195vh; }
+
+@media all and (min-width: 200px) and (max-width: 800px) and (min-height: 400px) and (max-height: 740px) {
+  .wedding {
+    height: 420vh; }
+    .wedding .BigWeddingTab, .wedding .smallWeddingTab {
+      display: block; }
+    .wedding .BigWeddingTab {
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .BigWeddingTab .leftContainer, .wedding .BigWeddingTab .rightContainer {
+        max-height: 100vh;
+        height: 100vh;
+        overflow-y: scroll;
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .BigWeddingTab .leftContainer .cardsOffer, .wedding .BigWeddingTab .rightContainer .cardsOffer {
+          min-width: 75vw;
+          max-width: 75vw;
+          margin-left: 0vw; }
+      .wedding .BigWeddingTab .rightContainer {
+        margin-top: 105vh; }
+    .wedding .contentAboutTextHeader {
+      margin-top: 215vh; }
+    .wedding .smallWeddingTab {
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .smallWeddingTab .leftContainerSmall, .wedding .smallWeddingTab .rightContainerSmall {
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .smallWeddingTab .leftContainerSmall .cardsOffer, .wedding .smallWeddingTab .rightContainerSmall .cardsOffer {
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 75vw;
+          max-width: 75vw; }
+      .wedding .smallWeddingTab .rightContainerSmall {
+        margin-top: 27em; } }
+@media all and (min-width: 600px) and (max-width: 900px) and (min-height: 737px) and (max-height: 1440px) {
+  .wedding {
+    height: 420vh; }
+    .wedding .BigWeddingTab {
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .BigWeddingTab .leftContainer, .wedding .BigWeddingTab .rightContainer {
+        max-height: 100vh;
+        height: 100vh;
+        overflow-y: scroll;
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .BigWeddingTab .leftContainer .cardsOffer, .wedding .BigWeddingTab .rightContainer .cardsOffer {
+          min-width: 75vw;
+          max-width: 75vw;
+          margin-left: 0vw; }
+      .wedding .BigWeddingTab .rightContainer {
+        margin-top: 105vh; }
+    .wedding .contentAboutTextHeader {
+      margin-top: 215vh; }
+    .wedding .smallWeddingTab {
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .smallWeddingTab .leftContainerSmall, .wedding .smallWeddingTab .rightContainerSmall {
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .smallWeddingTab .leftContainerSmall .cardsOffer, .wedding .smallWeddingTab .rightContainerSmall .cardsOffer {
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 75vw;
+          max-width: 75vw; }
+      .wedding .smallWeddingTab .rightContainerSmall {
+        margin-top: 27em; } }
+@media all and (min-width: 720px) and (max-width: 1280px) and (min-height: 1080px) and (max-height: 1920px) {
+  .wedding {
+    height: 400vh; }
+    .wedding .BigWeddingTab {
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .BigWeddingTab .leftContainer, .wedding .BigWeddingTab .rightContainer {
+        max-height: 100vh;
+        height: 100vh;
+        overflow-y: scroll;
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .BigWeddingTab .leftContainer .cardsOffer, .wedding .BigWeddingTab .rightContainer .cardsOffer {
+          min-width: 75vw;
+          max-width: 75vw;
+          margin-left: 0vw; }
+      .wedding .BigWeddingTab .rightContainer {
+        margin-top: 105vh; }
+    .wedding .contentAboutTextHeader {
+      margin-top: 215vh; }
+    .wedding .smallWeddingTab {
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .smallWeddingTab .leftContainerSmall, .wedding .smallWeddingTab .rightContainerSmall {
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .smallWeddingTab .leftContainerSmall .cardsOffer, .wedding .smallWeddingTab .rightContainerSmall .cardsOffer {
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 75vw;
+          max-width: 75vw; }
+      .wedding .smallWeddingTab .rightContainerSmall {
+        margin-top: 27em; } }
+@media all and (min-width: 200px) and (max-width: 1000px) and (min-height: 500px) and (max-height: 900px) {
+  .wedding {
+    height: 410vh; }
+    .wedding .BigWeddingTab {
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .BigWeddingTab .leftContainer, .wedding .BigWeddingTab .rightContainer {
+        max-height: 100vh;
+        height: 100vh;
+        overflow-y: scroll;
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .BigWeddingTab .leftContainer .cardsOffer, .wedding .BigWeddingTab .rightContainer .cardsOffer {
+          min-width: 75vw;
+          max-width: 75vw;
+          margin-left: 0vw; }
+      .wedding .BigWeddingTab .rightContainer {
+        margin-top: 105vh; }
+    .wedding .contentAboutTextHeader {
+      margin-top: 215vh; }
+    .wedding .smallWeddingTab {
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .smallWeddingTab .leftContainerSmall, .wedding .smallWeddingTab .rightContainerSmall {
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .smallWeddingTab .leftContainerSmall .cardsOffer, .wedding .smallWeddingTab .rightContainerSmall .cardsOffer {
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 75vw;
+          max-width: 75vw; }
+      .wedding .smallWeddingTab .rightContainerSmall {
+        margin-top: 27em; } }
+@media all and (min-width: 900px) and (max-width: 1280px) and (min-height: 900px) and (max-height: 1100px) {
+  .wedding {
+    height: 420vh; }
+    .wedding .BigWeddingTab {
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .BigWeddingTab .leftContainer, .wedding .BigWeddingTab .rightContainer {
+        max-height: 100vh;
+        height: 100vh;
+        overflow-y: scroll;
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .BigWeddingTab .leftContainer .cardsOffer, .wedding .BigWeddingTab .rightContainer .cardsOffer {
+          min-width: 75vw;
+          max-width: 75vw;
+          margin-left: 0vw; }
+      .wedding .BigWeddingTab .rightContainer {
+        margin-top: 105vh; }
+    .wedding .contentAboutTextHeader {
+      margin-top: 215vh; }
+    .wedding .smallWeddingTab {
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .smallWeddingTab .leftContainerSmall, .wedding .smallWeddingTab .rightContainerSmall {
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .smallWeddingTab .leftContainerSmall .cardsOffer, .wedding .smallWeddingTab .rightContainerSmall .cardsOffer {
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 75vw;
+          max-width: 75vw; }
+      .wedding .smallWeddingTab .rightContainerSmall {
+        margin-top: 27em; } }
+@media all and (min-width: 100px) and (max-width: 600px) and (min-height: 900px) {
+  .wedding {
+    height: 430vh; }
+    .wedding .BigWeddingTab {
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .BigWeddingTab .leftContainer, .wedding .BigWeddingTab .rightContainer {
+        max-height: 100vh;
+        height: 100vh;
+        overflow-y: scroll;
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .BigWeddingTab .leftContainer .cardsOffer, .wedding .BigWeddingTab .rightContainer .cardsOffer {
+          min-width: 75vw;
+          max-width: 75vw;
+          margin-left: 0vw; }
+      .wedding .BigWeddingTab .rightContainer {
+        margin-top: 105vh; }
+    .wedding .contentAboutTextHeader {
+      margin-top: 215vh; }
+    .wedding .smallWeddingTab {
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .smallWeddingTab .leftContainerSmall, .wedding .smallWeddingTab .rightContainerSmall {
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .smallWeddingTab .leftContainerSmall .cardsOffer, .wedding .smallWeddingTab .rightContainerSmall .cardsOffer {
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 75vw;
+          max-width: 75vw; }
+      .wedding .smallWeddingTab .rightContainerSmall {
+        margin-top: 27em; } }
+@media all and (min-width: 1000px) and (max-width: 1280px) and (min-height: 600px) and (max-height: 900px) {
+  .wedding {
+    height: 350vh; }
+    .wedding .weddingInfo {
+      max-width: 60vw; }
+    .wedding .BigWeddingTab {
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: auto;
+      min-width: 60vw;
+      max-width: 60vw;
+      margin-left: 20vw;
+      display: block;
+      position: absolute; }
+      .wedding .BigWeddingTab .leftContainer, .wedding .BigWeddingTab .rightContainer {
+        max-height: 100vh;
+        height: 100vh;
+        min-width: 28vw;
+        max-width: 28vw;
+        margin-left: 0vw;
+        display: inline-block; }
+        .wedding .BigWeddingTab .leftContainer .cardsOffer, .wedding .BigWeddingTab .rightContainer .cardsOffer {
+          min-width: 28vw;
+          max-width: 28vw;
+          margin-left: 0vw; }
+      .wedding .BigWeddingTab .leftContainer {
+        margin-left: -29vw; }
+      .wedding .BigWeddingTab .rightContainer {
+        margin-left: 1vw; }
+    .wedding .contentAboutTextHeader {
+      margin-top: 160vh; }
+    .wedding .smallWeddingTab {
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: auto;
+      min-width: 60vw;
+      max-width: 60vw;
+      margin-left: 20vw;
+      display: block;
+      position: absolute; }
+      .wedding .smallWeddingTab .leftContainerSmall, .wedding .smallWeddingTab .rightContainerSmall {
+        min-width: 28vw;
+        max-width: 28vw;
+        margin-left: 0vw;
+        display: inline-block; }
+        .wedding .smallWeddingTab .leftContainerSmall .cardsOffer, .wedding .smallWeddingTab .rightContainerSmall .cardsOffer {
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 28vw;
+          max-width: 28vw; }
+      .wedding .smallWeddingTab .leftContainerSmall {
+        margin-left: -29vw; }
+      .wedding .smallWeddingTab .rightContainerSmall {
+        margin-left: 1vw; } }
+@media all and (min-width: 1280px) and (max-width: 1600px) and (min-height: 600px) and (max-height: 1080px) {
+  .wedding {
+    height: 320vh; }
+    .wedding .weddingInfo {
+      max-width: 60vw; }
+    .wedding .BigWeddingTab {
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: auto;
+      min-width: 60vw;
+      max-width: 60vw;
+      margin-left: 20vw;
+      display: block;
+      position: absolute; }
+      .wedding .BigWeddingTab .leftContainer, .wedding .BigWeddingTab .rightContainer {
+        max-height: 100vh;
+        height: 100vh;
+        min-width: 28vw;
+        max-width: 28vw;
+        margin-left: 0vw;
+        display: inline-block; }
+        .wedding .BigWeddingTab .leftContainer .cardsOffer, .wedding .BigWeddingTab .rightContainer .cardsOffer {
+          min-width: 28vw;
+          max-width: 28vw;
+          margin-left: 0vw; }
+      .wedding .BigWeddingTab .leftContainer {
+        margin-left: -29vw; }
+      .wedding .BigWeddingTab .rightContainer {
+        margin-left: 1vw; }
+    .wedding .contentAboutTextHeader {
+      margin-top: 160vh; }
+    .wedding .smallWeddingTab {
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: auto;
+      min-width: 60vw;
+      max-width: 60vw;
+      margin-left: 20vw;
+      display: block;
+      position: absolute; }
+      .wedding .smallWeddingTab .leftContainerSmall, .wedding .smallWeddingTab .rightContainerSmall {
+        min-width: 28vw;
+        max-width: 28vw;
+        margin-left: 0vw;
+        display: inline-block; }
+        .wedding .smallWeddingTab .leftContainerSmall .cardsOffer, .wedding .smallWeddingTab .rightContainerSmall .cardsOffer {
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 28vw;
+          max-width: 28vw; }
+      .wedding .smallWeddingTab .leftContainerSmall {
+        margin-left: -29vw; }
+      .wedding .smallWeddingTab .rightContainerSmall {
+        margin-left: 1vw; } }
+@media all and (min-width: 1440px) and (max-width: 2560px) and (min-height: 600px) and (max-height: 2560px) {
+  .wedding {
+    height: 320vh; }
+    .wedding .weddingInfo {
+      max-width: 30vw; }
+    .wedding .BigWeddingTab {
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: auto;
+      overflow-x: hidden;
+      min-width: 70vw;
+      max-width: 70vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .BigWeddingTab .leftContainer, .wedding .BigWeddingTab .rightContainer {
+        max-height: 100vh;
+        height: 100vh;
+        overflow-y: auto;
+        min-width: 35vw;
+        max-width: 35vw;
+        margin-left: 0vw;
+        display: inline-block; }
+        .wedding .BigWeddingTab .leftContainer .cardsOffer, .wedding .BigWeddingTab .rightContainer .cardsOffer {
+          min-width: 33vw;
+          max-width: 33vw;
+          margin-left: 0vw; }
+      .wedding .BigWeddingTab .leftContainer {
+        margin-left: -33vw; }
+      .wedding .BigWeddingTab .rightContainer {
+        margin-left: 1vw; }
+    .wedding .contentAboutTextHeader {
+      margin-top: 105vh; }
+    .wedding .smallWeddingTab {
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: auto;
+      min-width: 70vw;
+      max-width: 70vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute;
+      overflow-x: hidden; }
+      .wedding .smallWeddingTab .leftContainerSmall, .wedding .smallWeddingTab .rightContainerSmall {
+        min-width: 34vw;
+        max-width: 34vw;
+        margin-left: 0vw;
+        display: inline-block; }
+        .wedding .smallWeddingTab .leftContainerSmall .cardsOffer, .wedding .smallWeddingTab .rightContainerSmall .cardsOffer {
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 40em;
+          max-height: 40em;
+          min-width: 33vw;
+          max-width: 33vw; }
+      .wedding .smallWeddingTab .leftContainerSmall {
+        margin-left: -33vw; }
+      .wedding .smallWeddingTab .rightContainerSmall {
+        margin-left: 1vw; } }
+@media all and (min-width: 800px) and (max-width: 2560px) and (min-height: 300px) and (max-height: 600px) {
+  .wedding {
+    height: 420vh; }
+    .wedding .BigWeddingTab {
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: auto;
+      min-width: 38vw;
+      max-width: 38vw;
+      margin-left: 30vw;
+      display: block;
+      position: absolute; }
+      .wedding .BigWeddingTab .leftContainer, .wedding .BigWeddingTab .rightContainer {
+        max-height: 100vh;
+        height: 100vh;
+        min-width: 38vw;
+        max-width: 38vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .BigWeddingTab .leftContainer .cardsOffer, .wedding .BigWeddingTab .rightContainer .cardsOffer {
+          min-width: 35vw;
+          max-width: 35vw;
+          margin-left: 0vw; }
+      .wedding .BigWeddingTab .rightContainer {
+        margin-top: 105vh; }
+    .wedding .contentAboutTextHeader {
+      margin-top: 225vh; }
+    .wedding .smallWeddingTab {
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: auto;
+      overflow-x: hidden;
+      min-width: 40vw;
+      max-width: 40vw;
+      margin-left: 30vw;
+      display: block;
+      position: absolute; }
+      .wedding .smallWeddingTab .leftContainerSmall, .wedding .smallWeddingTab .rightContainerSmall {
+        min-width: 40vw;
+        max-width: 40vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .smallWeddingTab .leftContainerSmall .cardsOffer, .wedding .smallWeddingTab .rightContainerSmall .cardsOffer {
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 24em;
+          max-height: 24em;
+          min-width: 35vw;
+          max-width: 35vw; }
+      .wedding .smallWeddingTab .rightContainerSmall {
+        margin-top: 27em; } }
+@media all and (min-width: 2560px) and (min-height: 2560px) {
+  .wedding {
+    height: 370vh; }
+    .wedding .weddingInfo {
+      max-width: 30vw; }
+    .wedding .BigWeddingTab {
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: auto;
+      min-width: 60vw;
+      max-width: 60vw;
+      margin-left: 20vw;
+      display: block;
+      position: absolute; }
+      .wedding .BigWeddingTab .leftContainer, .wedding .BigWeddingTab .rightContainer {
+        max-height: 100vh;
+        height: 100vh;
+        min-width: 28vw;
+        max-width: 28vw;
+        margin-left: 0vw;
+        display: inline-block; }
+        .wedding .BigWeddingTab .leftContainer .cardsOffer, .wedding .BigWeddingTab .rightContainer .cardsOffer {
+          min-width: 28vw;
+          max-width: 28vw;
+          margin-left: 0vw; }
+      .wedding .BigWeddingTab .leftContainer {
+        margin-left: -29vw; }
+      .wedding .BigWeddingTab .rightContainer {
+        margin-left: 1vw; }
+    .wedding .contentAboutTextHeader {
+      margin-top: 220vh; }
+    .wedding .smallWeddingTab {
+      max-height: 75vh;
+      height: 75vh;
+      overflow-y: auto;
+      min-width: 60vw;
+      max-width: 60vw;
+      margin-left: 20vw;
+      display: block;
+      position: absolute; }
+      .wedding .smallWeddingTab .leftContainerSmall, .wedding .smallWeddingTab .rightContainerSmall {
+        min-width: 28vw;
+        max-width: 28vw;
+        margin-left: 0vw;
+        display: inline-block; }
+        .wedding .smallWeddingTab .leftContainerSmall .cardsOffer, .wedding .smallWeddingTab .rightContainerSmall .cardsOffer {
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 30em;
+          max-height: 30em;
+          min-width: 28vw;
+          max-width: 28vw; }
+      .wedding .smallWeddingTab .leftContainerSmall {
+        margin-left: -29vw; }
+      .wedding .smallWeddingTab .rightContainerSmall {
+        margin-left: 1vw; } }
+@media all and (min-width: 2561px) and (min-height: 300px) {
+  .wedding {
+    height: 290vh; }
+    .wedding .weddingInfo {
+      max-width: 30vw; }
+    .wedding .BigWeddingTab {
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: auto;
+      min-width: 60vw;
+      max-width: 60vw;
+      margin-left: 20vw;
+      display: block;
+      position: absolute; }
+      .wedding .BigWeddingTab .leftContainer, .wedding .BigWeddingTab .rightContainer {
+        max-height: 100vh;
+        height: 100vh;
+        min-width: 28vw;
+        max-width: 28vw;
+        margin-left: 0vw;
+        display: inline-block; }
+        .wedding .BigWeddingTab .leftContainer .cardsOffer, .wedding .BigWeddingTab .rightContainer .cardsOffer {
+          min-width: 28vw;
+          max-width: 28vw;
+          margin-left: 0vw; }
+      .wedding .BigWeddingTab .leftContainer {
+        margin-left: -29vw; }
+      .wedding .BigWeddingTab .rightContainer {
+        margin-left: 1vw; }
+    .wedding .contentAboutTextHeader {
+      margin-top: 130vh; }
+    .wedding .smallWeddingTab {
+      max-height: 75vh;
+      height: 75vh;
+      overflow-y: auto;
+      min-width: 60vw;
+      max-width: 60vw;
+      margin-left: 20vw;
+      display: block;
+      position: absolute; }
+      .wedding .smallWeddingTab .leftContainerSmall, .wedding .smallWeddingTab .rightContainerSmall {
+        min-width: 28vw;
+        max-width: 28vw;
+        margin-left: 0vw;
+        display: inline-block; }
+        .wedding .smallWeddingTab .leftContainerSmall .cardsOffer, .wedding .smallWeddingTab .rightContainerSmall .cardsOffer {
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 30em;
+          max-height: 30em;
+          min-width: 28vw;
+          max-width: 28vw; }
+      .wedding .smallWeddingTab .leftContainerSmall {
+        margin-left: -29vw; }
+      .wedding .smallWeddingTab .rightContainerSmall {
+        margin-left: 1vw; } }
+@media all and (min-width: 601px) and (max-width: 1440px) and (min-height: 1081px) {
+  .wedding {
+    height: 480vh; }
+    .wedding .BigWeddingTab {
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .BigWeddingTab .leftContainer, .wedding .BigWeddingTab .rightContainer {
+        max-height: 100vh;
+        height: 100vh;
+        overflow-y: scroll;
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .BigWeddingTab .leftContainer .cardsOffer, .wedding .BigWeddingTab .rightContainer .cardsOffer {
+          min-width: 75vw;
+          max-width: 75vw;
+          margin-left: 0vw; }
+      .wedding .BigWeddingTab .rightContainer {
+        margin-top: 105vh; }
+    .wedding .contentAboutTextHeader {
+      margin-top: 215vh; }
+    .wedding .smallWeddingTab {
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .smallWeddingTab .leftContainerSmall, .wedding .smallWeddingTab .rightContainerSmall {
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .smallWeddingTab .leftContainerSmall .cardsOffer, .wedding .smallWeddingTab .rightContainerSmall .cardsOffer {
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 45em;
+          max-height: 45em;
+          min-width: 75vw;
+          max-width: 75vw; }
+      .wedding .smallWeddingTab .rightContainerSmall {
+        margin-top: 50em; } }
+@media all and (min-width: 1440px) and (max-width: 2560px) and (min-height: 2560px) {
+  .wedding {
+    height: 480vh; }
+    .wedding .BigWeddingTab {
+      max-height: 220vh;
+      height: 220vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .BigWeddingTab .leftContainer, .wedding .BigWeddingTab .rightContainer {
+        max-height: 100vh;
+        height: 100vh;
+        overflow-y: scroll;
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .BigWeddingTab .leftContainer .cardsOffer, .wedding .BigWeddingTab .rightContainer .cardsOffer {
+          min-width: 75vw;
+          max-width: 75vw;
+          margin-left: 0vw; }
+      .wedding .BigWeddingTab .rightContainer {
+        margin-top: 105vh; }
+    .wedding .contentAboutTextHeader {
+      margin-top: 215vh; }
+    .wedding .smallWeddingTab {
+      max-height: 60vh;
+      height: 60vh;
+      overflow-y: scroll;
+      min-width: 75vw;
+      max-width: 75vw;
+      margin-left: 15vw;
+      display: block;
+      position: absolute; }
+      .wedding .smallWeddingTab .leftContainerSmall, .wedding .smallWeddingTab .rightContainerSmall {
+        min-width: 75vw;
+        max-width: 75vw;
+        margin-left: 0vw;
+        display: block; }
+        .wedding .smallWeddingTab .leftContainerSmall .cardsOffer, .wedding .smallWeddingTab .rightContainerSmall .cardsOffer {
+          padding-top: 1em;
+          padding-bottom: 1em;
+          min-height: 45em;
+          max-height: 45em;
+          min-width: 75vw;
+          max-width: 75vw; }
+      .wedding .smallWeddingTab .rightContainerSmall {
+        margin-top: 50em; } }
+@media all and (max-height: 800px) and (max-width: 500px) {
+  .contentMainWedding, .contentMainMenu, .mainSlide {
+    max-height: 250px !important; }
+
+  .mainClass .contactsSlide {
+    max-height: 250px !important; } }
+@media all and (max-height: 666px) and (max-width: 450px) {
+  .mainMenu {
+    max-height: 1000px; }
+
+  .mainClass {
+    max-height: 775px; }
+
+  .realMain {
+    min-height: 220vh; }
+
+  header, .navygation {
+    min-width: 300px; }
+
+  .boxes {
+    min-height: 900px; } }
+@media all and (min-width: 375px) and (min-height: 667px) and (max-height: 700px) and (max-width: 400px) {
+  .mainMenu {
+    min-height: 120vh; }
+
+  .mainClass {
+    max-height: 850px; }
+
+  .realMain {
+    min-height: 180vh; }
+
+  header, .navygation {
+    min-width: 350px; }
+
+  .boxes {
+    min-height: 1050px; } }
+@media all and (min-height: 701px) and (max-height: 850px) and (min-width: 400px) and (max-width: 500px) {
+  .mainMenu {
+    height: 71.5vh;
+    min-height: 120vh; }
+
+  .mainClass {
+    max-height: 800px; }
+
+  .realMain {
+    min-height: 200vh; }
+
+  header, .navygation {
+    min-width: 390px; }
+
+  .boxes {
+    min-height: 1100px; } }
+@media all and (min-width: 620px) and (max-width: 820px) and (min-height: 1180px) and (max-height: 1380px) {
+  .mainMenu {
+    height: 71.5vh;
+    min-height: 120vh; }
+
+  .mainClass {
+    max-height: 800px; }
+
+  .realMain {
+    min-height: 180vh; }
+
+  header, .navygation {
+    min-width: 680px; }
+
+  .boxes {
+    min-height: 115vh; } }
+@media all and (min-height: 1000px) and (min-width: 1441px) {
+  .realMain {
+    min-height: 1900px; }
+
+  .mainMenu {
+    min-height: 1100px; }
+
+  .boxes {
+    min-height: 1200px; } }
+@media all and (min-width: 1025px) and (max-width: 1440px) and (min-height: 600px) and (max-height: 1000px) {
+  .realMain {
+    min-height: 200vh; }
+
+  .mainMenu {
+    min-height: 900px;
+    height: 900px; }
+
+  .boxes {
+    min-height: 1100px; } }
+@media all and (min-width: 1000px) and (max-width: 1200px) and (min-height: 1300px) and (max-height: 1400px) {
+  .realMain {
+    height: 2200px; }
+
+  .mainMenu {
+    height: 1400px; }
+
+  .boxes {
+    height: 1600px; } }
+@media all and (min-width: 700px) and (max-width: 900px) and (min-height: 1000px) and (max-height: 1200px) {
+  .realMain {
+    min-height: 180vh; }
+
+  .mainMenu {
+    height: 1100px; }
+
+  .boxes {
+    height: 1200px; }
+    .boxes .contentAboutTextLink {
+      padding-top: 0; } }
+@media all and (min-width: 1000px) and (max-width: 1100px) and (min-height: 700px) and (max-height: 800px) {
+  .realMain {
+    min-height: 1600px; }
+
+  .mainMenu {
+    height: 1100px; }
+
+  .boxes {
+    height: 1200px; }
+    .boxes .contentAboutTextLink {
+      padding-top: 0; } }
+@media all and (min-width: 300px) and (max-width: 768px) and (min-height: 769px) and (max-height: 1300px) {
+  header, .navygation {
+    min-width: 85vw !important; } }
+@media all and (min-width: 300px) and (max-width: 1300px) and (min-height: 600px) and (max-height: 768px) {
+  header, .navygation {
+    min-width: 85vw !important; } }
+@media all and (min-width: 1280px) and (max-width: 4000px) and (min-height: 200px) and (max-height: 768px) {
+  .realMain {
+    min-height: 220vh; } }
+@media all and (min-width: 900px) and (min-height: 900px) {
+  .boxes {
+    min-height: 110vh; } }
+
+/*# sourceMappingURL=contacts.css.map */

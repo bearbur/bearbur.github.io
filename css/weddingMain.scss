@@ -1,0 +1,54 @@
+$marginAuto: auto;
+$heightSliderContacts: 65vh;
+$minHeightInsta: 300px;
+
+.weddingMain{
+  min-height: 160vh;
+  margin-top: 5vh;
+  .contentMainWedding{
+    background: #ccc url(../images/Wedding.jpg) center no-repeat;
+    background-size: /*100% 100% */  cover;
+    background-position: center bottom;
+    height: $heightSliderContacts;
+    max-height: (1.5)*$minHeightInsta;
+    min-width: 60%;
+    max-width: 45em;
+    margin: $marginAuto;
+    position: relative;
+  }
+  .weddingMenu{
+    noscript{
+      margin: auto;
+      font-size: 1.5em;
+      p{
+        padding-top: 3em;
+        text-align: center;
+      }
+      a{
+        color:blue;
+      }
+    }
+    background: #ccc;
+    min-height: 40vh;
+    max-width: 60vw;
+    margin-left: 20vw;
+    .offerWeddingCards{
+      min-height: 10vh;
+      min-width: 10vw;
+      max-height: 10vh;
+      max-width: 10vw;
+      background: green;
+      margin: auto;
+      border: 1px solid yellow;
+    }
+  }
+}
+
+
+
+@media(max-width:730px){
+  .weddingInfo{
+    min-width: 60vw;
+    max-width: 80vw;
+  }
+}
